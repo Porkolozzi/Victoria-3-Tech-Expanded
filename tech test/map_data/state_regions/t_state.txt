@@ -1,0 +1,1297 @@
+﻿STATE_ILLINOIS = {
+    id = 299
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x00A080" "x0212BC" "x108040" "x1B1B01" "x22BBD7" "x26D283" "x2938A5" "x2B0E33" "x2FBF72" "x33B258" "x34036E" "x3FEEB5" "x445F91" "x4A94CA" "x4E0162" "x50C040" "x543986" "x585A65" "x67EB18" "x6B3BE8" "x6D1F7A" "x6D8AAA" "x6F02DA" "x746E6F" "x7514E0" "x7A2E59" "x806000" "x908040" "x977A71" "x999D9F" "x9EA280" "xA36021" "xA53D3B" "xAD5337" "xB90E0D" "xBCB645" "xBD8B8B" "xCD3BFC" "xD998BB" "xEB7340" "xF68D89" "xF82338" }
+    traits = { "state_trait_mississippi_river" }
+    city = "xF68D89"
+    farm = "x1B1B01"
+    mine = "x4E0162"
+    wood = "xAD5337"
+    arable_land = 270
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 60
+        building_lead_mine = 90
+        building_logging_camp = 22
+        building_uranium_mine = 20
+        building_natural_gas_mines = 10
+    }
+}
+
+STATE_ONTARIO = {
+    id = 310
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x00AFDF" "x00CB48" "x00F376" "x011713" "x0137A1" "x0183A1" "x020DF9" "x037F88" "x04633F" "x0538F5" "x06958B" "x06B1FE" "x0708AD" "x08335D" "x08C8AF" "x08F7A9" "x0B249E" "x0B7201" "x0CA605" "x0D2971" "x0D2F27" "x0D7566" "x0DB925" "x0E2F58" "x0FE1B2" "x101204" "x1176C6" "x117C95" "x11DEB9" "x123762" "x13F9FA" "x15C12C" "x1695DF" "x16DB09" "x171782" "x17AEB7" "x192C84" "x196C5F" "x1B4C6D" "x1C432A" "x1C5746" "x1C6F98" "x1DDB81" "x1E2884" "x1E31A0" "x1F0D15" "x1FD5F8" "x20327A" "x206622" "x208AF2" "x20E92A" "x20F7A5" "x22E40F" "x232DBD" "x23C839" "x24171D" "x243B2A" "x24691A" "x256309" "x257105" "x263F77" "x26EF2A" "x271949" "x271DAB" "x280A1D" "x297066" "x29BE41" "x2A08D3" "x2A8963" "x2AD0E3" "x2B36A1" "x2B78B9" "x2BC058" "x2BCBC7" "x2DD641" "x2E016E" "x2E6C75" "x2F2C82" "x2F570D" "x308040" "x313BB2" "x317FB3" "x3193EA" "x31A991" "x3344F6" "x337ECF" "x33BD4E" "x343659" "x343E89" "x355ACA" "x361609" "x36B818" "x37D9E8" "x383EA0" "x388C4E" "x3927F5" "x398E4C" "x399CA7" "x3C2A27" "x3CB77D" "x3E7368" "x3EBFED" "x4020C0" "x403994" "x406000" "x411A9B" "x4164F7" "x41A233" "x41E621" "x42DDAE" "x42F312" "x466A98" "x480B4B" "x48DFB9" "x48E362" "x490D2A" "x49AD61" "x4A04B2" "x4B096D" "x4B09C5" "x4C056C" "x4C823A" "x4CF9F7" "x4D24AC" "x4D3033" "x4DFFCD" "x4F35D0" "x4F738B" "x503D32" "x507BF4" "x515254" "x51A9EA" "x520BF5" "x527017" "x54F237" "x560E55" "x5699D1" "x569E74" "x56A6FD" "x56D964" "x578996" "x58158A" "x5A3D13" "x5B310A" "x5B8A5F" "x5D7155" "x5D7A14" "x5D9879" "x5D9B41" "x5E776D" "x5EACB8" "x5F5F99" "x5FD282" "x61C521" "x61CD70" "x627826" "x62BAF4" "x6334F9" "x64970E" "x64AD7D" "x65F177" "x676E1E" "x677647" "x6893B6" "x6A902F" "x6AEBC5" "x6B2093" "x6B64F8" "x6BCC92" "x6CA726" "x6CBB4F" "x6E31A1" "x6E6170" "x6E78AC" "x6E90EA" "x6FFE7E" "x724F63" "x729349" "x738279" "x7383DF" "x744A7A" "x74590E" "x7505F0" "x76A0E6" "x77BC8D" "x780AAA" "x78A3BA" "x790E5B" "x795AD3" "x79DC59" "x7A5E12" "x7AB82C" "x7B1AE4" "x7BD091" "x7CF31C" "x7FB431" "x80F104" "x824210" "x82492B" "x827B75" "x83ADCB" "x853B98" "x866C8A" "x88147F" "x8D15CB" "x8D6CB1" "x8D992E" "x8E20D9" "x8EE117" "x8F87B9" "x903279" "x90A5C2" "x90FAEA" "x92D783" "x932B65" "x93ACBB" "x93BD4C" "x940C24" "x941B9D" "x9552A3" "x9577B0" "x969229" "x96C2FB" "x993ABF" "x99AB17" "x99F3C4" "x9A44C7" "x9AA464" "x9B27B9" "x9C3F51" "x9C6E87" "x9CC0D0" "x9CC19E" "x9DBFA5" "x9DF567" "x9E289B" "x9E46FD" "x9E7CAD" "x9EBD23" "x9F77E9" "xA00289" "xA07380" "xA11839" "xA18606" "xA1D195" "xA1E55B" "xA22F7E" "xA24EB6" "xA2F8DD" "xA4CD73" "xA6F3BA" "xA70030" "xA794C1" "xA7B9EE" "xA7D370" "xA83989" "xA8C5E8" "xA92847" "xAB2C76" "xAB9DB4" "xABA06F" "xACD62E" "xAD5354" "xAD7D1F" "xAE0541" "xAE2D58" "xAEBFFF" "xAFBE4E" "xB00040" "xB000C0" "xB026C2" "xB08040" "xB080C0" "xB090AD" "xB0CB2A" "xB1A86D" "xB27FD6" "xB2D5DC" "xB4468D" "xB4F7B9" "xB54962" "xB6B30D" "xBA1406" "xBAB329" "xBCF90D" "xBDBECB" "xBDD238" "xBE6ADE" "xBEF64A" "xC0110A" "xC0A0C0" "xC1233A" "xC134A4" "xC33C7E" "xC42B28" "xC5041F" "xC75F8C" "xC893EC" "xC8D6E6" "xC95021" "xC97CED" "xCA480F" "xCE6D4A" "xCF1990" "xCFBCE8" "xD03BF3" "xD17651" "xD1DB51" "xD1F43F" "xD29273" "xD2B39A" "xD2CE4C" "xD2EE35" "xD319EB" "xD37405" "xD3807D" "xD389DE" "xD5540C" "xD567EB" "xD5B4A4" "xD5CD71" "xD5F515" "xD6162E" "xD64816" "xD7414C" "xD841D9" "xD849E6" "xDA3337" "xDB8797" "xDC58AB" "xDCE271" "xDD7290" "xDE7B99" "xDEDA97" "xE0DA0B" "xE1F252" "xE2FA8E" "xE50D46" "xE519FE" "xE58C05" "xE61337" "xE6C706" "xE756C1" "xE961E9" "xE99D1D" "xE9F39B" "xEA4FC0" "xEAEBD8" "xEB4BDB" "xECA516" "xED34E6" "xED6465" "xEF374F" "xF03811" "xF2120D" "xF3D744" "xF45C86" "xF49F6D" "xF6A5A4" "xF6CE39" "xF738D5" "xF7E3F8" "xFA9AF5" "xFBB002" "xFC4326" "xFC4F0D" "xFC9A0A" "xFE02CE" "xFF5559" "xFF8A91" }
+    prime_land = { "x0D2971" "x1C432A" "xC0110A" "xB08040" "x337ECF" "x24691A" "x3344F6" "xD5B4A4" "x308040" "x515254" "xB00040" "x206622" "xC1233A" "x9A44C7" "x2BCBC7" "x343E89" "x744A7A" "x729349" "x0B249E" "x80F104" "x123762" "x0137A1" "xB080C0" "xE6C706" "x8D6CB1" "x1E31A0" "x6AEBC5" "x41E621" "xB1A86D" "x9B27B9" "x20E92A" "xB000C0" "x232DBD" "x0183A1" "xA4CD73" "x08C8AF" "x4D24AC" "x480B4B" "xC95021" "x263F77" "xCA480F" "x65F177" "x117C95" "x0538F5" "x7A5E12" "x724F63" "x2B36A1" "xEAEBD8" "x313BB2" "x82492B" "xF03811" "x93ACBB" "x48E362" "x5E776D" "x8F87B9" "x26EF2A" "x993ABF" "x7B1AE4" "xA7B9EE" "xBAB329" "x520BF5" "x4C056C" "x4020C0" "x56A6FD" "xEA4FC0" "x90A5C2" "xC0A0C0" "x676E1E" "xA794C1" "xA07380" "x51A9EA" "xD389DE" "x5F5F99" "x3EBFED" "xD2B39A" "xB2D5DC" "xBA1406" "xC134A4" "x54F237" "xFF5559" "x2AD0E3" "x1F0D15" "x9577B0" "x3CB77D" "x9DBFA5" "xDE7B99" "x780AAA" "xC5041F" "x5D7155" "x9CC0D0" "x24171D" "xD319EB" "x99F3C4" "x64970E" }
+    traits = { "state_trait_great_lakes" "state_trait_niagara_falls" "state_trait_hudson_bay" }
+    city = "xB000C0"
+    port = "x627826"
+    farm = "x515254"
+    mine = "x313BB2"
+    wood = "x1E31A0"
+    arable_land = 200
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" }
+    capped_resources = {
+        building_sulfur_mine = 48
+        building_logging_camp = 90
+        building_uranium_mine = 45
+        building_natural_gas_mines = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3044
+}
+
+STATE_VICTORIA = {
+    id = 559
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x068859" "x0AE686" "x0B39E0" "x0F45F1" "x11C030" "x157463" "x1B76C4" "x1BC4A6" "x225917" "x2FC68B" "x30B20D" "x3127E5" "x3AEC95" "x3C498D" "x3EB730" "x4696AD" "x49E501" "x4F1BC4" "x506E5E" "x5BCE47" "x5DBF9E" "x687ABB" "x749129" "x7A4A07" "x85CB5B" "x86A5AA" "x86C79A" "x880696" "x8C4823" "x904030" "x983611" "xA01399" "xA03BDF" "xA6F6C3" "xA72C70" "xAB42CE" "xADAFB1" "xB6C06E" "xB905E5" "xBC29F3" "xBD6CF3" "xBE99E0" "xC04012" "xC0CE2A" "xC21B54" "xC312BF" "xC47E1B" "xC60700" "xC67774" "xCA6547" "xCC9C60" "xCCBB53" "xCDE174" "xE0D3F9" "xE0D9AF" "xE4ADFB" "xE86E1F" "xE94E09" "xEA051E" "xF4CEF3" "xF4CF14" "xF835BF" }
+    prime_land = { "x3127E5" "x904030" "xC60700" "x068859" "xC0CE2A" "xF835BF" "xCC9C60" "x49E501" "xBD6CF3" "xCDE174" }
+    city = "x1BC4A6"
+    port = "x11C030"
+    farm = "xCC9C60"
+    mine = "xC04012"
+    wood = "xC21B54"
+    arable_land = 40
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_vineyard" }
+    capped_resources = {
+        building_sulfur_mine = 24
+        building_logging_camp = 11
+        building_whaling_station = 3
+        building_fishing_wharf = 8
+        building_uranium_mine = 25
+        building_natural_gas_mines = 30
+
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 6
+    }
+    naval_exit_id = 3122
+}
+
+STATE_NEW_SOUTH_WALES = {
+    id = 558
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x027214" "x0274E2" "x0285F6" "x02DB56" "x045603" "x086D7B" "x0AA399" "x0E3317" "x0EA2A3" "x0F081C" "x116050" "x1160CF" "x11FF8C" "x16D521" "x18E220" "x19D5E4" "x1A3E4E" "x1AE650" "x1C487B" "x1F3DBB" "x20093A" "x20201C" "x234F3B" "x237F0D" "x24AEFA" "x24BF23" "x254626" "x267585" "x26EEF1" "x276C93" "x279D6E" "x27A4C5" "x28BA60" "x2ACD80" "x2BD326" "x2D0386" "x2FE431" "x30D9E5" "x31FF16" "x33409C" "x3354DD" "x36A22E" "x37807C" "x391526" "x3A6A72" "x3AC189" "x3ADE63" "x3C7D82" "x3D22B3" "x3D5CE8" "x40E057" "x447C79" "x44CFBA" "x4555A7" "x45975E" "x467A72" "x468CAB" "x482C38" "x4866D3" "x4A7137" "x4AAA58" "x4FF662" "x518D32" "x51BCDB" "x51E0D0" "x52D3F3" "x533071" "x53F27D" "x54F665" "x562717" "x5A4740" "x5BE1A4" "x5CAC91" "x5E0692" "x5E4B6A" "x617C46" "x628CE9" "x6334E0" "x6576A8" "x681CC6" "x68E6E2" "x698A94" "x6B877D" "x6C0833" "x6CBE17" "x6E5393" "x6FB312" "x6FD80D" "x704E84" "x70E720" "x722808" "x73D224" "x740B78" "x75A793" "x768B4D" "x798FE7" "x799B34" "x7E02ED" "x7E0DF6" "x821BC4" "x83B57F" "x840C5D" "x85E2DE" "x8A6B46" "x8ACD73" "x8B56F5" "x8CAAE6" "x8D65DF" "x8FD0F0" "x90F3AF" "x91A2E2" "x93A7A7" "x94099D" "x9453C1" "x95B28A" "x97B2F0" "x9907A8" "x99526E" "x996B4B" "x9A8050" "x9AFA6A" "x9D5FB1" "x9D61D1" "x9D8ACB" "xA39D9A" "xA681A6" "xA6D562" "xA8E040" "xA98344" "xAEC58F" "xAEFFEB" "xAF3A01" "xAFEC31" "xB01F74" "xB15C6D" "xB48C62" "xB62ED1" "xB6943C" "xB9104E" "xB96167" "xB9E4F4" "xBA0D99" "xBDF73B" "xBE5235" "xBEA265" "xC15B4F" "xC193DA" "xC1F3AD" "xC24514" "xC24AAA" "xC345CF" "xC41B96" "xC42012" "xC7A584" "xC7BC96" "xCB67EC" "xCBED4E" "xCD17C3" "xCDE6CE" "xCEDA26" "xCF4030" "xCFB449" "xD060D0" "xD2EE80" "xD65CBB" "xD74DB9" "xD9170D" "xDA4137" "xDBD9ED" "xDF754A" "xE02F70" "xE15846" "xE18B8E" "xE4FF76" "xE6B9A2" "xE6C282" "xE7C856" "xE7D61A" "xE85D89" "xE8CAF7" "xED82D9" "xEDA242" "xEF1DE2" "xF17F79" "xF22CA8" "xF4A6F5" "xF4CF93" "xF6ABF7" "xFA57CA" "xFAC1B2" "xFB0B72" "xFB3077" "xFD1F91" "xFDD3E6" "xFDDBE1" "xFDFB3F" }
+    traits = { "state_trait_great_dividing_range" "state_trait_murray_darling_basin" "state_trait_natural_harbors" }
+    city = "xFDFB3F"
+    port = "xAEFFEB"
+    farm = "x8B56F5"
+    mine = "x24AEFA"
+    wood = "x799B34"
+    arable_land = 40
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_sugar_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 80
+        building_lead_mine = 24
+        building_iron_mine = 36
+        building_logging_camp = 7
+        building_whaling_station = 4
+        building_fishing_wharf = 8
+        building_uranium_mine = 25
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
+    naval_exit_id = 3122
+}
+
+STATE_WESTERN_AUSTRALIA = {
+    id = 562
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x0054BE" "x012091" "x014F3C" "x01D4D4" "x01E1CA" "x0272A3" "x028A41" "x02A390" "x02C2F2" "x030E6E" "x032B24" "x03B26C" "x044F96" "x056E33" "x05E9A3" "x0605C1" "x0663FD" "x068EEF" "x084C37" "x084DA5" "x08A271" "x09245C" "x0995B2" "x0A596B" "x0BC60B" "x0BD4F3" "x0C1FE4" "x0C6867" "x0C9C8D" "x0CBB91" "x0CE4E6" "x0D1965" "x0DF415" "x0E09B6" "x0F1DD1" "x0F866A" "x10304F" "x104005" "x108379" "x114406" "x11D6C6" "x1210D5" "x12D179" "x13B802" "x13E0B6" "x143599" "x144C03" "x14C151" "x154243" "x154426" "x155E62" "x15D1EB" "x15F5F9" "x183A1F" "x194524" "x19AA40" "x1B2E41" "x1B443D" "x1BF848" "x1C77E8" "x1C83B2" "x1CD314" "x1CEB93" "x1D08B4" "x1D8BC3" "x1DBFA7" "x1DD64D" "x1E2FF7" "x1EA03F" "x1EBE7A" "x1F4A13" "x205223" "x213F7C" "x218BBD" "x220D4E" "x233910" "x2387F1" "x23885D" "x24AC00" "x25124E" "x2525CB" "x257DB3" "x25A197" "x25EE74" "x26317C" "x276F7C" "x277237" "x278D9B" "x283CC9" "x284007" "x2936D5" "x295344" "x29FEE7" "x2A57EB" "x2B4652" "x2C8519" "x2D0B8D" "x2D2CB5" "x2E4285" "x2EF98E" "x2F445C" "x3036B4" "x30CE5D" "x30CF22" "x31015A" "x31CB62" "x321392" "x3281E7" "x331CEC" "x33BA16" "x33CB5F" "x33D287" "x3402BF" "x34A8F2" "x350FB8" "x357BF0" "x35FC10" "x3623BB" "x3627C6" "x3629E1" "x36B60E" "x36CCB2" "x36F14D" "x37048E" "x373D37" "x37918F" "x3792B5" "x37C5DC" "x3860A0" "x3864A0" "x38E1A0" "x3956AF" "x39961A" "x39C49D" "x3AC495" "x3B8960" "x3BB29D" "x3BC659" "x3BF61B" "x3C120C" "x3C4EEC" "x3C5E27" "x3C8900" "x3CBBDF" "x3CE576" "x3D8DC4" "x3DC542" "x3DFB08" "x3EE357" "x3FF3E9" "x4074D0" "x41338B" "x415873" "x417A4D" "x419CCF" "x438608" "x453652" "x4556D7" "x46B4A2" "x46F374" "x481DF5" "x482DC8" "x485C96" "x48D70F" "x48DAE0" "x495A84" "x496FA5" "x4971FB" "x498C4D" "x4A919E" "x4B40E4" "x4B4AFE" "x4B85E9" "x4C08C4" "x4CAA7B" "x4D0B06" "x4D5E6F" "x4E9152" "x4EEA59" "x4F83AE" "x4FC929" "x4FD5E0" "x503691" "x507AE8" "x509F50" "x51112B" "x5121D0" "x516F90" "x51884E" "x51A0D0" "x52500D" "x52706E" "x52FC69" "x53C09A" "x540320" "x5418FA" "x542F98" "x5523AE" "x5592F8" "x55C26A" "x569B91" "x56EAC5" "x573CC3" "x576738" "x57A2F9" "x57D4B4" "x584506" "x58815F" "x591A6B" "x59C38A" "x5CB6A6" "x5DE8A7" "x5DE8D3" "x5FDD52" "x602930" "x61287F" "x61E781" "x636A4B" "x63B9AD" "x659543" "x65BEE3" "x661864" "x66C92E" "x67064F" "x67649C" "x67B9F6" "x6839AE" "x696F26" "x69ADDC" "x6B5B55" "x6C62F6" "x6C7FEE" "x6C9985" "x6CACF6" "x6D3800" "x6E8591" "x6E9D7E" "x6FE500" "x6FF0BB" "x7009CA" "x72E965" "x73F842" "x73F91E" "x74551C" "x74664F" "x74DC69" "x755549" "x75F34C" "x77AAC9" "x7816AE" "x79C4FB" "x79DB16" "x7A2159" "x7A49FA" "x7B0287" "x7B06CF" "x7B4749" "x7B9D91" "x7BFC4F" "x7C135B" "x7C3478" "x7C6804" "x7C8379" "x7E10D2" "x7E235E" "x7E4A92" "x7F5F60" "x7F5F9E" "x7F8010" "x801F5D" "x815A1E" "x8243B6" "x833528" "x83420A" "x8353FE" "x835810" "x8405E9" "x84222A" "x84BD99" "x853586" "x85C28A" "x8631B0" "x863D3A" "x86480B" "x867863" "x8698B5" "x86E23B" "x870746" "x873C4B" "x877EB7" "x87A766" "x87D86F" "x87F7DC" "x8801DC" "x8815CD" "x88377F" "x886388" "x893B0F" "x89745D" "x898700" "x89905C" "x89D116" "x89D49C" "x8AF782" "x8B2C89" "x8B93A1" "x8C50CE" "x8C686E" "x8CADA4" "x8D829F" "x8D9F50" "x8E388F" "x8E874D" "x8FABAE" "x904D0E" "x90A049" "x92408E" "x931760" "x93816D" "x93C0A3" "x943C0A" "x944AD9" "x94B17B" "x9549B5" "x95B9BD" "x960633" "x960E36" "x96CF17" "x974764" "x974FBE" "x97EA84" "x9850A6" "x98FA26" "x996F74" "x9A4EC8" "x9ACC1E" "x9B47E9" "x9BB90C" "x9BCAA1" "x9C763A" "x9CE386" "x9CE43F" "x9DAD1C" "x9DD644" "x9DEAB9" "x9E23AD" "x9ECECF" "x9EDC21" "x9EF9EC" "x9F3E78" "x9F8D50" "x9FFF57" "xA00125" "xA01FD3" "xA0F944" "xA1A7D7" "xA33DDE" "xA35749" "xA42007" "xA433B3" "xA4447F" "xA4673C" "xA5176D" "xA536D2" "xA555E2" "xA62873" "xA79A53" "xA8C32D" "xAB1D74" "xAB5D53" "xAB7F06" "xABA067" "xABDCF1" "xAD5FB0" "xAD76C8" "xAE2DAC" "xAE9278" "xAF2FA3" "xAF8AED" "xB08392" "xB0B14F" "xB0CF98" "xB1D916" "xB22D3C" "xB36017" "xB371BA" "xB3A58A" "xB3B830" "xB4684F" "xB4DB27" "xB51C26" "xB63314" "xB706D3" "xB71B01" "xB722B2" "xB77E71" "xB7E9D7" "xB828E8" "xB938DB" "xB99F16" "xBBC1EA" "xBC825C" "xBCFFEB" "xBD1290" "xBDEEFE" "xBE02BF" "xBE3FCE" "xBE68E8" "xBEECD3" "xBF4CC1" "xBFE517" "xC04F4C" "xC13DF2" "xC21D6E" "xC284C1" "xC2AE36" "xC30E24" "xC36A88" "xC47E44" "xC49303" "xC50D40" "xC5CAFA" "xC5EAAF" "xC61B3B" "xC6C641" "xC7969F" "xC7C1A8" "xC83EA2" "xC84F3C" "xC9A151" "xC9B5D0" "xCA0C39" "xCA456A" "xCBAACD" "xCC421F" "xCD18DF" "xCD2C52" "xCD9EE2" "xCE5FFE" "xCE9CDA" "xD00B01" "xD020D0" "xD0A051" "xD0BD98" "xD0BFE1" "xD0D4AC" "xD1D428" "xD26EE0" "xD2CCCA" "xD40581" "xD4581D" "xD4BD14" "xD514AB" "xD5E673" "xD6300D" "xD6461D" "xD66BDD" "xD68CD6" "xD68DC4" "xD72D53" "xD7BB7E" "xD7EF8D" "xD919FA" "xD98837" "xDA5D0D" "xDA5EA8" "xDB670E" "xDB6CF9" "xDC9825" "xDD39F0" "xDE68FF" "xDF065E" "xDF63CF" "xDFA754" "xE013EA" "xE05AB9" "xE0B43D" "xE0E536" "xE13AEF" "xE18E27" "xE2581E" "xE2DB48" "xE37129" "xE3A476" "xE3DE71" "xE3F266" "xE425DB" "xE47E30" "xE4CE91" "xE5ACDB" "xE6161D" "xE70D7F" "xE763BC" "xE769EA" "xE7EDAB" "xE80050" "xE87A5A" "xE895D3" "xE8B7F7" "xE9FEAE" "xEAE670" "xEBDA66" "xEC6893" "xECE8A2" "xED6C3A" "xEDC1F2" "xEFD2A3" "xF06D7F" "xF099F1" "xF0B35F" "xF0D3A9" "xF0FDB8" "xF19FA2" "xF1AC0C" "xF292E5" "xF2D452" "xF2F598" "xF3C44C" "xF4ECE3" "xF52936" "xF545E7" "xF54ED3" "xF59CE1" "xF64312" "xF68A34" "xF7CD9A" "xF7EB57" "xF88453" "xF8AFCE" "xF93942" "xF9A2FF" "xF9A92C" "xFA96C2" "xFAD69E" "xFB0A6A" "xFB270B" "xFB41E8" "xFC2727" "xFCF08A" "xFD3E4C" "xFD5004" "xFD5F13" "xFD9276" "xFDEEFC" "xFE1601" "xFE7A75" "xFEE57D" "xFFC788" "xFFDC67" }
+    impassable = { "x0605C1" "x73F842" "x4FD5E0" "x2D0B8D" "xD0A051" "x94B17B" "x12D179" "x509F50" "xDF63CF" "xD0BFE1" "xECE8A2" "x1C83B2" "x7B9D91" "x3BF61B" "x4C08C4" "xFB270B" "x996F74" "x96CF17" "xA35749" "xF9A2FF" "xA4447F" "xDC9825" "x9ECECF" "x3CE576" "x495A84" "x2EF98E" "x4A919E" "xF3C44C" "xBEECD3" "x1EBE7A" "xAD76C8" "xD0D4AC" "x542F98" "x30CF22" "x3FF3E9" "x7C8379" "x7A49FA" "x55C26A" "x419CCF" "x13E0B6" "x6B5B55" "x1DBFA7" "xDD39F0" "x573CC3" "xD66BDD" "x7E235E" "x6E8591" "xF099F1" "x6839AE" "xCE5FFE" "x26317C" "x0D1965" "x507AE8" "xEC6893" "x815A1E" "xC7C1A8" "x24AC00" "x496FA5" "x0054BE" "x357BF0" "xD40581" "x3D8DC4" "x183A1F" "x69ADDC" "x893B0F" "x853586" "x19AA40" "x9850A6" "x801F5D" "x33BA16" "x0F866A" "x755549" "xB36017" "x3864A0" "x74DC69" "xF7EB57" "xAE2DAC" "xFE7A75" "xF64312" "xFFC788" "xA00125" "x84222A" "x5DE8A7" "xB77E71" "x9CE43F" "x4B40E4" "x73F91E" "xDE68FF" "x8E388F" "x9DEAB9" "x31015A" "x7C3478" "x37C5DC" "xFB0A6A" "xF88453" "x1CD314" "x904D0E" "x10304F" "xDA5EA8" "xBE02BF" "x213F7C" "x52FC69" "x056E33" "xB0B14F" "x3860A0" "xBF4CC1" "x886388" "xF1AC0C" "x415873" "xEDC1F2" "x9E23AD" "x108379" "x576738" "xD98837" "x14C151" "x0C9C8D" "xDF065E" "xA555E2" "xE0E536" "x7B06CF" "x87F7DC" "x863D3A" "xF68A34" "x1DD64D" "x74664F" "x89745D" "xE895D3" "x37048E" "xF2F598" "x453652" "x67649C" "xAB7F06" "xE8B7F7" "xF4ECE3" "xD2CCCA" "xE13AEF" "x87A766" "xFCF08A" "x8C686E" "xCD2C52" "xD26EE0" "x4E9152" "x61E781" "x1D8BC3" "x3956AF" "x52706E" "x438608" "xE37129" "x9FFF57" "x89D116" "x154426" "x636A4B" "x0CBB91" "x931760" "x7F5F9E" "x1210D5" "x48DAE0" "x283CC9" "x7C6804" "x3402BF" "x33CB5F" "x01E1CA" "x0CE4E6" "xABDCF1" "xFAD69E" "x833528" "x08A271" }
+    prime_land = { x98FA26 x3627C6 x835810 xC84F3C xC36A88 xD020D0 x8B2C89 xBDEEFE x53C09A x48D70F x74551C xE013EA xE80050 x9EDC21 x8D9F50 x0F1DD1 x960633 x661864 x5418FA x7816AE x602930 x61287F x41338B x3036B4 xAB1D74 xE70D7F xFE1601 xB722B2 xB63314 x9F3E78 x0663FD xA33DDE xF93942 xCA456A x028A41 x23885D x3C8900 x51884E x9C763A xF54ED3 x37918F x4B85E9 x898700 x6C7FEE xBE68E8 x8E874D x5592F8 x569B91 x9F8D50 x51A0D0 xAE9278 xB99F16 xABA067 x6CACF6 x39C49D xA1A7D7 x0BD4F3 xC2AE36 xB3B830 x79DB16 x25EE74 x75F34C xE4CE91 xEBDA66 xFDEEFC x321392 x7B0287 xC9B5D0 xBC825C x5DE8D3 x90A049 }
+    traits = { "state_trait_australian_desert" }
+    city = "x835810"
+    port = "x79C4FB"
+    farm = "x98FA26"
+    mine = "x8D829F"
+    wood = "x74551C"
+    arable_land = 36
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 40
+        building_iron_mine = 30
+        building_logging_camp = 6
+        building_whaling_station = 3
+        building_fishing_wharf = 9
+        building_uranium_mine = 30
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 8
+    }
+    naval_exit_id = 3110
+}
+
+STATE_CAPE_COLONY = {
+    id = 261
+    subsistence_building = "building_subsistence_farm"
+    traits = { "state_trait_natural_harbors" }
+    provinces = { "x026A9C" "x0C9F79" "x0D23B6" "x0EEAD6" "x10CCF3" "x1F8B77" "x2392F9" "x306050" "x31E050" "x3560D3" "x39A19A" "x3D70BA" "x407453" "x43FDEA" "x4E1F70" "x55A52C" "x59D2D7" "x5B12AF" "x60F62D" "x6ABC89" "x6C917D" "x7543E0" "x826376" "x86C29A" "x8A5F5F" "x8C303E" "x964401" "x97EAD8" "xA18690" "xA4187E" "xA6837D" "xA885D9" "xAF5637" "xB06050" "xC400D3" "xC95189" "xC9BCA7" "xCA52E6" "xD13AD2" "xD497D5" "xE156BB" "xEF2B27" "xEF4150" }
+    city = "x826376"
+    port = "x31E050"
+    farm = "x5B12AF"
+    mine = "xC95189"
+    wood = "x43FDEA"
+    arable_land = 50
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tea_plantation" "building_vineyard" }
+    capped_resources = {
+        building_logging_camp = 8
+        building_fishing_wharf = 10
+        building_whaling_station = 4
+        building_uranium_mine = 20
+    }
+    naval_exit_id = 3106
+}
+
+STATE_HEREROLAND = {
+    id = 256
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x044063" "x04B63B" "x05E02E" "x06C424" "x06E7E7" "x0A43E7" "x0B7112" "x0B876A" "x162888" "x1904A5" "x1ECD5B" "x20AAA5" "x229650" "x239C9A" "x253319" "x2AF92F" "x307287" "x30A6E6" "x316161" "x31C0D0" "x3427F8" "x3B0BA0" "x3B58C1" "x3C1493" "x3D9A9F" "x403D16" "x4236F1" "x44827F" "x47C098" "x4CD75E" "x4E7778" "x4FDB52" "x5292C6" "x52CD99" "x561F11" "x564386" "x565EB1" "x57B67D" "x5901AF" "x596D31" "x59AF4D" "x59DF11" "x5A22BC" "x5A4493" "x5A60AE" "x5C7F2F" "x607767" "x64D01D" "x64E1B5" "x6B6B85" "x6D7765" "x6FBB94" "x6FE9F7" "x7089A0" "x718AF3" "x7A982D" "x7AC3ED" "x7B118B" "x7D55B9" "x822432" "x847069" "x84AACD" "x86DA45" "x880037" "x8A73C1" "x8B2C03" "x944C62" "x94ED16" "x9BAEE0" "x9E0E3A" "x9E8D05" "x9F987B" "xA3E79D" "xA5022A" "xA5CD6D" "xA77A64" "xAC7354" "xAE2535" "xAF6FBF" "xB04050" "xB0C050" "xB1939F" "xB44E98" "xBC1E8C" "xBE1120" "xC0F73F" "xC473EF" "xC6B2A3" "xC8BA9F" "xCAF799" "xCE2A3D" "xD3A784" "xDB8506" "xDBAE1E" "xDD25A3" "xE86D4B" "xED7D31" "xED8DCE" "xEDB5D6" "xEF65BA" "xEFB6F7" "xF300F3" "xF6513D" "xF74B80" "xF75A35" }
+    traits = { "state_trait_severe_malaria" }
+    city = "x7AC3ED"
+    port = "xB04050"
+    farm = "x944C62"
+    mine = "x59AF4D"
+    wood = "xC8BA9F"
+    arable_land = 40
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 40
+        building_logging_camp = 2
+        building_fishing_wharf = 6
+        building_uranium_mine = 50
+    }
+    naval_exit_id = 3104
+}
+
+STATE_NIGER = {
+    id = 202
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x019C62" "x0383F1" "x041BB6" "x076B7F" "x07C410" "x08B0DA" "x0BA931" "x0C24AD" "x0CBA4F" "x0CDADF" "x0DA0EB" "x1151DF" "x117242" "x1272DB" "x13D7AF" "x1418B4" "x159556" "x15D608" "x184387" "x1B0473" "x1F16C4" "x1F7A73" "x215C75" "x21CC41" "x27306B" "x279F30" "x27C4A2" "x286D12" "x288367" "x28DFFF" "x2AE6CB" "x2E4353" "x2F8ED6" "x30C121" "x32F83E" "x342A54" "x34449E" "x359952" "x3687E1" "x369F83" "x36D1B7" "x3B5869" "x3D2A67" "x3D3EDD" "x3E42B6" "x3F1711" "x41A7E7" "x429975" "x465DAA" "x473108" "x478C0F" "x47A605" "x4A284C" "x4A686D" "x4AF4AD" "x4D811C" "x4D8BA8" "x4E090D" "x505D1E" "x57AA91" "x57CDF4" "x588651" "x58A122" "x59A789" "x5C1F66" "x5E1948" "x6097B2" "x64FCA7" "x6A2FEB" "x6A64F4" "x6A8251" "x6F427F" "x705365" "x75D841" "x794DFE" "x7A2E0D" "x7AD943" "x7D362A" "x7D61A0" "x7D9D0A" "x7E5F35" "x7ED36F" "x80F389" "x81C699" "x823D13" "x837523" "x853980" "x87B5E9" "x8A4375" "x8A60D3" "x8B0A0F" "x8F50DF" "x8FF335" "x91C991" "x91E5B4" "x9374B2" "x941DE7" "x949040" "x94B3CB" "x9521D1" "x9569B4" "x95BC30" "x96F9F2" "x98513F" "x98884A" "x9BD699" "x9C62C5" "x9CEDD0" "x9E51C6" "xA2118F" "xA529A5" "xA6303D" "xA6E829" "xA7671F" "xA7D741" "xAA0F7B" "xAA56D1" "xAA9AE7" "xAAE31B" "xAB29AD" "xAE421B" "xAF446A" "xB15549" "xB2B95D" "xB3695A" "xB3BACF" "xB5F4FA" "xB7A983" "xB87354" "xB98598" "xBE7432" "xBFB161" "xC234CA" "xC8D419" "xCB4B92" "xCBAFEB" "xCC5735" "xD090E0" "xD0D0A0" "xD1E91D" "xD35C26" "xDC8DA6" "xDCDE60" "xDF7582" "xDF8CB7" "xE015DC" "xE198AB" "xE3E188" "xE3FA3E" "xE6D609" "xE7E510" "xE8E50C" "xEC6E07" "xEC9554" "xED9379" "xEDD46E" "xF11999" "xF14FF0" "xF47902" "xFB2E7F" "xFB7A3B" "xFBB97F" "xFBE30F" "xFDBE7B" "xFDDBEB" "xFDEF26" "xFED6E1" }
+    traits = { "state_trait_malaria" "state_trait_sahel" }
+    impassable = { "x0BA931" "x0CDADF" "x0DA0EB" "x1272DB" "x1418B4" "x1B0473" "x1F7A73" "x2F8ED6" "x342A54" "x34449E" "x359952" "x3D3EDD" "x465DAA" "x4A284C" "x4E090D" "x505D1E" "x59A789" "x7A2E0D" "x7D362A" "x853980" "x91C991" "x949040" "xA6E829" "xA7D741" "xAA0F7B" "xAA56D1" "xAAE31B" "xAE421B" "xBE7432" "xC234CA" "xCBAFEB" "xDC8DA6" "xDF7582" "xE6D609" "xF47902" "xFDDBEB" "xFED6E1" }
+    city = "x4AF4AD"
+    farm = "x87B5E9"
+    mine = "x21CC41"
+    wood = "xD090E0"
+    arable_land = 40
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 36
+        building_lead_mine = 18
+        building_sulfur_mine = 24
+        building_uranium_mine = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+}
+
+STATE_OUTER_HAUSALAND = {
+    id = 215
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x05AF2A" "x064C0C" "x081330" "x0A6F02" "x0DEFAA" "x1110E0" "x119060" "x1622C1" "x1659B8" "x22D546" "x281C77" "x291801" "x2AD7EB" "x34A317" "x37C83B" "x3921D3" "x3BD5AF" "x3D2745" "x40E064" "x477B47" "x48B5C1" "x4E40D7" "x5051A0" "x505ABF" "x50D09F" "x51E372" "x531EE3" "x583B5E" "x59CF4B" "x6516B9" "x6C8962" "x6E2718" "x7C3FD8" "x7EB3BB" "x80D945" "x87DD49" "x889E8E" "x8B7291" "x91CA6F" "x91E205" "x9266A1" "x93455F" "x95B3FC" "x96E7A9" "x98907F" "xA286FE" "xA42F37" "xA6FB18" "xAAB357" "xAD963A" "xADFCBB" "xAE0018" "xAEAED9" "xB03D4B" "xB354F7" "xB42598" "xB4574B" "xB5CA43" "xB5EEFE" "xB6B510" "xB78BE4" "xB99FF2" "xC06BCE" "xC438ED" "xC9BC55" "xCF50A0" "xD1320A" "xD28E66" "xD36F0B" "xD4E488" "xD5B946" "xE373B7" "xECC181" }
+    traits = { "state_trait_malaria" "state_trait_niger_river" "state_trait_sahel" }
+    city = "x5051A0"
+    farm = "x50D09F"
+    mine = "xB4574B"
+    wood = "xC438ED"
+    arable_land = 60
+    arable_resources = { "building_millet_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 48
+        building_logging_camp = 4
+        building_uranium_mine = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 5
+    }
+}
+
+STATE_SHANDONG = {
+    id = 511
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x115180" "x16E6F3" "x175EC6" "x1ABD79" "x1D4C25" "x2EF696" "x32CFB2" "x33490F" "x38A73B" "x39F708" "x41FB70" "x4724A9" "x483CDB" "x498F0D" "x50D040" "x55944E" "x599BC4" "x6B8F67" "x6BFF52" "x6DA6F9" "x71C085" "x798677" "x8064F0" "x83EC09" "x90D001" "x9D1474" "xA0CF65" "xAB53A3" "xAC24A6" "xAEDF9B" "xB33A36" "xBAA1D3" "xC13552" "xC14ECA" "xC55E74" "xCF50BF" "xE01180" "xE19708" "xF07810" "xF2D180" }
+    traits = { "state_trait_yellow_river" }
+    city = "x9D1474"
+    port = "xAC24A6"
+    farm = "x599BC4"
+    mine = "x6B8F67"
+    wood = "x41FB70"
+    arable_land = 350
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_tea_plantation" "building_tobacco_plantation" }
+    capped_resources = {
+        building_sulfur_mine = 32
+        building_logging_camp = 6
+        building_fishing_wharf = 15
+        building_uranium_mine = 50
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+    naval_exit_id = 3138
+}
+
+STATE_UZBEKIA = {
+    id = 443
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x078459" "x086B0D" "x100231" "x11BEB1" "x14A7BE" "x156B96" "x17227F" "x18805C" "x1F4F98" "x20B021" "x33A3BE" "x367C49" "x3ABB84" "x417F81" "x44F40B" "x52C5B4" "x5DEB84" "x6B31FF" "x6BD3A0" "x71F3E8" "x72D3A8" "x73D87A" "x7A0CCA" "x7A884B" "x7A943A" "x7BF1C1" "x82E6C0" "x865AAB" "x8A56DC" "x8B8972" "x8D638E" "x8DE506" "x95C1EA" "x97161C" "x973B9F" "x9A8732" "x9F6258" "xA02922" "xA1DF6D" "xA3FA94" "xA69653" "xA69FFF" "xAF6AE5" "xB0C419" "xB1E3FB" "xB24806" "xB38748" "xC07A80" "xC359F7" "xC3D59A" "xC87F8A" "xC89C46" "xCEA4C1" "xD056DC" "xD38A78" "xD5BC6F" "xD87EBF" "xDAD39B" "xDC6A33" "xDFE90C" "xE72886" "xED1489" "xF5EF8A" "xF9BC1A" "xFD2FE1" "xFD83A1" }
+    city = "xD056DC"
+    farm = "x8A56DC"
+    mine = "xF5EF8A"
+    wood = "xFD2FE1"
+    arable_land = 100
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_opium_plantation" "building_cotton_plantation" "building_tea_plantation" }
+    capped_resources = {
+        building_logging_camp = 6
+        building_uranium_mine = 40
+    }
+}
+
+STATE_AKTOBE = {
+    id = 809
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x03DEAB" "x05A5D3" "x093A29" "x0C16D5" "x0CDDC8" "x10D440" "x10F2A4" "x10F394" "x12B014" "x153EF8" "x19DB52" "x1A0A77" "x1A765B" "x1A973F" "x1E7905" "x1EB604" "x1F5F1A" "x2173E6" "x21907E" "x23B70B" "x2577CF" "x2660A5" "x2973FB" "x2D0AAC" "x2E12FC" "x3190BF" "x328878" "x32C0C8" "x3354E8" "x37BB95" "x3A7473" "x3D0E20" "x3F854B" "x504F54" "x510B92" "x55C060" "x56279A" "x588F70" "x58D48C" "x59BA59" "x5DCF1A" "x5EF765" "x6025C2" "x618800" "x62EE42" "x68D6C0" "x6906B2" "x69439D" "x6A8667" "x6AD008" "x6E0170" "x70B0CC" "x742700" "x74A226" "x758597" "x780B11" "x7BAA61" "x7FD811" "x81BE7E" "x84FA13" "x867C05" "x86A90A" "x881AFB" "x88A88E" "x92F404" "x94A660" "x9C6012" "xAE51B4" "xAFDF44" "xB0FEAB" "xB16E1C" "xB62DEC" "xB92DE8" "xBB4E20" "xBC84A6" "xBD0769" "xC05141" "xC053C7" "xC6E6CD" "xC866F3" "xCBB325" "xD04D31" "xD32A64" "xD4D80A" "xDAD022" "xDB8ABA" "xDE558E" "xE2A5AC" "xE32413" "xE4A7D1" "xE91FBD" "xEC9E67" "xEE6AAB" "xEEFA33" "xF387A5" "xF66290" "xF9CD4F" "xFC1095" "xFE2865" }
+    city = "x1E7905"
+    farm = "xF66290"
+    mine = "x5DCF1A"
+    wood = "x62EE42"
+    arable_land = 24
+    traits = { "state_trait_western_steppe" }
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_iron_mine = 10
+        building_logging_camp = 3
+        building_uranium_mine = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
+}
+
+STATE_NIZHNY_NOVGOROD = {
+    id = 823
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x006422" "x02BE2C" "x05F5DA" "x088E55" "x0C5F95" "x0D8767" "x193A00" "x202BAA" "x221C4C" "x259E71" "x298ED1" "x29EC04" "x2A61E0" "x30B835" "x339ADC" "x35FB76" "x3F9FBA" "x40B6D6" "x438CFD" "x4C71B7" "x5E59E5" "x60A0A0" "x6CDD7C" "x7C85D2" "x7DA8A0" "x920EE6" "x9439A0" "x96DCF9" "x975454" "xA080A0" "xA99531" "xADD34A" "xBFA41C" "xC6E27A" "xC74B66" "xD2E466" "xE1A4D3" "xEA0D0B" "xF0B801" }
+    city = "x202BAA"
+    farm = "xF0B801"
+    mine = "xE1A4D3"
+    wood = "x9439A0"
+    arable_land = 80
+    traits = { "state_trait_volga_river" "state_trait_russian_forest" }
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_iron_mine = 25
+        building_logging_camp = 24
+        building_uranium_mine = 45
+    }
+}
+
+STATE_NEW_CASTILE = {
+    id = 93
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x093A56" "x2B550F" "x302080" "x41C3FC" "x73D6A9" "x8010A0" "x88CEE5" "x89CA9E" "x92DDDA" "xA1BEC2" "xB0A000" "xB0A080" "xB5194A" "xCAA3E1" "xDCD24C" "xF44640" "xF693FD" "xF841E6" }
+    traits = { "state_trait_tagus_river" }
+    city = "xDCD24C"
+    farm = "xB0A000"
+    mine = "x8010A0"
+    wood = "xB0A080"
+    arable_land = 51
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_sugar_plantation" "building_vineyard" }
+    capped_resources = {
+        building_logging_camp = 4
+        building_coal_mine = 7
+        building_iron_mine = 3
+        building_sulfur_mine = 6
+        building_uranium_mine = 30
+    }
+}
+
+STATE_AUSTRIA = {
+    id = 51
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x0CBB8F" "x1180A0" "x20CF50" "x316141" "x62F70E" "x7F2E4E" "x84C7C3" "x9001A0" "xA40093" "xA9793B" "xFDA6CB" }
+    traits = { "state_trait_danube_river" }
+    city = "x316141"
+    farm = "x9001A0"
+    mine = "x9001A0"
+    wood = "x0CBB8F"
+    arable_land = 80
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 44
+        building_logging_camp = 7
+        building_uranium_mine = 30
+    }
+}
+
+STATE_CALIFORNIA = {
+    id = 326
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x032BE2" "x0425B3" "x0898A3" "x0AE895" "x0AF8FD" "x0E8D26" "x108000" "x108080" "x1116AA" "x1169B8" "x161979" "x1C6782" "x1FE069" "x2099C1" "x209FC3" "x25842F" "x25A37F" "x298876" "x2A2B04" "x2A91D8" "x2B1204" "x2C84C4" "x2CE673" "x2D1B0B" "x2F3B45" "x2F8F36" "x307D50" "x3117AA" "x33EE3B" "x370658" "x3F27C8" "x4160C1" "x42B7D9" "x441749" "x4AB8EE" "x4C2D30" "x500CAD" "x508000" "x519529" "x5625EF" "x56F5CB" "x577D08" "x5A4650" "x5EAA35" "x5EF8F5" "x607BA8" "x61A555" "x6B8E78" "x6CCFDB" "x6E6D40" "x6F44CB" "x76A57D" "x783D1D" "x7A5DA6" "x7B005B" "x7BCC6D" "x7E8E1A" "x864B45" "x8A35D2" "x8CC57E" "x8CFB9B" "x8D4E6D" "x8F1372" "x908000" "x908080" "x914E48" "x93A4C5" "x995E0F" "x9C28A4" "xA06435" "xA24DA3" "xA45ACA" "xA65FC5" "xAB1AA2" "xAF199E" "xB21AB9" "xB72458" "xB881EE" "xB8F452" "xBD0F03" "xBFE3A4" "xC1F518" "xC2E1AA" "xC4A8E9" "xC5390E" "xC54807" "xC78CD3" "xC9F623" "xCA5813" "xCBA1C9" "xCC07D4" "xCD0B47" "xD00000" "xD401D0" "xD507FA" "xD6A835" "xDAABF7" "xDBCBC6" "xDE208B" "xE4FC42" "xE6440D" "xE97768" "xEBF5A0" "xF16E88" "xF49BCD" "xF6B075" "xF7DB50" "xFD4509" "xFDC502" "xFE6E88" }
+    traits = { "state_trait_central_valley" "state_trait_northern_california_coastal_forests" }
+    city = "x5EF8F5"
+    port = "x1116AA"
+    farm = "x7A5DA6"
+    mine = "x4C2D30"
+    wood = "x607BA8"
+    arable_land = 300
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
+    capped_resources = {
+        building_iron_mine = 33
+        building_sulfur_mine = 40
+        building_logging_camp = 45
+        building_fishing_wharf = 14
+        building_whaling_station = 6
+        building_uranium_mine = 50
+        building_natural_gas_mines = 80
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
+    naval_exit_id = 3153
+}
+
+STATE_TEXAS = {
+    id = 322
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x0030C0" "x00A88F" "x00B040" "x00B0C0" "x013AEB" "x0289AA" "x03FDD9" "x049490" "x04CD6D" "x059C90" "x08F331" "x0B77C3" "x0D192D" "x0DA281" "x0E125F" "x10CA7B" "x10D832" "x1120AB" "x18EC9C" "x18F9D5" "x1AC45E" "x1B9E2A" "x1BB9FA" "x1C3B80" "x1DCED1" "x1DDB1A" "x1E553B" "x1E9A0F" "x212F2F" "x224C75" "x22F5CE" "x24C127" "x25D807" "x27C614" "x27D689" "x2C37DD" "x2C9BF6" "x2CBC3B" "x2D8E7D" "x2DA551" "x2E8063" "x2FA254" "x317E88" "x33031A" "x3751A7" "x39DB21" "x3B9D9E" "x3CA5A6" "x3DAE0A" "x3F2F5D" "x402088" "x4439A4" "x44F322" "x46137E" "x48FB7B" "x4E19F4" "x56A8B5" "x58AF61" "x5B5F82" "x5C6475" "x5C6FF5" "x5C7EA4" "x5C9120" "x5D3843" "x601A4F" "x607C83" "x6125F7" "x61EACC" "x6363AC" "x6958D6" "x6BB536" "x6E8169" "x6FD534" "x6FF4CE" "x71ACC7" "x760779" "x798ACD" "x7DCECB" "x7E7CB0" "x80287B" "x803040" "x80B040" "x80B0C0" "x824F92" "x849B8F" "x860F5A" "x86122A" "x869D5F" "x871357" "x89CD8D" "x89E3C9" "x8B5EC8" "x8BFDCC" "x8CDEAE" "x8EBCC7" "x907490" "x90B38D" "x90CE2B" "x91A02C" "x94A617" "x94E465" "x951736" "x9632BE" "x973B1C" "x99A404" "x99A694" "x99A780" "x9D5716" "xA33609" "xA3A810" "xA55E5C" "xA66212" "xA909D2" "xAAFB06" "xAFBF37" "xB0D689" "xB114A9" "xB16A3C" "xB2484A" "xB47B14" "xB7EAE9" "xB8F19A" "xB9118E" "xBB8A78" "xBD7887" "xC32E10" "xC369DB" "xC6EE8B" "xC7ED1C" "xC82BB4" "xC9D330" "xD08070" "xD0FCF0" "xD15251" "xD19D8F" "xD206BC" "xD22E00" "xD4536D" "xD4BE3A" "xDB3E39" "xDB68A7" "xDE7B44" "xE222E2" "xE3F481" "xE567C9" "xE6C09D" "xE99673" "xEB7B97" "xEC7601" "xED08F5" "xEDA6C0" "xEE1B8C" "xF0BA2E" "xFAB703" "xFB5451" "xFD0D62" "xFDD38C" "xFE0821" "xFE4703" }
+    traits = { "state_trait_rio_grande_river" }
+    city = "x1B9E2A"
+    port = "x803040"
+    farm = "x18F9D5"
+    mine = "x803040"
+    wood = "x39DB21"
+    arable_land = 500
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_sugar_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 28
+        building_sulfur_mine = 36
+        building_logging_camp = 7
+        building_fishing_wharf = 6
+        building_natural_gas_mines = 70
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
+    naval_exit_id = 3060
+}
+
+STATE_PENNSYLVANIA = {
+    id = 297
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x038B77" "x0804CE" "x242311" "x265ADC" "x308080" "x345319" "x413E60" "x4CB9DF" "x501463" "x533151" "x56401E" "x606D4F" "x67DB6F" "x691121" "x6C494D" "x703866" "x75195D" "x7CF534" "x8C787A" "x976E86" "xAC9DC0" "xACC198" "xAF1AEE" "xB00000" "xB7EDCF" "xBC1A94" "xC0C080" "xC4DED4" "xC786AB" "xCDBD85" "xDD6B3C" "xE2ACEE" "xF08080" "xF1C228" }
+    traits = { "state_trait_ohio_river" "state_trait_appalachian_coal" "state_trait_american_chestnuts" }
+    city = "xB00000"
+    farm = "xC0C080"
+    mine = "xE2ACEE"
+    wood = "xC4DED4"
+    arable_land = 180
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 120
+        building_iron_mine = 57
+        building_logging_camp = 23
+        building_natural_gas_mines = 60
+
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+}
+
+STATE_OHIO = {
+    id = 288
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x000090" "x02EC28" "x131587" "x214D38" "x2158FB" "x255558" "x4A3037" "x638C4B" "x6CD2A5" "x704000" "x74A939" "x8B892B" "xA73D1F" "xA8C954" "xA92D73" "xAD9F9F" "xB0C080" "xB61C8A" "xBF2D59" "xC08BCD" "xC31F42" "xC8B64B" "xD043D4" "xD0C0C0" "xE39685" "xE4C01C" "xEDCEDA" "xF04000" "xFC90A5" }
+    traits = { "state_trait_ohio_river" }
+    city = "xC8B64B"
+    farm = "xC08BCD"
+    mine = "x2158FB"
+    wood = "xA92D73"
+    arable_land = 180
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 60
+        building_lead_mine = 36
+        building_logging_camp = 30
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
+}
+
+STATE_WEST_VIRGINIA = {
+    id = 295
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x06D57E" "x08D472" "x0F5821" "x2EA16C" "x30C000" "x364F38" "x366DF2" "x38925B" "x43DB99" "x579843" "x7416CB" "x7755AD" "x82CE19" "x845FC0" "x999738" "xAD371C" "xB04000" "xB865A2" "xCB120B" }
+    traits = { "state_trait_appalachian_coal" "state_trait_american_chestnuts" }
+    city = "x999738"
+    farm = "x7755AD"
+    mine = "x82CE19"
+    wood = "xAD371C"
+    arable_land = 50
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 80
+        building_iron_mine = 24
+        building_logging_camp = 17
+        building_natural_gas_mines = 20
+    }
+}
+
+STATE_WYOMING = {
+    id = 274
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x050F0F" "x0DE2A6" "x0EB61F" "x109BC0" "x10C080" "x11BB04" "x1213C4" "x170104" "x1AC89E" "x1DF2FD" "x1F5624" "x21EE68" "x22B520" "x2403EF" "x244042" "x27F79C" "x28CC5C" "x2CC9D7" "x319B3E" "x36DEC9" "x3DC80A" "x42A388" "x465DC8" "x52839A" "x533D44" "x57FDB7" "x58C850" "x59773A" "x5B63B5" "x5B70BB" "x5F141F" "x5FBCFF" "x600D92" "x63D8F8" "x65D786" "x65DCDB" "x7105F8" "x818335" "x81DB36" "x82F798" "x84DF43" "x867348" "x89656E" "x8B96F2" "x8BF1A0" "x90C080" "x93B583" "x952F3F" "x977599" "x9F03E3" "xA55B0A" "xAC6092" "xB6CA16" "xB9C5DD" "xBE0B1C" "xC0CBE5" "xCF073F" "xD74652" "xD7B8D9" "xE1622A" "xE35101" "xE387E7" "xE9F52A" "xEC9D85" "xF2158B" "xF2DFDC" "xF3326F" "xF53AA9" "xF89B9D" "xF99A07" "xFABE6A" }
+    traits = { "state_trait_rocky_mountains" }
+    city = "xE9F52A"
+    farm = "x050F0F"
+    mine = "x3DC80A"
+    wood = "x977599"
+    arable_land = 160
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 48
+        building_logging_camp = 13
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+}
+
+
+STATE_OKLAHOMA = {
+    id = 280
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x13C47E" "x155091" "x158786" "x269541" "x286941" "x32D681" "x3449B1" "x37CCC2" "x384259" "x3A130C" "x3DC254" "x4034FA" "x47C329" "x49BF7D" "x4BE9C6" "x51621D" "x5C449B" "x5F2DBA" "x70D146" "x7507ED" "x7A707B" "x7A74B8" "x8BDF6D" "x8CD89B" "x90C0C0" "x94D9C2" "x9A9935" "xA07F85" "xA1D6F3" "xAE0966" "xBFD5C4" "xC03040" "xC62026" "xCE7722" "xCF0284" "xD545C6" "xD6ADF2" "xD72549" "xDAABDA" "xE0ACB6" "xE1CC08" "xE43B98" "xE64C00" "xEB66DA" "xEF15A7" "xF3AC52" "xF6681C" "xF98E99" }
+    city = "xD6ADF2"
+    farm = "xEB66DA"
+    mine = "xC03040"
+    wood = "xE1CC08"
+    arable_land = 220
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" }
+    capped_resources = {
+        building_coal_mine = 40
+        building_logging_camp = 7
+        building_natural_gas_mines = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
+}
+
+STATE_ALASKA = {
+    id = 269
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x0017A3" "x01014E" "x014D28" "x021948" "x02B436" "x02D229" "x03C148" "x0481C2" "x050A36" "x051CA7" "x052092" "x055B65" "x05AA2F" "x05DAFE" "x062126" "x064764" "x07688A" "x079E6F" "x07BEB5" "x07C641" "x07CE0C" "x08D187" "x0938B7" "x093B34" "x0948A5" "x0975BC" "x098E2F" "x09D5DB" "x0A1FF9" "x0A94C6" "x0AAB61" "x0AEDE7" "x0AF925" "x0B215E" "x0B8E9E" "x0BDD2C" "x0C1683" "x0C2257" "x0C2EAC" "x0C6194" "x0C8377" "x0C947B" "x0CD360" "x0CFB30" "x0D0BF4" "x0DD63D" "x0EFBA2" "x0EFCC4" "x0F51A3" "x0FA728" "x1084B8" "x109112" "x10FB9E" "x118711" "x11966B" "x125F4D" "x12848D" "x12A4C3" "x12B6BA" "x12DF58" "x134775" "x135EA4" "x136CAC" "x13A14F" "x145948" "x147817" "x14BE37" "x150B2F" "x15B407" "x15E299" "x1608A2" "x164737" "x16BF3F" "x1711CF" "x17211C" "x175438" "x176098" "x177B79" "x1780AF" "x18375A" "x187903" "x191D87" "x192984" "x193407" "x196F16" "x19A941" "x19E72F" "x1A3FD2" "x1AADF8" "x1ACBF6" "x1AF72A" "x1B00F0" "x1B7C13" "x1B8BE4" "x1B967E" "x1BB4AE" "x1C1D5C" "x1C913E" "x1D760A" "x1DA1F0" "x1DBFB3" "x1DCB1D" "x1E26E1" "x1E6BCF" "x1EA9EC" "x1F1596" "x1F2AB3" "x1F2BC9" "x1F3AE9" "x1F8C10" "x1F91CD" "x1F9404" "x1FC5DB" "x1FD8CA" "x1FF2FE" "x1FF6F0" "x20427C" "x20542B" "x206858" "x2094F9" "x209FA6" "x20C17A" "x20CCD9" "x2118D9" "x2137C4" "x214628" "x21F1E2" "x220552" "x22103F" "x221290" "x2246A1" "x2251C7" "x226493" "x22FF97" "x2320E4" "x234E0D" "x239E2F" "x23D48A" "x23DD75" "x242DE2" "x24370A" "x2457C5" "x24BE2A" "x253000" "x253F33" "x253FF9" "x257BAE" "x25A09F" "x264B7A" "x26FFD5" "x27049B" "x278079" "x2833EA" "x283D3D" "x288902" "x28B754" "x28EC03" "x28EC12" "x2919A0" "x29F3A6" "x2A1C97" "x2A245E" "x2A88BE" "x2A9054" "x2AD37E" "x2B301E" "x2B83B7" "x2BA484" "x2BABD1" "x2BB077" "x2BBEDD" "x2BE1B4" "x2BEA43" "x2C09FA" "x2C4A4D" "x2C67FE" "x2C6A78" "x2CEF6D" "x2CF213" "x2D9E6C" "x2E34E5" "x2E8502" "x2ECA46" "x2EF781" "x2F56C5" "x2FA59B" "x2FAD9F" "x2FD897" "x2FDB96" "x3050C5" "x305FA1" "x3080F3" "x30B851" "x30BF2A" "x313EB4" "x31711B" "x31861A" "x32050F" "x32B588" "x33369E" "x333DD5" "x335E8E" "x3383E0" "x338931" "x339B2C" "x33B2D7" "x33E102" "x33F024" "x3489FE" "x34B2EB" "x34BBBD" "x360420" "x363D7D" "x365308" "x3670BC" "x36D556" "x37A238" "x37C789" "x37E27D" "x37EB3F" "x38170E" "x3828AD" "x38D5C7" "x39275A" "x3927CD" "x392CBF" "x39FF7E" "x3A610F" "x3A766F" "x3A820B" "x3ACB3B" "x3B07FC" "x3B2981" "x3BD86A" "x3BFC39" "x3C10FA" "x3C131F" "x3C4807" "x3C7542" "x3C9B4E" "x3DB4D7" "x3DC76F" "x3DCE92" "x3DD5D3" "x3DEC00" "x3E24C2" "x3E347B" "x3F01EE" "x3F3355" "x3F4B9B" "x3F5233" "x3F537F" "x3F7A53" "x3F8861" "x3FF213" "x405DCA" "x40B2DE" "x40F546" "x41185D" "x4125BE" "x4156EE" "x4178F3" "x41A3C7" "x41C4B1" "x426CC6" "x428625" "x4303A0" "x43162E" "x431843" "x43525A" "x4352E8" "x43BD4A" "x441080" "x4439B6" "x445E37" "x449E10" "x44ACBD" "x458462" "x45A8BD" "x45AD0B" "x4611B7" "x461F1E" "x46B363" "x46C024" "x47DAB9" "x480772" "x482346" "x483E8A" "x4882E2" "x4892C6" "x489832" "x48B422" "x490E95" "x491F76" "x49B6A7" "x49F08A" "x4A5AAC" "x4AA500" "x4ACA7D" "x4B0B65" "x4B17DB" "x4B6A2E" "x4B965D" "x4B9FCF" "x4BD9C0" "x4BF073" "x4C153A" "x4C6183" "x4C7F1B" "x4CD34B" "x4D40FB" "x4D61C5" "x4DD511" "x4DDB14" "x4E223C" "x4E2DE8" "x4F5E4C" "x4FDC2B" "x500225" "x503546" "x5064B0" "x50B90A" "x50E9C9" "x50F6C0" "x514DDC" "x51626E" "x5252F1" "x525437" "x52646B" "x52B770" "x52D2F1" "x52DE28" "x52F647" "x530023" "x53399C" "x53460F" "x53D559" "x53DDFF" "x53ECD7" "x543A2C" "x54420B" "x5493CE" "x54CCD1" "x556A9C" "x559FE2" "x55B895" "x55BDBD" "x55C7D7" "x55DF4F" "x568651" "x5691E1" "x56AA1D" "x5701DA" "x57538A" "x576151" "x577F5A" "x578EC0" "x57DDA0" "x58273A" "x583292" "x586777" "x5944CF" "x59792F" "x597D5B" "x598AE1" "x5993E2" "x5A3AC0" "x5A76D4" "x5AB097" "x5B4881" "x5BCBEF" "x5BF345" "x5C1431" "x5C153E" "x5C16DA" "x5C1B94" "x5C2504" "x5C257E" "x5C3A5B" "x5C61D9" "x5C9007" "x5C9E7F" "x5CF8E8" "x5D05D1" "x5D3DBE" "x5D47CB" "x5D63E2" "x5D85E6" "x5E40F0" "x5E8C2F" "x5EB7E7" "x5EDA62" "x5EDB0A" "x5FCC5F" "x5FEBC5" "x60097A" "x6023B2" "x602C66" "x603022" "x60FD80" "x60FF15" "x61044C" "x612D4C" "x614A0B" "x6153B9" "x615B55" "x6191B6" "x621713" "x62BAA1" "x62CBC5" "x62CD2D" "x62DCD3" "x63763A" "x6382DD" "x63A349" "x63A92C" "x63D2B4" "x641A73" "x645235" "x648923" "x650AF8" "x651ABF" "x657466" "x65AFCB" "x65F4A4" "x66DDBD" "x66E939" "x66FD83" "x6703FD" "x67FE84" "x6849EB" "x686709" "x688A87" "x68A4C2" "x68C2CF" "x68E22B" "x69404C" "x69F4C8" "x6A2079" "x6A6A6A" "x6A8756" "x6A8F99" "x6AC829" "x6B1788" "x6B643E" "x6B64B0" "x6B7246" "x6B7277" "x6BA2F0" "x6BDCBC" "x6BEC88" "x6BF8A0" "x6C2B3F" "x6CBD13" "x6CCC4E" "x6D2760" "x6D4AA5" "x6D881E" "x6DB0BF" "x6DD994" "x6E9306" "x6E9D61" "x6F0069" "x6F0EE2" "x6F12FB" "x6F77EF" "x6F83E3" "x6F939A" "x6F98D3" "x7164EB" "x718119" "x72651D" "x727644" "x72A43D" "x72B56D" "x73119D" "x73148E" "x736A5E" "x73C640" "x73CFB5" "x743984" "x747BC4" "x74E20C" "x7505CE" "x756618" "x757B4E" "x758C34" "x75E9F3" "x762DCA" "x762FBB" "x764722" "x765687" "x76D66C" "x7721EC" "x779C7E" "x77EABF" "x781474" "x787759" "x78D3B9" "x78DB78" "x790E2B" "x7990AD" "x79EDDF" "x7A5194" "x7A9E4A" "x7B0564" "x7B4B44" "x7B73F1" "x7B994C" "x7BA13E" "x7BEC33" "x7BFA16" "x7C1DBC" "x7C2F94" "x7C547D" "x7C56A7" "x7C9D2C" "x7CBA6B" "x7CBE0B" "x7CC77F" "x7CF944" "x7D1262" "x7D1BF9" "x7D2E7D" "x7DD59E" "x7E592E" "x7E7B8F" "x7E85A9" "x7EA51A" "x7EA5BE" "x7EBFD2" "x7EDDFF" "x7F179D" "x7F2642" "x7F31C7" "x7F4063" "x7F9405" "x805860" "x81BDFD" "x81EBF5" "x829FA5" "x82A904" "x82AFA4" "x82B66A" "x831C37" "x8394A1" "x83CBFA" "x845384" "x845ADE" "x8471CE" "x849EF6" "x84B0F6" "x84EB43" "x857C6C" "x85F7FB" "x863BE3" "x87179A" "x871BDC" "x873584" "x875118" "x878CBF" "x881E54" "x88609E" "x89449F" "x895877" "x89EE66" "x8A9C85" "x8AA630" "x8AB034" "x8B5AB4" "x8C1A14" "x8C1AF2" "x8C3A89" "x8C4339" "x8C4397" "x8C649B" "x8C656D" "x8C7D32" "x8C8283" "x8CED2A" "x8CFA62" "x8D4313" "x8D801C" "x8E0FC3" "x8E111C" "x8E62F9" "x8E6A1D" "x8EA9A3" "x8F553A" "x8F7436" "x8F9677" "x8F97A6" "x8FE2A1" "x8FE5AB" "x8FF205" "x905042" "x907257" "x90EB0E" "x910EE4" "x916497" "x9165B6" "x9168F2" "x919129" "x91D2E4" "x91D56A" "x922E7D" "x92CFCD" "x92E894" "x93145A" "x93459C" "x93D9AF" "x943D34" "x94668A" "x949950" "x94BEF4" "x954256" "x9569C3" "x960E69" "x962817" "x964EE4" "x96B11B" "x96B4F6" "x9709C3" "x970FD6" "x9721EB" "x97314F" "x977569" "x97C429" "x980CEE" "x989C23" "x98B340" "x98E7C3" "x991DD8" "x9A0689" "x9A1ECB" "x9A9180" "x9ADA02" "x9B4806" "x9B8D45" "x9BC91A" "x9BE9C7" "x9BF19F" "x9BF3C8" "x9C1A90" "x9C1CEF" "x9C23A8" "x9CD17E" "x9D07DD" "x9D7645" "x9DA82C" "x9E05B5" "x9E2117" "x9E3090" "x9E34D9" "x9E71D4" "x9E9917" "x9EC0CD" "x9F05DF" "x9F5DFB" "xA01E46" "xA09BF8" "xA0B9B8" "xA0C734" "xA11D55" "xA16724" "xA19C08" "xA1D683" "xA1E2EB" "xA25F8D" "xA29A6E" "xA2ABFA" "xA2F971" "xA38174" "xA3D3A6" "xA42148" "xA4730D" "xA48248" "xA5A4F0" "xA5AA6C" "xA5C0D6" "xA6666F" "xA68D7B" "xA6C859" "xA6F50B" "xA7B1F4" "xA7B36A" "xA888D5" "xA8A9CA" "xA8B818" "xA924A2" "xA97C02" "xA98724" "xA99FCF" "xA9C595" "xA9DBA9" "xA9EBA4" "xAA098D" "xAA1837" "xAA1A65" "xAA1CD5" "xAA6FE9" "xAAC817" "xAB9CFD" "xABDF84" "xAC4581" "xACEC06" "xAD005A" "xAD5ACC" "xAD7828" "xADA9EE" "xADC0BA" "xADC7CF" "xAE038D" "xAE1E42" "xAE6212" "xAF2FDB" "xAF6CAA" "xAFE705" "xB017EA" "xB03FB7" "xB06F38" "xB091B4" "xB0C6FE" "xB13372" "xB14641" "xB16711" "xB171E7" "xB1928E" "xB2529E" "xB2AFC0" "xB2B25D" "xB2DD8C" "xB2FE95" "xB35046" "xB35CD6" "xB37342" "xB43459" "xB47BD1" "xB48393" "xB542BF" "xB60FE3" "xB62FF6" "xB6C546" "xB6FB53" "xB71F67" "xB7576C" "xB75FDB" "xB7CCF4" "xB7F9F9" "xB840EC" "xB85DF0" "xB87E55" "xB8BADD" "xB8D69A" "xB92E1C" "xB94969" "xB95C03" "xB97CB3" "xBA43EF" "xBA71E6" "xBAACF1" "xBAF36E" "xBAF8DF" "xBBB0CF" "xBBCFD6" "xBBE899" "xBBE95B" "xBBEFB1" "xBC18D0" "xBC6EEB" "xBCA55C" "xBCFE54" "xBD23EA" "xBD3E24" "xBD4CC3" "xBD645E" "xBDDFD3" "xBE3282" "xBE50E0" "xBE7EF2" "xBED6A4" "xBEF1F0" "xBF19E4" "xBF25ED" "xBF2C65" "xBF87AA" "xBFCBCE" "xBFD965" "xBFDADD" "xBFF18A" "xC00000" "xC039B7" "xC06675" "xC127C3" "xC12EDD" "xC14112" "xC2B7E3" "xC31379" "xC3425B" "xC39386" "xC3D539" "xC43B66" "xC4D870" "xC5631B" "xC58963" "xC5F076" "xC6746B" "xC68367" "xC69FDD" "xC71793" "xC74610" "xC77507" "xC7C953" "xC7D063" "xC7D17E" "xC7E903" "xC83CB2" "xC86C05" "xC887C5" "xC90E0E" "xC91FE0" "xC9343B" "xC96779" "xC96937" "xC97635" "xC98575" "xCA14D8" "xCA3299" "xCA5DC8" "xCAAAC5" "xCB054C" "xCB2386" "xCB79A9" "xCB8FBE" "xCBAB01" "xCBFADF" "xCC0B86" "xCC2ED1" "xCC5FFD" "xCC907A" "xCCB18D" "xCCE598" "xCDD4E0" "xCDD6E6" "xCDDE8C" "xCDEC4F" "xCEE90B" "xCF080C" "xCF3FED" "xCF55DB" "xCF5EF8" "xCF9C19" "xD01802" "xD051DB" "xD065F1" "xD0B6C2" "xD10FEC" "xD11235" "xD11D05" "xD14AD9" "xD1BB99" "xD1C123" "xD1EF00" "xD27808" "xD27C82" "xD2F9BB" "xD30D06" "xD334F3" "xD34196" "xD3A476" "xD3D52A" "xD3E02B" "xD43DAE" "xD4C390" "xD4E147" "xD4ED47" "xD5BE4A" "xD67098" "xD6791C" "xD68306" "xD82BF2" "xD84651" "xD84904" "xD89E7C" "xD8FD31" "xD91154" "xD933E4" "xD93A7E" "xD95C0B" "xD997BA" "xD9F1D6" "xD9F480" "xDB113E" "xDB358C" "xDB502E" "xDB754C" "xDB87B7" "xDBD6A3" "xDC03C9" "xDD248D" "xDD4131" "xDE84A4" "xDF2A67" "xE0AEE7" "xE0FFCC" "xE120CF" "xE13253" "xE13BE7" "xE1A693" "xE22284" "xE22E41" "xE29434" "xE2E073" "xE2EEB3" "xE2FC83" "xE335C5" "xE35510" "xE37E1A" "xE38EBD" "xE3B9DD" "xE3F393" "xE412C4" "xE440F8" "xE47149" "xE4D2C0" "xE4F7C8" "xE5C832" "xE5CA6A" "xE66133" "xE665B2" "xE66B32" "xE6FFCA" "xE7536B" "xE79B4F" "xE7A7A0" "xE7BB84" "xE83340" "xE859C7" "xE88D0A" "xE8956A" "xE8B145" "xE98306" "xE99351" "xE9B02B" "xE9B55D" "xEA2558" "xEAA023" "xEAAEB2" "xEAB445" "xEB22CE" "xEB5425" "xEB7797" "xEC0332" "xEC0F84" "xEC3DB7" "xEC738A" "xEC7C72" "xEC87AD" "xED1257" "xED30D2" "xED78CE" "xEE6D5F" "xEE75BD" "xEE840F" "xEEA176" "xEF0536" "xEF956E" "xEFA80C" "xF04A61" "xF0CB3D" "xF0F89B" "xF181C1" "xF20258" "xF2A65E" "xF2C82C" "xF2D85D" "xF323DB" "xF34270" "xF3569C" "xF35E72" "xF3698C" "xF38808" "xF39AB9" "xF3DC5C" "xF423DB" "xF48040" "xF49BDC" "xF4A312" "xF4E6EE" "xF4F758" "xF504B3" "xF54742" "xF55596" "xF59546" "xF5FFDC" "xF61916" "xF62433" "xF66766" "xF692C4" "xF76975" "xF7F983" "xF81433" "xF86B0B" "xF8A372" "xF8D55C" "xF8E85E" "xF98C57" "xF9970B" "xF9A1A2" "xF9F1F9" "xFA8312" "xFA9725" "xFAB0F8" "xFB1C89" "xFB564A" "xFC2D40" "xFCA5FD" "xFD9F16" "xFDA67A" "xFDB4ED" "xFE1835" "xFE76E8" "xFEA40C" "xFECC2E" "xFEE042" "xFF0829" "xFFA2D9" "xFFEF4A" }
+    impassable = { "xC00000" "xB840EC" "x4439B6" "x94668A" "xBFCBCE" "x051CA7" "x24BE2A" "x187903" "xD89E7C" "x43BD4A" "x736A5E" "x50F6C0" "x214628" "xB03FB7" "xAE1E42" "x8CED2A" "x9A9180" "x8B5AB4" "x4B6A2E" "x52B770" "x37EB3F" "x2F56C5" "xEAA023" "x5EDB0A" "xF4A312" "xA888D5" "x84EB43" "xBCFE54" "x55DF4F" "x3080F3" "x5EDA62" "xC9343B" "x118711" "x92E894" "xD95C0B" "xDF2A67" "x147817" "x278079" "xE83340" "x2D9E6C" "x7E592E" "x597D5B" "x65AFCB" "x2BA484" "xC14112" "x5C61D9" "x32050F" "xDE84A4" "x98B340" "xB2AFC0" "x2BE1B4" "x6F98D3" "xED30D2" "x05AA2F" "xB62FF6" "x09D5DB" "x3A766F" "xD1C123" "x79EDDF" "x922E7D" "xFDB4ED" "xFECC2E" "xEC0332" "x03C148" "xCC0B86" "xEE75BD" "x0C2257" "x765687" "x1D760A" "xDB358C" "x82B66A" "xAA1CD5" "x5FCC5F" "x25A09F" "x44ACBD" "xC96937" "xFF0829" "x0D0BF4" "x4C153A" "x559FE2" "x9D7645" "x07CE0C" "x0FA728" "xFEA40C" "x60FF15" "xC887C5" "x6E9D61" "x283D3D" "x5EB7E7" "xA9EBA4" "x657466" "xE0FFCC" "x37A238" "x8CFA62" "x22FF97" "x43162E" "xCB054C" "x603022" "x3DCE92" "x2094F9" "xA0C734" "x41185D" "xE88D0A" "xD67098" "x62DCD3" "x07C641" "x76D66C" "xAD7828" "x7D1BF9" "x2C67FE" "x449E10" "xEF0536" "x2E34E5" "xD3D52A" "xE440F8" "x1E6BCF" "xACEC06" "x33F024" "xA6C859" "xCDD6E6" "xE859C7" "xA9C595" "x8C4339" "xB75FDB" "x87179A" "x78DB78" "x7D1262" "xFC2D40" "x53ECD7" "x33B2D7" "x5C153E" "x3DD5D3" "x73C640" "x335E8E" "xC31379" "xD4ED47" "x8394A1" "x74E20C" "x7990AD" "x445E37" "x2A88BE" "x6191B6" "xE37E1A" "x849EF6" "x052092" "x2251C7" "x2BB077" "xEB5425" "x7E7B8F" "xC39386" "x6B7277" "x8E111C" "xA29A6E" "x0C2EAC" "xA6666F" "x857C6C" "x895877" "x648923" "x790E2B" "x4DDB14" "x4A5AAC" "x33E102" "x3F537F" "x3F01EE" "xCF5EF8" "x9E05B5" "xBD23EA" "x1F1596" "x805860" "x39FF7E" "x6B7246" "xFE1835" "x8F97A6" "xC98575" "x63A349" "x0DD63D" "x7C547D" "x5A3AC0" "xD1BB99" "x40F546" "x8FE5AB" "x36D556" "xD84651" "xE1A693" "x1DCB1D" "xFB1C89" "x0BDD2C" "xAD005A" "x2BBEDD" "xCA5DC8" "xA8B818" "xA16724" "xEFA80C" "x050A36" "x4AA500" "x2EF781" "xAE6212" "x8C3A89" "xBFDADD" "xE3B9DD" "x55C7D7" "xB1928E" "x3C9B4E" "x9B8D45" "x2A9054" "xCB2386" "x8E6A1D" "xED78CE" "xD27C82" "xD91154" "x0C947B" "x264B7A" "xD933E4" "x239E2F" "xE22284" "x38D5C7" "x16BF3F" "xB37342" "x9E34D9" "xBAF36E" "x7F31C7" "x7C1DBC" "x14BE37" "x176098" "xF04A61" "x2FD897" "x426CC6" "xF9F1F9" "x7E85A9" "x1B7C13" "x4D40FB" "xFD9F16" "x109112" "xB7576C" "x41C4B1" "x3ACB3B" "xDD4131" "xD01802" "x41A3C7" "x81BDFD" "x4F5E4C" "xF59546" "xBE3282" "x2C4A4D" "x441080" "xBFD965" "x064764" "xE9B55D" "xADC0BA" "x89449F" "xD1EF00" "x7D2E7D" "x863BE3" "x3F7A53" "x4C7F1B" "x0975BC" "xC039B7" "x9165B6" "x2246A1" "x31861A" "x489832" "xAAC817" "xA2F971" "x20427C" "xA2ABFA" "x28EC03" "x145948" "x5A76D4" "x55BDBD" "x910EE4" "x192984" "x021948" "xA19C08" "xFFA2D9" "x6CCC4E" "x543A2C" "xA98724" "xB017EA" "x871BDC" "xD27808" "x72A43D" "xB7CCF4" "x6C2B3F" "x8AA630" "xB2FE95" "x8471CE" "xCDD4E0" "xE38EBD" "x568651" "x9CD17E" "xBFF18A" "xBBB0CF" "x8E62F9" "xDD248D" "x136CAC" "x514DDC" "xA5A4F0" "x94BEF4" "x78D3B9" "xEB22CE" "x37E27D" "x226493" "x645235" "x3BD86A" "x943D34" "xA48248" "x53D559" "xE2FC83" "x134775" "x5C257E" "xCF55DB" "x688A87" "xD997BA" "x614A0B" "x5944CF" "x989C23" "x5C3A5B" "x1B967E" "xC5631B" "xE120CF" "x4125BE" "x4C6183" "xBEF1F0" "xD9F480" "x0C1683" "xBA43EF" "x7CC77F" "x43525A" "x1E26E1" "xE66133" "x135EA4" "xA38174" "x206858" "x57DDA0" "x4E223C" "xB71F67" "x08D187" "x3C10FA" "x1FC5DB" "x0938B7" "x7B73F1" "x9709C3" "x339B2C" "xC6746B" "x3C131F" "x762FBB" "xD84904" "x253000" "x962817" "x781474" "x20CCD9" "xEC87AD" "x991DD8" "xE47149" "xA6F50B" "x461F1E" "x0B215E" "xB091B4" "x9C1A90" "xF4F758" "x964EE4" "x641A73" "x2B301E" "x68E22B" "x53399C" "x4CD34B" "x8E0FC3" "x72651D" "x9F05DF" "x175438" "x5D3DBE" "x242DE2" "xEAAEB2" "x6A8756" "xA09BF8" "x55B895" "x6DB0BF" "xE4D2C0" "xD5BE4A" "x66E939" "x3C4807" "x5B4881" "x3B2981" "x63D2B4" "x1FF2FE" "xA5C0D6" "xD68306" "xDBD6A3" "x3F8861" "xB92E1C" "xFB564A" "x756618" "xAA1837" "x6BDCBC" "xAD5ACC" "x73148E" "xA01E46" "xE7A7A0" "x5C1431" "x333DD5" "x28EC12" "x15E299" "x193407" "x6F83E3" "xF98C57" "xD3E02B" "x365308" "x3FF213" "xABDF84" "x062126" "x196F16" "x577F5A" "xE665B2" "xEC738A" "x6D4AA5" "x62CD2D" "x7F9405" "x6A8F99" "x602C66" "x9DA82C" "xC96779" "x8C1A14" "x612D4C" "x7C56A7" "xF8D55C" "x9E71D4" "x01014E" "x4B17DB" "x483E8A" "x3927CD" "xCB8FBE" "x39275A" "x29F3A6" "xBA71E6" "x1F2AB3" "xBCA55C" "x91D56A" "xB97CB3" "x905042" "x3E347B" "xFAB0F8" "x6703FD" "x7164EB" "x2A245E" "x098E2F" "xBF2C65" "x1711CF" "x6A6A6A" "x9D07DD" "x0AAB61" "x7C9D2C" "xEE6D5F" "x6153B9" "x96B4F6" "xBAACF1" "x253F33" "x85F7FB" "xE35510" "x57538A" "x1084B8" "xCA14D8" "x392CBF" "x221290" "xAF6CAA" "x164737" "x67FE84" "xADC7CF" "xB87E55" "x5D05D1" "xBD3E24" "xC7C953" "xAFE705" "x2118D9" "x764722" "x72B56D" "x6B643E" "xD2F9BB" "x919129" "xB16711" "xF48040" "x7DD59E" "xC77507" "xB13372" "xD4C390" "x1DBFB3" "xE3F393" "x125F4D" "xBD4CC3" "xA68D7B" "x46C024" "x2BEA43" "xB35046" "xD11D05" "x18375A" "x177B79" "x0AEDE7" "xF504B3" "x48B422" "x1780AF" "x19E72F" "x8F553A" "x8D801C" "x9ADA02" "xFA8312" "xF8A372" "x59792F" "xF0F89B" "xBF87AA" "x02B436" "xEC3DB7" "x3670BC" "x831C37" "x9F5DFB" "x52DE28" "x07BEB5" "xA1E2EB" "x5D63E2" "xCC2ED1" "xE2EEB3" "xB6C546" "x7F4063" "xE0AEE7" "x52D2F1" "x5CF8E8" "xEB7797" "x881E54" "x3383E0" "x5AB097" "x9721EB" "xAE038D" "x288902" "x8F7436" "x2A1C97" "xD10FEC" "xC74610" "x4DD511" "x7F179D" "x98E7C3" "x56AA1D" "x31711B" "x150B2F" "x762DCA" "x977569" "xD4E147" "x12DF58" "x9BF19F" "x7EA51A" "x58273A" "xD0B6C2" "x3C7542" "xC58963" "x9BF3C8" "x5C9E7F" "x90EB0E" "x66DDBD" "xF5FFDC" "x5993E2" "xA7B1F4" "x2137C4" "x3B07FC" "xF4E6EE" "xAA1A65" "x51626E" "x2C09FA" "xFE76E8" "xF38808" "xA5AA6C" "x8FF205" "x7C2F94" "xE13253" "x0EFBA2" "x2B83B7" "x257BAE" "xD334F3" "x0CFB30" "x875118" "xF9970B" "xE6FFCA" "x7721EC" "x52F647" "x40B2DE" "xDC03C9" "x1F3AE9" "x97314F" "xE98306" "x07688A" "x9A0689" "xEEA176" "xF49BDC" "x220552" "xCBFADF" "x3489FE" "x576151" "x1B00F0" "xDB87B7" "xF81433" "x6BF8A0" "xEA2558" "xC127C3" "xB0C6FE" "x209FA6" "x84B0F6" "x6023B2" "xA8A9CA" "x3DB4D7" "x360420" "x6D2760" "xFFEF4A" "x5701DA" "x787759" "xC97635" "xFDA67A" "x81EBF5" "x6382DD" "xCF080C" "x22103F" "xF76975" "x1AADF8" "x3DEC00" "x20C17A" "x6BEC88" "xA7B36A" "x4D61C5" "x8AB034" "xC7E903" "x7EBFD2" "x12848D" "x0A1FF9" "x45A8BD" "x7B994C" "x405DCA" "x30BF2A" "x5C9007" "xF423DB" "x63A92C" }
+    traits = { "state_trait_yukon_river_salmon_run" "state_trait_siberian_terrain" }
+    city = "xD82BF2"
+    port = "x7A5194"
+    farm = "x63763A"
+    mine = "xC887C5"
+    wood = "x17211C"
+    arable_land = 20
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 32
+        building_logging_camp = 90
+        building_whaling_station = 8
+        building_fishing_wharf = 10
+        building_natural_gas_mines = 60
+        building_uranium_mine = 30
+    }
+    resource = {
+        type = "building_gold_field"
+        depleted_type = "building_gold_mine"
+        undiscovered_amount = 12
+    }
+    naval_exit_id = 3119
+}
+
+STATE_GALICH = {
+    id = 147
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x000181" "x012E20" "x02E29B" "x031459" "x0354D9" "x05D4BF" "x075A1C" "x0A7A8A" "x0AEB68" "x0B6ACE" "x0C1CF9" "x0C941C" "x0D15CC" "x0DA3D2" "x0E298C" "x0E2DCA" "x0E4CF4" "x0EACC1" "x10421E" "x10A63E" "x13128B" "x142D30" "x14F3BE" "x16226B" "x16B133" "x1734B3" "x187498" "x18DCB2" "x1AE02D" "x1B14F9" "x1C0487" "x1CE50A" "x1D2223" "x1EE258" "x1F4BCA" "x1F52FF" "x1FCB93" "x1FD22C" "x1FF9D6" "x2011E6" "x207E97" "x208040" "x20C3FA" "x214B8E" "x218C4E" "x21F08B" "x233AF1" "x23C05A" "x2478A2" "x25A538" "x25AD95" "x25D89D" "x25E8A6" "x26655D" "x26F544" "x285C9C" "x29DFEF" "x2A2FE6" "x2BE292" "x2C862B" "x307D58" "x309392" "x30A266" "x3126AE" "x33C25F" "x34514C" "x349AF2" "x36909F" "x378B3F" "x3CFD3C" "x3D4310" "x3E2878" "x3F1955" "x42BDA1" "x42E39F" "x43B443" "x447E03" "x45F663" "x484022" "x494FA9" "x4B1E24" "x4C706B" "x4CC517" "x4CDCC1" "x4D2002" "x4E1217" "x4E5B9F" "x516DF0" "x53C825" "x54E958" "x58DBC8" "x58F173" "x5B9F7D" "x5C62C9" "x5C96AB" "x5CB6C2" "x5E8636" "x5E9259" "x5EE2D0" "x5F949C" "x60053A" "x604180" "x61562C" "x6221DB" "x625F98" "x62891E" "x62E9DA" "x632A08" "x641F7E" "x6579D2" "x668C3E" "x69648C" "x698F78" "x6A932C" "x6AC96D" "x6B739D" "x6C039E" "x6C95EC" "x6D0027" "x6DE113" "x6E239F" "x6E4F53" "x6ED279" "x6F2AC4" "x70CD14" "x70EE4A" "x726FCF" "x730769" "x73FC4F" "x741EFC" "x754209" "x773532" "x77E69D" "x77EAD9" "x7AB134" "x7BAA6C" "x7C223A" "x7EBF8B" "x7F09CE" "x7F4989" "x7FE794" "x801A38" "x804120" "x823348" "x826AF1" "x835452" "x83BEB8" "x84213E" "x84D03C" "x852104" "x867A31" "x868EF5" "x87AE06" "x8803EC" "x8A82B0" "x8B3F77" "x8CBFA4" "x8DEF0D" "x8E109A" "x8E236E" "x8E4C3B" "x9150D1" "x930E8C" "x941E57" "x949437" "x952880" "x959C77" "x96D4D5" "x996E51" "x9A1A6D" "x9BD719" "x9D4FED" "x9DD0BD" "x9E074B" "x9E18CC" "x9F906D" "xA08E2D" "xA0E977" "xA2F602" "xA3D7FA" "xA448BF" "xA4A9DF" "xA4C081" "xA4FE2F" "xA5410C" "xA5CFF7" "xA6C752" "xA7F595" "xA82C04" "xA84E61" "xA8E319" "xAB8034" "xADCD83" "xAF0F6E" "xAF5831" "xB10522" "xB4143D" "xB4431F" "xB47B6E" "xB52E0C" "xB59626" "xB824A5" "xB8D07C" "xB9372F" "xBC2FD3" "xBC57C3" "xBC7BF9" "xBCB931" "xBD0CFC" "xBF0692" "xBF9952" "xC0F6AB" "xC32BD0" "xC34006" "xC36A65" "xC55EBF" "xC6200A" "xC6AC60" "xC71BA8" "xC7DBAB" "xCADAA7" "xCB5484" "xCC6732" "xCC68B3" "xCC786B" "xCD5677" "xCE4010" "xCE6448" "xCEF2EA" "xCF3ACB" "xCF44D5" "xCFB54B" "xD02376" "xD0936B" "xD10FA3" "xD1A0DF" "xD1FF20" "xD2B385" "xD3852F" "xD41036" "xD53291" "xD586F1" "xD7FDB5" "xDA1620" "xDA6E23" "xDABDDC" "xDDC1A4" "xDE4A09" "xDF4080" "xDF420E" "xE06227" "xE0C080" "xE0D0F0" "xE0FC8D" "xE6AA10" "xE6DBB0" "xE78B80" "xE82CFC" "xE88D06" "xEA30EA" "xEB242F" "xEDC36C" "xEDE915" "xEEC9C6" "xF155D1" "xF1ACF2" "xF28110" "xF28202" "xF2E758" "xF3A4A1" "xF3E2F9" "xF42CBB" "xF5EEA8" "xF5FD47" "xF61C7D" "xF62997" "xF8A01C" "xF8B176" "xF96FC5" "xFA767B" "xFEF0CB" "xFF20F2" }
+    traits = { "state_trait_russian_forest" }
+    city = "xF42CBB"
+    farm = "x21F08B"
+    mine = "x13128B"
+    wood = "x29DFEF"
+    arable_land = 70
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 48
+        building_coal_mine = 72
+        building_iron_mine = 12
+        building_natural_gas_mines = 80
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+}
+
+STATE_URALSK = {
+    id = 441
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x00E170" "x024FEF" "x0264AE" "x032CA6" "x03D970" "x044E87" "x07204C" "x09A78F" "x09BF53" "x09D625" "x0A5153" "x0A5203" "x0A536E" "x0A68E0" "x0BE32E" "x118B82" "x1343FA" "x137A72" "x1DBF7E" "x1EA24F" "x202061" "x20663E" "x20999F" "x20AE87" "x23A192" "x285ED3" "x287729" "x2D27C6" "x2EAF5D" "x31BCAB" "x31D92C" "x32745E" "x32BA7F" "x3398D7" "x372422" "x389F61" "x38F85A" "x396B2F" "x3ADF14" "x3BED19" "x3DF767" "x4015A9" "x42F8B1" "x445B0F" "x447DA8" "x448823" "x466F4E" "x47D771" "x482E88" "x505B56" "x544E52" "x54B279" "x576B59" "x5A093C" "x5AAE42" "x5E2101" "x5E6DE0" "x636379" "x68D5C5" "x6B8061" "x6BA380" "x6BED25" "x6C4AFC" "x6CB6E4" "x702E4A" "x7281B9" "x729951" "x736584" "x73B0D9" "x745238" "x77E944" "x78CED8" "x7A0B02" "x7FAE7F" "x818962" "x820B82" "x839887" "x84BB74" "x85212C" "x85B325" "x85DBDD" "x873F80" "x875397" "x893233" "x8A60EF" "x8AD1D8" "x8EC3E4" "x8EFEFC" "x912BDA" "x918816" "x944AFB" "x969B20" "x999C2F" "x9B5561" "x9B5F76" "x9FC86F" "xA05932" "xA1D13D" "xA49B9D" "xA5EEB0" "xA73E93" "xA86F28" "xAB615D" "xAC0C13" "xB02CC9" "xB055C0" "xB22244" "xB4BA02" "xB6AD98" "xB8A7BC" "xB8C2BA" "xBA7175" "xBBCDF6" "xBEC5B8" "xBF10BF" "xC0703B" "xC090C0" "xC1B4B5" "xC1E0B1" "xC2D1FD" "xC82AAC" "xCCFBF7" "xCD2E5B" "xD02F90" "xD1364F" "xD19488" "xD1DAF9" "xD2C1B9" "xD5697A" "xD805E6" "xD80A79" "xD82B39" "xD97D9F" "xDB32CF" "xDB54E0" "xDCDFB1" "xDD121A" "xDF5085" "xE057F4" "xE51ED5" "xEA1BD5" "xEA852B" "xEC282D" "xEF7A45" "xEFB805" "xEFFD2B" "xF093EB" "xF3CFD6" "xF4D564" "xF55425" "xF8D42E" "xFD16B0" "xFE5B2A" }
+    city = "x0A5203"
+    farm = "x77E944"
+    mine = "xD1364F"
+    wood = "xEFFD2B"
+    arable_land = 35
+    traits = { "state_trait_western_steppe" }
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 7
+        building_natural_gas_mines = 70
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+}
+
+STATE_ROSTOV = {
+    id = 149
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x00D080" "x015080" "x045D1F" "x05C86D" "x1C7933" "x1F3466" "x25A8D9" "x2BA298" "x2BC1EA" "x2C7795" "x31FA95" "x386376" "x3B9730" "x45A839" "x4C684C" "x500F88" "x540AA7" "x5469A6" "x566420" "x5B788C" "x5FF764" "x698B74" "x6BA92A" "x7161E0" "x7C8235" "x7CE092" "x805180" "x877DBA" "x8C259F" "x92B853" "x965A33" "x9A1118" "xA34CA7" "xA526B5" "xA71AE3" "xAFB12B" "xAFC5AE" "xB3584E" "xBCA729" "xC05180" "xC8C540" "xCAE51A" "xCDEA34" "xCF1287" "xD1C0D1" "xD9240D" "xDDE385" "xE0A7F7" "xE0DD8E" "xE3D4F3" "xFE531B" "xFEDE19" "xFFA259" }
+    city = "x25A8D9"
+    port = "x805180"
+    farm = "xFE531B"
+    mine = "x3B9730"
+    wood = "xA71AE3"
+    arable_land = 125
+    traits = { "state_trait_don_river" "state_trait_western_steppe" "state_trait_black_soil" }
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 108
+        building_logging_camp = 7
+        building_natural_gas_mines = 50
+    }
+    naval_exit_id = 3094
+}
+
+STATE_UPPER_YENISEYSK = {
+    #done
+    id = 569
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x003439" "x006000" "x006D9C" "x008796" "x00978B" "x00B4F8" "x00C30A" "x00ED15" "x010401" "x01043F" "x010B0C" "x015B08" "x015BE4" "x017E90" "x017ECB" "x019360" "x019470" "x01B2DF" "x0209AE" "x020E64" "x02250F" "x026DE3" "x027C79" "x02DFED" "x02FADA" "x02FE94" "x032D65" "x03395E" "x034E79" "x035753" "x03755D" "x038FD6" "x0397F4" "x03AE54" "x03EC28" "x03F10B" "x03F9F4" "x040284" "x0420CB" "x043E5E" "x044709" "x04684B" "x0497AF" "x04A288" "x04A902" "x04BD95" "x04CFF9" "x04FF38" "x0505A1" "x0556F9" "x05CFB2" "x05ED4B" "x061886" "x061EDC" "x06582E" "x06A3DF" "x06A6F3" "x06B2CB" "x06CAE9" "x06DFAD" "x06F0EF" "x06F28D" "x070C8A" "x0744B9" "x0746D0" "x075CE3" "x078A08" "x079D45" "x07B040" "x07EC9F" "x07ECDA" "x07F7C5" "x080064" "x084CAC" "x08B006" "x08BF05" "x091966" "x093329" "x095009" "x095893" "x09E2F7" "x0A0B8D" "x0A111D" "x0A75E4" "x0B24B7" "x0B3790" "x0B3F71" "x0B464F" "x0B6271" "x0B7215" "x0B96E1" "x0BF523" "x0C018D" "x0C165C" "x0C1A5B" "x0C1BE5" "x0C7124" "x0C73A7" "x0C8DC8" "x0D0C1F" "x0D129C" "x0D1457" "x0D20F7" "x0D5034" "x0D89A9" "x0D8C62" "x0DB261" "x0DD0AA" "x0DDDE7" "x0E4B6A" "x0E77D7" "x0EC293" "x0EF56C" "x0F2459" "x0F4C3D" "x0F7478" "x0FDDDF" "x10249B" "x103FBB" "x104768" "x104960" "x108539" "x10868C" "x10A113" "x10D7D5" "x10F0B6" "x113DAE" "x117B90" "x11AFB6" "x11C682" "x11E999" "x123ACC" "x126E47" "x128EDC" "x12B75A" "x12D786" "x132250" "x134494" "x135E2E" "x137AA1" "x139D90" "x13A32E" "x13C362" "x13DAE5" "x14395A" "x14D1E7" "x153FDD" "x154977" "x15C016" "x15CE75" "x166785" "x16B136" "x16E93D" "x1717C6" "x17732A" "x17797E" "x178662" "x179B36" "x17F773" "x1803BD" "x180F53" "x1812B4" "x182F1F" "x1855B9" "x18C944" "x18CA89" "x18DE32" "x18E8AB" "x18EE50" "x18F4FA" "x18FBCD" "x192E74" "x193060" "x19500A" "x196211" "x19E2C9" "x1A0DC1" "x1A39D4" "x1A3F25" "x1A6B6C" "x1A741B" "x1B01C1" "x1B146F" "x1B259C" "x1B2D55" "x1B92F3" "x1B9828" "x1BA89B" "x1BDA2C" "x1C09B0" "x1C11CB" "x1C1932" "x1C2162" "x1C2AE9" "x1C50AD" "x1CAE73" "x1D27D2" "x1D363B" "x1DD480" "x1DD80F" "x1E6A4E" "x1E83FC" "x1E8B22" "x1ED6FB" "x1ED773" "x1EE7EA" "x1F2363" "x1F641E" "x1F65D9" "x1F92A9" "x1FA9A5" "x2052C6" "x206F13" "x207271" "x20BB73" "x215CD0" "x216A1C" "x21A23F" "x21E207" "x21E2AE" "x221090" "x221536" "x2217F9" "x224295" "x224FDD" "x22DF51" "x2301A4" "x230D9E" "x23237F" "x232B6A" "x2332F8" "x23340B" "x2395EC" "x23B95E" "x23CD47" "x23E1CD" "x23F0B7" "x248C9B" "x24950C" "x249580" "x24D985" "x24DDC6" "x24FF03" "x2519EB" "x25385C" "x254BD0" "x256F7B" "x25CD44" "x25CEEC" "x260C20" "x2644A5" "x266297" "x266F26" "x267C2B" "x26EC55" "x26FFC1" "x273BF0" "x27E5CF" "x282C40" "x284A6C" "x2851C0" "x289D8F" "x28A789" "x28B788" "x28C8ED" "x28CB45" "x28D407" "x28E955" "x290F3A" "x293704" "x2A2ECD" "x2A5462" "x2A81F3" "x2A83BC" "x2A8A17" "x2A93F0" "x2A9999" "x2AC68A" "x2AC795" "x2AE0B9" "x2AFD50" "x2B2BEF" "x2B6AFC" "x2B6E9A" "x2BE8DB" "x2C9058" "x2CA7A5" "x2CAE68" "x2D8BE5" "x2DD4D2" "x2E11AD" "x2E21A6" "x2E2B77" "x2E796F" "x2EC171" "x2F1CE4" "x2F50A6" "x2F6B22" "x2FACA6" "x2FBD4F" "x3000B6" "x300DE7" "x3026C5" "x3041EC" "x304EB5" "x306EDB" "x30B29B" "x30B508" "x30C09C" "x30C5F8" "x30D201" "x30D80B" "x30E3DE" "x30E89E" "x30F647" "x31301C" "x3146DD" "x317CE6" "x31A194" "x31AFC6" "x31D64D" "x31E672" "x320F3D" "x328A11" "x329E1D" "x32C90B" "x33512A" "x335C7C" "x337D99" "x33A9A9" "x33AEE0" "x33B8A5" "x33CAFB" "x341058" "x34765E" "x34780B" "x34AD8B" "x34FAF5" "x34FE5E" "x3524B0" "x353E68" "x35781D" "x357E0D" "x35836B" "x35C327" "x360474" "x367642" "x36E147" "x36F0BC" "x3767F6" "x377B5B" "x378C15" "x37BCBB" "x37E66C" "x37E773" "x37EB3E" "x3809EC" "x3829A0" "x38863D" "x38C20A" "x38CAD7" "x392E7C" "x39BE1A" "x39D698" "x39DFBE" "x39E52C" "x3A00C8" "x3A5A02" "x3AA24A" "x3AC9EF" "x3AD288" "x3AF269" "x3B0B4B" "x3B3EB2" "x3B48EB" "x3B5333" "x3B5778" "x3B66FF" "x3BB16E" "x3BCC2A" "x3BDCEC" "x3BE790" "x3C1E9C" "x3C3A6A" "x3C4FFD" "x3C54DA" "x3C6C53" "x3CAC0A" "x3CE7B3" "x3D0282" "x3D1B94" "x3D4AA0" "x3D5B6A" "x3D603F" "x3D7725" "x3D7AA7" "x3DB39D" "x3DCCEF" "x3DDD92" "x3E0D91" "x3E0FBE" "x3E2CC6" "x3E5616" "x3E6A8B" "x3E6C56" "x3EB607" "x3F3F14" "x3F59F8" "x3F8B74" "x3F90B9" "x3FAED7" "x3FD24C" "x3FD410" "x4016E6" "x40274F" "x403914" "x404728" "x4065B8" "x406FFE" "x4084D9" "x40A11D" "x40A3E5" "x40C7C7" "x40CAA9" "x413506" "x41395E" "x413975" "x4141CC" "x415B94" "x423601" "x42B8DE" "x4300CD" "x432D92" "x433F6F" "x437CCB" "x43B57A" "x43F380" "x442A6C" "x4436C5" "x44473F" "x4447E6" "x44626C" "x4468D6" "x449A95" "x44A804" "x44BFA3" "x44E373" "x44FDF1" "x450FD2" "x451B8C" "x455CB7" "x458A27" "x458C20" "x459842" "x45B10D" "x45E56D" "x463E1F" "x463F7A" "x464B80" "x465D06" "x466876" "x467D20" "x46AF2D" "x46CDE6" "x46DC58" "x46F524" "x470DAC" "x47329B" "x4740E5" "x4745A2" "x477458" "x477DA5" "x4780B3" "x47BD82" "x47C365" "x481E94" "x4834DA" "x48BFFB" "x48DE76" "x48EF29" "x49543B" "x495DC3" "x496054" "x4991EB" "x49A2FC" "x49B2AD" "x49BC6A" "x49DCFD" "x49F3ED" "x4A3CA8" "x4A9334" "x4AC928" "x4AD625" "x4ADBA6" "x4B3C0F" "x4BE1E7" "x4BEE58" "x4C38E5" "x4C4114" "x4C5F0D" "x4CBC08" "x4CD64F" "x4CD6AD" "x4CD8B3" "x4CF8EA" "x4D3C2E" "x4D48DB" "x4D4AB6" "x4DA9E6" "x4DB251" "x4DD44E" "x4DDB2F" "x4E2A7E" "x4E3F58" "x4E5228" "x4E5397" "x4E5FFD" "x4EF4C7" "x4F0DC9" "x4F0FA9" "x4F20E5" "x4FFB8F" "x50077E" "x50341D" "x5053D0" "x509492" "x50A97C" "x50CF51" "x50E0B5" "x515830" "x523D58" "x5263AD" "x52A910" "x52B509" "x53531E" "x539A9A" "x53A375" "x53DF1E" "x53F4AC" "x542192" "x542AF5" "x5457E2" "x5484EA" "x548D97" "x5501C5" "x552098" "x552B42" "x553FEC" "x5540EB" "x55411B" "x5555DA" "x555B52" "x5574CF" "x55904B" "x5594D7" "x55D16A" "x55E897" "x55F5DF" "x5612C3" "x563C31" "x565EC8" "x566975" "x568D98" "x56D9FD" "x56E7D4" "x56E8EF" "x571B75" "x5759E4" "x5797BC" "x57B4E0" "x57D886" "x57E3EA" "x57F316" "x582B62" "x5831DA" "x5890A5" "x58C4C2" "x58C9CC" "x58E041" "x595B06" "x597629" "x59E519" "x5A61E8" "x5AB492" "x5AC69C" "x5AD6ED" "x5AE84D" "x5B1524" "x5B1CE1" "x5B37F9" "x5B789A" "x5BCC76" "x5BE711" "x5BEB3A" "x5C0424" "x5C10A4" "x5C598D" "x5CD9A4" "x5D4668" "x5D58FE" "x5DC118" "x5DF742" "x5E0F15" "x5E833E" "x5EA8A7" "x5EDF35" "x5EE205" "x5EF723" "x5F05EE" "x5F2228" "x5FD0E8" "x5FF25D" "x5FFD49" "x602770" "x6090F2" "x60DBF2" "x60EAE6" "x610513" "x613362" "x6165D1" "x618339" "x618696" "x61CDC4" "x61D4B2" "x61D86E" "x6204EB" "x622229" "x622FB6" "x62B2FF" "x6361AC" "x6365D8" "x637589" "x63B2E1" "x63B5F2" "x63EE8B" "x64A189" "x64A663" "x64B572" "x64C6E1" "x64DC6B" "x653EE7" "x6550B4" "x661B12" "x6649CB" "x6650A8" "x6653D6" "x66614C" "x667F50" "x66A4C2" "x66E841" "x673322" "x67582F" "x6776BB" "x67D248" "x67D51F" "x67FD17" "x681940" "x6840AE" "x68458D" "x685A23" "x68692E" "x688109" "x688659" "x68A16D" "x68A58B" "x68FE93" "x692ED8" "x6992A6" "x6A367E" "x6A66C6" "x6AA6F0" "x6B4B2F" "x6B8DDE" "x6B92F0" "x6BE153" "x6BE542" "x6BEAB9" "x6BF8B0" "x6C059D" "x6C461D" "x6C7167" "x6C72EF" "x6C7894" "x6C7C6E" "x6C87F4" "x6CE039" "x6CEF83" "x6D0BC2" "x6D74E2" "x6D75FF" "x6D7957" "x6DCD1F" "x6DFFD7" "x6E04DA" "x6E7506" "x6E90E8" "x6EBD56" "x6ED781" "x6F89E4" "x6F8F5A" "x6F9675" "x700A4C" "x706B32" "x707DF6" "x7095F1" "x70AA0C" "x70D1B4" "x713EC8" "x714722" "x717BD8" "x717C92" "x719A6E" "x71B108" "x720C4E" "x722537" "x724E9D" "x72ADFE" "x72D079" "x730C84" "x735DA4" "x7417D5" "x74324D" "x743E6D" "x74D8D7" "x74DC46" "x751055" "x752856" "x753186" "x7531DF" "x75E169" "x76036B" "x7692F9" "x76E41E" "x7726B6" "x7754E0" "x777469" "x77996B" "x77C95E" "x77F70F" "x781322" "x784791" "x78583D" "x787B3B" "x789A35" "x78C847" "x78CC1A" "x78E111" "x79E4CB" "x7A5751" "x7A6BEB" "x7AB06F" "x7AB2EB" "x7AFE4C" "x7B1648" "x7B3D40" "x7B4035" "x7B77A1" "x7B792F" "x7BA3E8" "x7BDCAA" "x7BE741" "x7C3B44" "x7C4A1E" "x7C6BBB" "x7D4998" "x7D6482" "x7D9EB1" "x7DD14D" "x7DF74D" "x7DF8F1" "x7DFA09" "x7E0008" "x7E2664" "x7E3682" "x7E848E" "x7E9018" "x7E9C24" "x7F2E0C" "x7F33ED" "x7F3402" "x7F580A" "x7F5AA5" "x7FD0E5" "x806BA8" "x8080AF" "x808143" "x80832F" "x808A51" "x80C175" "x80C401" "x80D4FF" "x80D618" "x80F3D8" "x80FC21" "x8112BC" "x811B78" "x81229C" "x8163C9" "x81875C" "x819DA3" "x81F595" "x821D7B" "x822510" "x822B5B" "x82409C" "x826618" "x828CD4" "x829583" "x829D18" "x82A64F" "x82F97F" "x830968" "x8328C0" "x8336AD" "x833E08" "x83426C" "x834D14" "x834F97" "x8352B5" "x835698" "x83BCCB" "x83F9A9" "x847E4A" "x8480D2" "x84C045" "x85127D" "x851B11" "x85475A" "x855F04" "x8571E3" "x857444" "x8589D5" "x858BFF" "x85B7E6" "x85C984" "x85E062" "x8636E4" "x86F502" "x87290D" "x875D54" "x8796D9" "x87AA7D" "x87B918" "x87BDBB" "x87CF15" "x881786" "x882343" "x8853DA" "x8853F7" "x889DB1" "x88BDC5" "x88D8F6" "x88DC1D" "x894DB6" "x89515C" "x896E6B" "x89ABA1" "x89B615" "x89E079" "x8A24BD" "x8AD0B0" "x8ADFBB" "x8AE203" "x8AE6A0" "x8AEF65" "x8B0C25" "x8B2008" "x8B4340" "x8B7040" "x8B7959" "x8BBE10" "x8C02B7" "x8C5DC3" "x8C6C83" "x8C8F81" "x8CA3F1" "x8CAD6C" "x8CC59D" "x8CF3A4" "x8D705A" "x8D8793" "x8D8C99" "x8D91A7" "x8DA62F" "x8EA322" "x8ECBBA" "x8EF069" "x8F59E6" "x8F714F" "x8FC6DD" "x8FEF2E" "x9003BB" "x901B29" "x9021E5" "x9073FF" "x9082A5" "x9099B5" "x909C1C" "x909EC6" "x91101A" "x9139DE" "x915188" "x91A9E9" "x91C46B" "x91E0E4" "x920D29" "x92249F" "x925752" "x929A1A" "x92DA09" "x92E537" "x92F252" "x93520A" "x935A57" "x939420" "x93A4B3" "x93B578" "x93D727" "x93DE6A" "x940A43" "x941BD7" "x942445" "x9429B1" "x94988C" "x94B919" "x94B941" "x94D3FE" "x951C5C" "x952346" "x95326C" "x95BC60" "x961149" "x965AB5" "x96A5E2" "x9724BA" "x972EA4" "x973718" "x976D08" "x97A9FC" "x97C4C4" "x9802E3" "x98798F" "x98E56D" "x9934A5" "x99838A" "x99935A" "x999BB0" "x9A44A2" "x9A6DC5" "x9A8AAE" "x9ADA0C" "x9ADA13" "x9AEF31" "x9B22CB" "x9B2532" "x9B3B69" "x9B61C5" "x9BAD00" "x9BB4FD" "x9BBAD3" "x9BCB51" "x9BCD15" "x9BF76F" "x9C107C" "x9C273D" "x9C2F0F" "x9C3B11" "x9C4A74" "x9C4B6C" "x9C8D87" "x9CAD66" "x9D0B06" "x9D330A" "x9D559F" "x9D58E0" "x9D7F3A" "x9D9615" "x9DAC9E" "x9DE99F" "x9E509F" "x9E7356" "x9E8C27" "x9EC4C0" "x9F0637" "x9F3FF4" "x9F52D5" "x9FA46D" "x9FA507" "x9FBF65" "x9FC32C" "x9FF40A" "x9FFC0F" "x9FFCB3" "xA0284A" "xA07C01" "xA0A204" "xA0BF45" "xA105A6" "xA1094B" "xA128AD" "xA18B69" "xA1BBC8" "xA1C7FB" "xA2717A" "xA29749" "xA29C70" "xA29CBA" "xA2AFBC" "xA2E3F1" "xA2E945" "xA2EF6E" "xA2FBE9" "xA30803" "xA31961" "xA31C28" "xA3449E" "xA353F0" "xA35B65" "xA37913" "xA3824E" "xA3F5C5" "xA413E9" "xA43B9A" "xA4436B" "xA446BC" "xA49AF4" "xA49B8E" "xA4AE5C" "xA520AF" "xA5420A" "xA57389" "xA58DA3" "xA5D9C4" "xA5E6C1" "xA62F7D" "xA69B7F" "xA6A275" "xA6BFAF" "xA722EB" "xA729C7" "xA75609" "xA7B5C4" "xA7D8BC" "xA7E7C2" "xA85DE3" "xA87C3D" "xA89398" "xA8CF5A" "xA8D5BC" "xA90362" "xA93A48" "xA93A4E" "xA949DA" "xA9A251" "xA9A9FD" "xA9DD09" "xA9E801" "xA9FB2D" "xAA5940" "xAA702A" "xAA7EAF" "xAA7F0F" "xAAB6A5" "xAB2196" "xAB2AB6" "xAB50F1" "xAB6CC9" "xAB6E9E" "xABAEF6" "xABC769" "xABECC5" "xAC0CF1" "xAC1364" "xAC7579" "xACC07E" "xAD7904" "xADB16C" "xADFD4F" "xAEC0BB" "xAF1803" "xAF37B2" "xAF4340" "xAF69B3" "xAF80E0" "xAFE394" "xAFF0ED" "xB021F5" "xB04C94" "xB05457" "xB0567F" "xB13505" "xB1C4D6" "xB1FD42" "xB209C9" "xB2CFDA" "xB31243" "xB32669" "xB361FC" "xB36D23" "xB3B5BD" "xB43F75" "xB44823" "xB4B194" "xB4B345" "xB4E4DE" "xB4F97E" "xB54D80" "xB557E5" "xB58248" "xB5C9CA" "xB5D364" "xB6BFFD" "xB7971C" "xB798C7" "xB7ACB3" "xB7C9D0" "xB7CCFB" "xB84E76" "xB85FCC" "xB8B315" "xB8CAAD" "xB8E55E" "xB8EE59" "xB8F36A" "xB945A1" "xB99F1B" "xB9B5C4" "xB9D763" "xB9F54F" "xBA02B6" "xBA0548" "xBA2445" "xBA37C1" "xBA3C01" "xBA7367" "xBAB82D" "xBAFB81" "xBB2497" "xBB3726" "xBB4432" "xBB822C" "xBBB52B" "xBBEBB6" "xBBF9D4" "xBC019A" "xBC78EA" "xBC9C7B" "xBCDAFC" "xBCEDFA" "xBD9A75" "xBDBD59" "xBDC0A8" "xBDD01B" "xBDE483" "xBE2796" "xBE2DDB" "xBE3B5C" "xBE44F4" "xBE6B96" "xBE8253" "xBEBE88" "xBEC01C" "xBEC929" "xBEFEF6" "xBF2577" "xBF3178" "xBF5EAE" "xBF6850" "xBF93FB" "xBFADF4" "xBFD838" "xBFFB51" "xC01DAB" "xC027DD" "xC04062" "xC08D6D" "xC095F5" "xC0A72A" "xC0B167" "xC0C1F6" "xC0C3C5" "xC0F4E7" "xC12D85" "xC1341D" "xC151EF" "xC1686F" "xC19749" "xC1B738" "xC1D4D9" "xC293A4" "xC2D5D5" "xC2F281" "xC3138B" "xC314B3" "xC3267D" "xC35201" "xC353DC" "xC37ED4" "xC37FA4" "xC3992A" "xC3A557" "xC3AEC2" "xC3BC8C" "xC3D75F" "xC3F5F3" "xC3FD6C" "xC405FE" "xC41AAB" "xC43101" "xC4404F" "xC460C5" "xC4683F" "xC468BE" "xC488A6" "xC4BF52" "xC5278C" "xC5295A" "xC53DB6" "xC5F673" "xC5F813" "xC6227A" "xC6B1C2" "xC74380" "xC75BA5" "xC78540" "xC7F2FD" "xC85157" "xC8740C" "xC89E96" "xC8B8DB" "xC8D7F1" "xC936DB" "xC9A17F" "xC9A396" "xC9C2AD" "xC9CE99" "xC9D3CA" "xC9D510" "xCA0934" "xCA3162" "xCA3F25" "xCA5EA7" "xCA748F" "xCB3E73" "xCB4F60" "xCB668C" "xCB6785" "xCB83EF" "xCBA5CE" "xCBB816" "xCC4ABE" "xCC87D7" "xCCCF72" "xCD50AA" "xCDC6C5" "xCDE76B" "xCE0FBE" "xCE2975" "xCE29D6" "xCEA321" "xCEDA9D" "xCEF473" "xCF6C75" "xCF96A5" "xCFD938" "xD01D65" "xD08018" "xD09528" "xD0C6A5" "xD0CE26" "xD0D01F" "xD1068C" "xD118AD" "xD120E7" "xD13EEF" "xD16B18" "xD1B1DC" "xD24AD7" "xD24FD4" "xD26928" "xD284B9" "xD2A5E3" "xD2AF0A" "xD2D037" "xD2D226" "xD31F0E" "xD34269" "xD371FC" "xD43784" "xD44B66" "xD4740E" "xD4910F" "xD49614" "xD49AF8" "xD4BED7" "xD4C3AF" "xD4DD73" "xD52D01" "xD55E9C" "xD5740B" "xD5C1BD" "xD5F828" "xD6262A" "xD659D1" "xD6A174" "xD6B8B4" "xD6BDB2" "xD6DD66" "xD6EA2F" "xD75EDB" "xD7787F" "xD7B637" "xD7BBA4" "xD7C3E2" "xD8256D" "xD86E3F" "xD8759D" "xD87DB3" "xD886BB" "xD8985C" "xD8A0B2" "xD8BD00" "xD8D2FC" "xD95BFE" "xD9DCE0" "xDA18C8" "xDA78C0" "xDA850E" "xDAD0B0" "xDB42C8" "xDB4787" "xDB650B" "xDB87DD" "xDB9E60" "xDBC9A8" "xDBE550" "xDC1B73" "xDC4B4E" "xDC608C" "xDC6147" "xDD10A1" "xDD44A9" "xDD6507" "xDD8138" "xDDE487" "xDDEDE5" "xDE33CE" "xDE554F" "xDEF3E1" "xDF0149" "xDF0416" "xDF0A8A" "xDF7936" "xDF7EBA" "xDF8B33" "xDFFA67" "xE00141" "xE010DE" "xE019F7" "xE03DA0" "xE05DAB" "xE0864A" "xE0E6A6" "xE11435" "xE118F4" "xE15762" "xE1869B" "xE1A7E0" "xE1D937" "xE1F181" "xE201BD" "xE2069B" "xE20D59" "xE217A5" "xE2313D" "xE2379F" "xE25BD6" "xE2992E" "xE2DE6E" "xE2F286" "xE317DD" "xE32398" "xE3820F" "xE39454" "xE419A2" "xE41FB6" "xE44EB0" "xE46E35" "xE46FED" "xE4C1CF" "xE5023F" "xE50354" "xE551E6" "xE5C06E" "xE613D4" "xE621CE" "xE624AD" "xE6610F" "xE6A124" "xE70C84" "xE70D05" "xE74E17" "xE78C45" "xE7FB8E" "xE812DD" "xE822B3" "xE83573" "xE88A8F" "xE9066F" "xE91CCF" "xE92086" "xE92A06" "xE94B32" "xE990AD" "xE9A726" "xEA2B7E" "xEA452E" "xEA77E4" "xEA7FF4" "xEA8BB2" "xEACBCF" "xEB53FD" "xEBCE77" "xEBD63D" "xEC0B79" "xEC0F1F" "xEC3CF8" "xEC46F6" "xEC5558" "xEC6DC5" "xEC8B7E" "xECC25A" "xECCA23" "xECCB74" "xECCCF3" "xED1861" "xED1A93" "xED3B36" "xED5522" "xEDB2CF" "xEDEA92" "xEE1D05" "xEE1D3D" "xEE2064" "xEE21BD" "xEE4CFE" "xEE827E" "xEEA040" "xEEAA62" "xEEAB6C" "xEF03C5" "xEF0CB3" "xEF3AB7" "xEF56A5" "xEF7075" "xEFA034" "xEFFC2E" "xF02A76" "xF04372" "xF04CA7" "xF061B7" "xF07B21" "xF08417" "xF09ABC" "xF0C8DE" "xF0CD17" "xF0F820" "xF14A1C" "xF187C7" "xF18C8A" "xF190CC" "xF19931" "xF1AA8E" "xF1C62F" "xF1D1B6" "xF1D3A4" "xF1D45A" "xF1DA82" "xF24934" "xF24D71" "xF271BF" "xF28BD7" "xF29913" "xF2C303" "xF39066" "xF3B7E6" "xF48E4A" "xF49B63" "xF4AA14" "xF4D229" "xF5345A" "xF5501A" "xF55289" "xF5709F" "xF5B543" "xF5C042" "xF64F02" "xF6C992" "xF6F1DF" "xF710D7" "xF719DB" "xF72E72" "xF73023" "xF73DFB" "xF76E68" "xF7BB4B" "xF7F8FB" "xF802E7" "xF8307F" "xF8562B" "xF8886A" "xF8D4FB" "xF8DD2F" "xF8E907" "xF8F0E7" "xF90CD4" "xF92FAE" "xF953FE" "xF96530" "xF97D09" "xF99BED" "xF9D6E1" "xF9D7D1" "xF9E24E" "xFA241C" "xFA35A3" "xFA729D" "xFA91EF" "xFAAA73" "xFAAE48" "xFAC01D" "xFAF1B9" "xFB2D88" "xFB3575" "xFB44B7" "xFB7642" "xFBE23C" "xFC46FA" "xFC4E4B" "xFCC713" "xFCE8FA" "xFCF014" "xFD1DB2" "xFD244C" "xFD347E" "xFD39FC" "xFDB8B3" "xFDBBF1" "xFDF7AD" "xFE2449" "xFE3437" "xFE4DB1" "xFE57BA" "xFEB987" "xFEC41B" "xFF5BCD" "xFF9B0D" "xFFC491" "xFFDD1B" }
+    impassable = { "x003439" "x006D9C" "x008796" "x00B4F8" "x00C30A" "x00ED15" "x010401" "x010B0C" "x015B08" "x015BE4" "x017E90" "x017ECB" "x019360" "x019470" "x0209AE" "x02250F" "x027C79" "x02DFED" "x02FE94" "x032D65" "x03395E" "x034E79" "x03755D" "x038FD6" "x0397F4" "x03EC28" "x03F9F4" "x040284" "x0420CB" "x044709" "x04684B" "x0497AF" "x04CFF9" "x04FF38" "x0505A1" "x05CFB2" "x05ED4B" "x061886" "x06582E" "x06A3DF" "x06B2CB" "x06CAE9" "x06DFAD" "x06F28D" "x070C8A" "x0744B9" "x0746D0" "x075CE3" "x079D45" "x07B040" "x07EC9F" "x07ECDA" "x07F7C5" "x084CAC" "x091966" "x095009" "x09E2F7" "x0A111D" "x0A75E4" "x0B24B7" "x0B3790" "x0B464F" "x0B6271" "x0B96E1" "x0BF523" "x0C165C" "x0C1BE5" "x0C73A7" "x0C8DC8" "x0D0C1F" "x0D129C" "x0D1457" "x0D20F7" "x0D5034" "x0D89A9" "x0D8C62" "x0DB261" "x0DDDE7" "x0E77D7" "x0EC293" "x0F2459" "x0F4C3D" "x0F7478" "x0FDDDF" "x10249B" "x103FBB" "x104960" "x108539" "x10868C" "x10A113" "x10D7D5" "x10F0B6" "x113DAE" "x11AFB6" "x11C682" "x11E999" "x123ACC" "x126E47" "x12B75A" "x12D786" "x134494" "x135E2E" "x139D90" "x13A32E" "x13C362" "x13DAE5" "x14395A" "x153FDD" "x154977" "x15C016" "x15CE75" "x166785" "x16B136" "x16E93D" "x17732A" "x17797E" "x178662" "x179B36" "x17F773" "x1803BD" "x180F53" "x1812B4" "x182F1F" "x1855B9" "x18C944" "x18CA89" "x18F4FA" "x18FBCD" "x192E74" "x193060" "x196211" "x1A39D4" "x1A3F25" "x1A6B6C" "x1A741B" "x1B01C1" "x1B2D55" "x1B92F3" "x1B9828" "x1BDA2C" "x1C1932" "x1C2162" "x1C2AE9" "x1C50AD" "x1CAE73" "x1D363B" "x1DD480" "x1ED6FB" "x1EE7EA" "x1F641E" "x1F65D9" "x1F92A9" "x1FA9A5" "x2052C6" "x206F13" "x20BB73" "x215CD0" "x216A1C" "x21A23F" "x21E207" "x2217F9" "x224295" "x224FDD" "x22DF51" "x230D9E" "x23237F" "x232B6A" "x2332F8" "x23340B" "x23CD47" "x23E1CD" "x23F0B7" "x24950C" "x249580" "x24D985" "x24FF03" "x2519EB" "x25385C" "x256F7B" "x25CEEC" "x260C20" "x2644A5" "x266297" "x266F26" "x267C2B" "x26EC55" "x26FFC1" "x273BF0" "x27E5CF" "x284A6C" "x2851C0" "x28A789" "x28C8ED" "x28CB45" "x28D407" "x28E955" "x290F3A" "x2A2ECD" "x2A81F3" "x2A83BC" "x2A93F0" "x2AC795" "x2AE0B9" "x2AFD50" "x2B2BEF" "x2B6AFC" "x2B6E9A" "x2BE8DB" "x2CA7A5" "x2CAE68" "x2DD4D2" "x2E11AD" "x2E21A6" "x2E2B77" "x2E796F" "x2F1CE4" "x2F6B22" "x2FACA6" "x2FBD4F" "x3000B6" "x300DE7" "x3026C5" "x304EB5" "x306EDB" "x30B508" "x30C09C" "x30C5F8" "x30D80B" "x30E3DE" "x30E89E" "x31301C" "x3146DD" "x317CE6" "x31A194" "x31AFC6" "x31D64D" "x320F3D" "x328A11" "x32C90B" "x33512A" "x33A9A9" "x33AEE0" "x33B8A5" "x33CAFB" "x341058" "x34765E" "x34AD8B" "x3524B0" "x353E68" "x357E0D" "x35836B" "x35C327" "x360474" "x367642" "x36E147" "x36F0BC" "x377B5B" "x378C15" "x37BCBB" "x37E66C" "x37E773" "x37EB3E" "x3809EC" "x3829A0" "x392E7C" "x39BE1A" "x39D698" "x39DFBE" "x3A00C8" "x3A5A02" "x3AA24A" "x3AD288" "x3B0B4B" "x3B3EB2" "x3B48EB" "x3B5333" "x3B5778" "x3BB16E" "x3BCC2A" "x3BDCEC" "x3BE790" "x3C4FFD" "x3C54DA" "x3CAC0A" "x3D4AA0" "x3D603F" "x3D7AA7" "x3DB39D" "x3DDD92" "x3E0FBE" "x3E2CC6" "x3E5616" "x3E6A8B" "x3E6C56" "x3EB607" "x3F3F14" "x3F59F8" "x3F8B74" "x3FAED7" "x3FD24C" "x4016E6" "x403914" "x404728" "x406FFE" "x40A11D" "x40A3E5" "x40C7C7" "x40CAA9" "x413506" "x41395E" "x413975" "x4141CC" "x415B94" "x423601" "x432D92" "x433F6F" "x43B57A" "x43F380" "x442A6C" "x4436C5" "x44473F" "x4468D6" "x44A804" "x44BFA3" "x44E373" "x44FDF1" "x450FD2" "x451B8C" "x458A27" "x458C20" "x459842" "x45B10D" "x45E56D" "x463E1F" "x463F7A" "x464B80" "x465D06" "x466876" "x467D20" "x46AF2D" "x46CDE6" "x46DC58" "x470DAC" "x477DA5" "x4780B3" "x47BD82" "x481E94" "x4834DA" "x48EF29" "x49543B" "x496054" "x4991EB" "x49B2AD" "x49DCFD" "x4A3CA8" "x4A9334" "x4AC928" "x4AD625" "x4BEE58" "x4C4114" "x4C5F0D" "x4CD64F" "x4CD8B3" "x4D3C2E" "x4D48DB" "x4D4AB6" "x4DA9E6" "x4DB251" "x4DD44E" "x4DDB2F" "x4E3F58" "x4E5397" "x4E5FFD" "x4F0DC9" "x4F0FA9" "x4F20E5" "x4FFB8F" "x50077E" "x5053D0" "x509492" "x50A97C" "x50CF51" "x50E0B5" "x515830" "x523D58" "x52B509" "x53531E" "x53A375" "x53DF1E" "x542192" "x542AF5" "x5484EA" "x5501C5" "x552098" "x552B42" "x553FEC" "x5540EB" "x55411B" "x5555DA" "x555B52" "x55904B" "x5594D7" "x55D16A" "x55E897" "x55F5DF" "x563C31" "x565EC8" "x566975" "x568D98" "x56D9FD" "x56E7D4" "x571B75" "x5759E4" "x5797BC" "x57B4E0" "x57E3EA" "x582B62" "x5831DA" "x58C4C2" "x58C9CC" "x595B06" "x597629" "x59E519" "x5AB492" "x5AC69C" "x5AD6ED" "x5B1524" "x5B1CE1" "x5BE711" "x5BEB3A" "x5C10A4" "x5C598D" "x5CD9A4" "x5D58FE" "x5DC118" "x5DF742" "x5E833E" "x5EA8A7" "x5EDF35" "x5EE205" "x5F05EE" "x5F2228" "x5FF25D" "x602770" "x6090F2" "x60DBF2" "x610513" "x618339" "x61CDC4" "x61D86E" "x6204EB" "x622229" "x6361AC" "x63B2E1" "x63EE8B" "x64A663" "x64B572" "x64DC6B" "x653EE7" "x6550B4" "x661B12" "x667F50" "x66E841" "x673322" "x67582F" "x67D248" "x67D51F" "x67FD17" "x681940" "x6840AE" "x68458D" "x68692E" "x688109" "x688659" "x68A16D" "x68A58B" "x68FE93" "x692ED8" "x6992A6" "x6A367E" "x6AA6F0" "x6B4B2F" "x6B8DDE" "x6BE153" "x6BE542" "x6BEAB9" "x6BF8B0" "x6C7167" "x6C72EF" "x6C7894" "x6C7C6E" "x6C87F4" "x6CE039" "x6D0BC2" "x6D74E2" "x6D7957" "x6DCD1F" "x6DFFD7" "x6E04DA" "x6ED781" "x6F89E4" "x6F8F5A" "x6F9675" "x700A4C" "x706B32" "x707DF6" "x7095F1" "x717C92" "x71B108" "x720C4E" "x722537" "x724E9D" "x72ADFE" "x72D079" "x730C84" "x735DA4" "x74324D" "x74D8D7" "x752856" "x7531DF" "x75E169" "x7692F9" "x7726B6" "x777469" "x77996B" "x77C95E" "x781322" "x784791" "x787B3B" "x789A35" "x78CC1A" "x78E111" "x79E4CB" "x7A5751" "x7A6BEB" "x7AB06F" "x7B1648" "x7B3D40" "x7B4035" "x7B792F" "x7BA3E8" "x7BE741" "x7C3B44" "x7C4A1E" "x7D6482" "x7D9EB1" "x7DD14D" "x7DF74D" "x7DF8F1" "x7DFA09" "x7E0008" "x7E2664" "x7E3682" "x7E848E" "x7E9018" "x7E9C24" "x7F33ED" "x7F3402" "x7F580A" "x7F5AA5" "x7FD0E5" "x8080AF" "x80832F" "x808A51" "x80C175" "x80C401" "x80D4FF" "x80F3D8" "x80FC21" "x8163C9" "x819DA3" "x81F595" "x821D7B" "x822510" "x822B5B" "x82409C" "x826618" "x828CD4" "x829583" "x829D18" "x82A64F" "x82F97F" "x830968" "x8328C0" "x833E08" "x83426C" "x834D14" "x834F97" "x835698" "x83BCCB" "x83F9A9" "x8480D2" "x84C045" "x851B11" "x85475A" "x855F04" "x8571E3" "x857444" "x8589D5" "x86F502" "x87290D" "x875D54" "x87AA7D" "x87B918" "x87BDBB" "x881786" "x882343" "x8853DA" "x8853F7" "x88BDC5" "x88D8F6" "x88DC1D" "x89515C" "x896E6B" "x89B615" "x89E079" "x8A24BD" "x8ADFBB" "x8AEF65" "x8B0C25" "x8B2008" "x8B7040" "x8B7959" "x8BBE10" "x8C02B7" "x8C5DC3" "x8C6C83" "x8CA3F1" "x8CF3A4" "x8D705A" "x8D8793" "x8D8C99" "x8D91A7" "x8EA322" "x8ECBBA" "x8EF069" "x8F59E6" "x8F714F" "x8FC6DD" "x8FEF2E" "x9003BB" "x901B29" "x9073FF" "x9082A5" "x9099B5" "x91101A" "x915188" "x91A9E9" "x91C46B" "x91E0E4" "x920D29" "x92249F" "x925752" "x929A1A" "x92DA09" "x92F252" "x93520A" "x935A57" "x93A4B3" "x93B578" "x93DE6A" "x940A43" "x942445" "x9429B1" "x94988C" "x94B941" "x951C5C" "x952346" "x95326C" "x95BC60" "x961149" "x96A5E2" "x9724BA" "x972EA4" "x973718" "x976D08" "x97C4C4" "x9802E3" "x98E56D" "x9934A5" "x99838A" "x99935A" "x999BB0" "x9A44A2" "x9A6DC5" "x9A8AAE" "x9ADA0C" "x9ADA13" "x9AEF31" "x9B22CB" "x9B2532" "x9B3B69" "x9BAD00" "x9BB4FD" "x9BCB51" "x9BCD15" "x9BF76F" "x9C2F0F" "x9C8D87" "x9CAD66" "x9D0B06" "x9D330A" "x9D58E0" "x9D7F3A" "x9D9615" "x9DE99F" "x9E7356" "x9EC4C0" "x9F3FF4" "x9F52D5" "x9FA46D" "x9FA507" "x9FC32C" "x9FF40A" "x9FFCB3" "xA07C01" "xA0A204" "xA0BF45" "xA105A6" "xA1094B" "xA128AD" "xA18B69" "xA1BBC8" "xA2717A" "xA29749" "xA29C70" "xA29CBA" "xA2E3F1" "xA2E945" "xA2EF6E" "xA30803" "xA31961" "xA31C28" "xA353F0" "xA35B65" "xA37913" "xA3824E" "xA3F5C5" "xA4436B" "xA446BC" "xA49AF4" "xA49B8E" "xA4AE5C" "xA520AF" "xA5420A" "xA57389" "xA58DA3" "xA5D9C4" "xA5E6C1" "xA62F7D" "xA69B7F" "xA6A275" "xA6BFAF" "xA722EB" "xA729C7" "xA75609" "xA7B5C4" "xA7E7C2" "xA85DE3" "xA89398" "xA8CF5A" "xA8D5BC" "xA90362" "xA93A48" "xA93A4E" "xA949DA" "xA9A251" "xA9DD09" "xA9E801" "xA9FB2D" "xAA702A" "xAA7EAF" "xAAB6A5" "xAB2AB6" "xAB6CC9" "xAB6E9E" "xABC769" "xABECC5" "xAC0CF1" "xAC7579" "xACC07E" "xAD7904" "xADFD4F" "xAEC0BB" "xAF1803" "xAF4340" "xAF69B3" "xAF80E0" "xAFE394" "xAFF0ED" "xB1FD42" "xB209C9" "xB2CFDA" "xB31243" "xB32669" "xB361FC" "xB36D23" "xB3B5BD" "xB44823" "xB4B194" "xB4F97E" "xB54D80" "xB557E5" "xB58248" "xB5C9CA" "xB5D364" "xB6BFFD" "xB7971C" "xB7ACB3" "xB7CCFB" "xB84E76" "xB85FCC" "xB8B315" "xB8EE59" "xB99F1B" "xB9B5C4" "xB9F54F" "xBA2445" "xBA3C01" "xBA7367" "xBAFB81" "xBB2497" "xBB3726" "xBBEBB6" "xBC019A" "xBC78EA" "xBC9C7B" "xBCDAFC" "xBCEDFA" "xBD9A75" "xBDBD59" "xBDC0A8" "xBDD01B" "xBE3B5C" "xBE44F4" "xBE6B96" "xBE8253" "xBEBE88" "xBEC01C" "xBEC929" "xBEFEF6" "xBF2577" "xBF3178" "xBF5EAE" "xBF6850" "xBF93FB" "xBFD838" "xBFFB51" "xC01DAB" "xC027DD" "xC04062" "xC08D6D" "xC095F5" "xC0C1F6" "xC0C3C5" "xC0F4E7" "xC12D85" "xC1B738" "xC1D4D9" "xC293A4" "xC2D5D5" "xC2F281" "xC3138B" "xC314B3" "xC3267D" "xC35201" "xC353DC" "xC37ED4" "xC37FA4" "xC3992A" "xC3A557" "xC3AEC2" "xC3D75F" "xC3FD6C" "xC405FE" "xC41AAB" "xC43101" "xC460C5" "xC4683F" "xC468BE" "xC488A6" "xC4BF52" "xC5F673" "xC5F813" "xC6227A" "xC6B1C2" "xC74380" "xC75BA5" "xC78540" "xC7F2FD" "xC85157" "xC8740C" "xC89E96" "xC8D7F1" "xC936DB" "xC9A17F" "xC9A396" "xC9C2AD" "xC9CE99" "xC9D3CA" "xCA0934" "xCA3F25" "xCA5EA7" "xCA748F" "xCB3E73" "xCB6785" "xCBA5CE" "xCBB816" "xCCCF72" "xCD50AA" "xCDC6C5" "xCDE76B" "xCE29D6" "xCEDA9D" "xCEF473" "xCF6C75" "xD01D65" "xD09528" "xD0C6A5" "xD0D01F" "xD1068C" "xD118AD" "xD16B18" "xD1B1DC" "xD24AD7" "xD24FD4" "xD26928" "xD2A5E3" "xD2AF0A" "xD2D037" "xD34269" "xD371FC" "xD44B66" "xD4740E" "xD4910F" "xD49614" "xD49AF8" "xD4BED7" "xD4C3AF" "xD52D01" "xD5740B" "xD5C1BD" "xD5F828" "xD6262A" "xD659D1" "xD6A174" "xD6B8B4" "xD6DD66" "xD75EDB" "xD7B637" "xD8256D" "xD8759D" "xD8BD00" "xD95BFE" "xD9DCE0" "xDA78C0" "xDA850E" "xDAD0B0" "xDB42C8" "xDB4787" "xDB650B" "xDBC9A8" "xDC4B4E" "xDC608C" "xDC6147" "xDD10A1" "xDD44A9" "xDD6507" "xDD8138" "xDDE487" "xDDEDE5" "xDE33CE" "xDE554F" "xDF0149" "xDF0416" "xDF0A8A" "xDF7936" "xDF8B33" "xDFFA67" "xE010DE" "xE019F7" "xE0864A" "xE0E6A6" "xE11435" "xE15762" "xE1869B" "xE1A7E0" "xE1D937" "xE1F181" "xE20D59" "xE217A5" "xE2992E" "xE32398" "xE3820F" "xE44EB0" "xE46E35" "xE5C06E" "xE624AD" "xE6610F" "xE6A124" "xE70D05" "xE74E17" "xE78C45" "xE7FB8E" "xE822B3" "xE91CCF" "xE92A06" "xE94B32" "xE990AD" "xE9A726" "xEA2B7E" "xEA452E" "xEA77E4" "xEB53FD" "xEBCE77" "xEBD63D" "xEC0F1F" "xEC46F6" "xEC5558" "xEC6DC5" "xEC8B7E" "xECC25A" "xECCA23" "xECCB74" "xED1861" "xED5522" "xEDB2CF" "xEDEA92" "xEE1D05" "xEE1D3D" "xEE21BD" "xEE4CFE" "xEE827E" "xEEA040" "xEEAB6C" "xEF03C5" "xEF0CB3" "xEF3AB7" "xEF56A5" "xEFFC2E" "xF02A76" "xF04372" "xF04CA7" "xF061B7" "xF08417" "xF09ABC" "xF0C8DE" "xF14A1C" "xF187C7" "xF18C8A" "xF190CC" "xF19931" "xF1AA8E" "xF1D1B6" "xF1D3A4" "xF1DA82" "xF24934" "xF24D71" "xF271BF" "xF28BD7" "xF29913" "xF2C303" "xF48E4A" "xF49B63" "xF4AA14" "xF5501A" "xF5709F" "xF5C042" "xF64F02" "xF6C992" "xF710D7" "xF72E72" "xF7F8FB" "xF8307F" "xF8562B" "xF8886A" "xF8E907" "xF8F0E7" "xF90CD4" "xF953FE" "xF96530" "xF97D09" "xF9D7D1" "xFA241C" "xFA35A3" "xFA729D" "xFA91EF" "xFAAA73" "xFAAE48" "xFAC01D" "xFAF1B9" "xFB3575" "xFB44B7" "xFC46FA" "xFC4E4B" "xFCC713" "xFCE8FA" "xFCF014" "xFD1DB2" "xFD244C" "xFD347E" "xFDBBF1" "xFDF7AD" "xFE2449" "xFE3437" "xFEB987" "xFEC41B" "xFF5BCD" "xFFC491" "xFFDD1B" }
+    traits = { "state_trait_siberian_terrain" "state_trait_yenisei_river" }
+    city = "x337D99"
+    farm = "x2A9999"
+    mine = "x49BC6A"
+    wood = "x38CAD7"
+    arable_land = 10
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 15
+        building_iron_mine = 10
+        building_logging_camp = 48
+        building_natural_gas_mines = 50
+    }
+}
+
+STATE_TOMSK = {
+    #DONE
+    id = 567
+    traits = { "state_trait_western_steppe" }
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x002A14" "x0119AB" "x01BF72" "x023B67" "x02FAB2" "x0591F8" "x06022F" "x091E26" "x09AFF9" "x09B7AF" "x0A0F65" "x0C80CA" "x0D063E" "x0D2A3C" "x0D446B" "x0DF23D" "x0F8213" "x0F9EB5" "x122A47" "x1286B8" "x12CDF5" "x145775" "x14D2FA" "x1557E8" "x158369" "x15CE8C" "x1703A4" "x176009" "x18AB73" "x19397E" "x1A0F58" "x1AE097" "x1B1E23" "x1BE325" "x1BF3A4" "x1CC153" "x1CF7B2" "x1D33B5" "x1D4D50" "x204AF5" "x2102F4" "x214D47" "x2159CF" "x217B51" "x22C8EC" "x23225B" "x23246E" "x2395B5" "x261180" "x2723EC" "x28C2DD" "x29C914" "x29C99E" "x2A034E" "x2A1419" "x2A27B3" "x2BCBB6" "x2C9CD9" "x2D92A7" "x2DC038" "x2EB392" "x2EEB1F" "x2FC677" "x306B88" "x332695" "x3330CE" "x347664" "x3541E7" "x35F285" "x35FEDE" "x36DF06" "x3704B9" "x39A58C" "x3B3618" "x3B7630" "x3B818F" "x3BC947" "x3CB976" "x3D3FEE" "x3E593C" "x3EB639" "x3EDE3A" "x3EEF50" "x3F411A" "x3F509E" "x407FF7" "x41CA9F" "x42173E" "x4349AF" "x443BF9" "x44C840" "x44CC32" "x44F6A7" "x451511" "x45BDC5" "x45F160" "x461C3B" "x47054C" "x483419" "x4AF849" "x4D19FB" "x4D6CE8" "x4DB2FE" "x51AABA" "x52290B" "x52B2F6" "x52F61C" "x531772" "x53BFE4" "x53F9A7" "x54102D" "x563569" "x56BDD8" "x57A39B" "x57B6F4" "x5A381A" "x5AA363" "x5BD5B7" "x5C7A99" "x5C8C2D" "x5D4461" "x5DB92E" "x5EE376" "x60065E" "x6016FC" "x607C91" "x610B79" "x615CA8" "x629D80" "x63D880" "x63F017" "x64E5F2" "x65F380" "x660AFA" "x677B0A" "x67DF4B" "x685658" "x6A4555" "x6AF9B1" "x6BF211" "x6E5DF4" "x6F5B3B" "x70B8B3" "x70FFDB" "x71BB8E" "x72AE2E" "x747A63" "x748A87" "x753099" "x75A3DF" "x766430" "x773D7E" "x79355F" "x794E43" "x799AE5" "x7A5D92" "x7BB3EA" "x7CBF56" "x7CD2B5" "x7E46C6" "x7FCDF2" "x806CE0" "x810B90" "x829A1F" "x833373" "x843021" "x84761B" "x875B76" "x8819CE" "x8A1D4E" "x8ACCEB" "x8AEB92" "x8B4DC0" "x8C51D1" "x8C53D1" "x8D5B37" "x8E243E" "x8F5DF7" "x908FAC" "x929E94" "x92C1E4" "x92C20B" "x9366EA" "x93FCC5" "x9429FB" "x94B677" "x9556BE" "x95E87D" "x96B93B" "x97FAE9" "x995260" "x9D3380" "x9E398B" "x9EB3EA" "x9FB431" "xA0727D" "xA07FBF" "xA08188" "xA11C01" "xA2D94A" "xA35230" "xA382D6" "xA39666" "xA528DD" "xA69C50" "xA883F9" "xA88E87" "xAB089C" "xAB21AB" "xAB5B61" "xABEA8F" "xAC24D0" "xAC57E1" "xAD226E" "xAD678D" "xADEDD3" "xB128A8" "xB17826" "xB321D4" "xB36955" "xB36FA1" "xB42087" "xB4FFD9" "xB66F2B" "xB9A460" "xB9CE57" "xB9FB34" "xBA2BBE" "xBAD83B" "xBF0735" "xC02A4E" "xC0B4CD" "xC0F2C2" "xC10449" "xC2A702" "xC35637" "xC3DBCD" "xC55FE2" "xC66467" "xC67D46" "xC6A63E" "xC8FE3B" "xC900B4" "xCBB1C6" "xCE5144" "xCF0FC0" "xCF92A9" "xD198B7" "xD1AEEE" "xD1D2FB" "xD4917C" "xD68CDE" "xD6B44D" "xD6DDE6" "xD88626" "xD96963" "xD98507" "xD9EBA6" "xDA0CF6" "xDDDFE1" "xDDF937" "xE0A553" "xE296B5" "xE2AABA" "xE46CB6" "xE47DF6" "xE58EDF" "xE85656" "xE994A8" "xEA48B8" "xEA72A5" "xED413C" "xED5490" "xEE1856" "xEE1C40" "xEE6A2D" "xEE8FC7" "xEEAE6F" "xEF3FCE" "xEFE0BB" "xF0FED7" "xF10CF3" "xF1A227" "xF2C918" "xF313EE" "xF39216" "xF4ED1C" "xF56820" "xF5D0A6" "xF60C02" "xF674D8" "xF6CDD4" "xF84901" "xF8748F" "xF92913" "xF98347" "xF9906E" "xF9B93C" "xFC6DEE" "xFCB155" "xFEC281" }
+    traits = { "state_trait_ob_river" "state_trait_kuznetsk_basin" }
+    city = "x875B76"
+    farm = "xB17826"
+    mine = "xAD226E"
+    wood = "x02FAB2"
+    arable_land = 90
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 85
+        building_iron_mine = 27
+        building_logging_camp = 26
+        building_natural_gas_mines = 60
+    }
+}
+
+STATE_IRAKAJEMI = {
+    id = 421
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x077C30" "x141ABA" "x2AAA44" "x2E8EE8" "x361152" "x3701A3" "x3DB0B9" "x4030E0" "x41B060" "x44E945" "x588437" "x68FFB7" "x6AB1CB" "x70C503" "x71249D" "x793216" "x8F1825" "x9DC400" "xA37A77" "xAF4250" "xB0AA8F" "xC0B060" "xC0F0A0" "xC241E1" "xC77B7D" "xD710D1" "xDA35F1" "xDF5E83" "xE131D0" "xE679AF" "xE7E218" "xE92D8F" }
+    city = "xC0F0A0"
+    farm = "x4030E0"
+    mine = "x41B060"
+    wood = "x2E8EE8"
+    arable_land = 50
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_tobacco_plantation" "building_opium_plantation" "building_dye_plantation" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" }
+    capped_resources = {
+        building_logging_camp = 6
+        building_coal_mine = 28
+        building_iron_mine = 7
+        building_lead_mine = 10
+        building_natural_gas_mines = 30
+    }
+}
+
+STATE_FARS = {
+    id = 414
+    subsistence_building = "building_subsistence_orchard"
+    provinces = { "x00B0DF" "x0130E0" "x01B060" "x01F0A0" "x20B506" "x35A806" "x3C79B5" "x4AB629" "x626618" "x6375B3" "x759BE2" "x8030DF" "x80B060" "x80F0A0" "x879264" "x89054E" "x898FBC" "x8A4184" "x8C28A6" "x8D9D57" "x95EAC4" "xA194C3" "xAFE8A5" "xB2B395" "xB5A598" "xB9E770" "xC83D18" "xE622E5" "xE816BC" "xEB15EE" "xEB8219" "xF033FA" "xF58FBD" "xFDAFF4" }
+    traits = { "state_trait_zagros_mountains" }
+    city = "x95EAC4"
+    port = "x0130E0"
+    farm = "xEB8219"
+    mine = "xB5A598"
+    wood = "x8030DF"
+    arable_land = 70
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_opium_plantation" "building_vineyard" "building_tobacco_plantation" "building_dye_plantation" }
+    capped_resources = {
+        building_sulfur_mine = 28
+        building_iron_mine = 5
+        building_fishing_wharf = 7
+        building_logging_camp = 6
+        building_natural_gas_mines = 80
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3046
+}
+
+STATE_PERSIAN_KURDISTAN = {
+    id = 2002
+    subsistence_building = "building_subsistence_orchard"
+    provinces = { "x2D2CC8" "x4A1B9A" "x51BDFA" "x6B83E1" "x6F8D9F" "x80F060" "x928FFD" "xB25FAE" "xC186BC" "xD7D07C" "xE050A0" }
+    traits = { "state_trait_zagros_mountains" }
+    city = "xE050A0"
+    farm = "x928FFD"
+    mine = "x51BDFA"
+    wood = "x80F060"
+    arable_land = 50
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_opium_plantation" "building_dye_plantation" "building_silk_plantation" "building_vineyard" "building_tobacco_plantation" }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+    capped_resources = {
+        building_logging_camp = 4
+        building_iron_mine = 3
+        building_natural_gas_mines = 35
+    }
+}
+
+STATE_ABU_DHABI = {
+    #Trucial Coast
+    id = 400
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x0DC972" "x1830A7" "x2768F8" "x28D126" "x4D3B30" "x505AE0" "x631F32" "x65A581" "x69B568" "x70D020" "x723F1D" "x8C6854" "xA9240B" "xC9472E" "xD12977" "xE8E0A4" "xEF5020" "xF0D021" "xFF7473" }
+    prime_land = { x505AE0 x2768F8 xEF5020 }
+    city = "x505AE0"
+    port = "x65A581"
+    farm = "xF0D021"
+    mine = "x2768F8"
+    wood = "x0DC972"
+    arable_land = 5
+    arable_resources = { "building_livestock_ranch" "building_tobacco_plantation" }
+    capped_resources = {
+        building_fishing_wharf = 4
+        building_natural_gas_mines = 70
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
+    naval_exit_id = 3046
+}
+
+STATE_HAIL = {
+    id = 403
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x0030A0" "x00B021" "x011A2F" "x01E950" "x059E9F" "x081DD4" "x0972E0" "x0E3333" "x0E606A" "x11A9A4" "x130CEC" "x1332B9" "x16AA3B" "x1AFF99" "x1BC279" "x1C3F80" "x1CF62E" "x1D96F8" "x1FF559" "x203F3E" "x2164B9" "x217576" "x27DDAC" "x28C1E8" "x28DBAD" "x2937E4" "x2BAA0A" "x2BC2EE" "x2BCAA5" "x2EA1C0" "x2F8925" "x3068DF" "x307F57" "x30EBD1" "x30EFBE" "x328E22" "x332989" "x336DA5" "x3698B6" "x388A84" "x389704" "x3B179D" "x3E4014" "x3F8A4B" "x3FEADD" "x401521" "x405F10" "x42D850" "x44074C" "x458484" "x460D09" "x461557" "x46784B" "x46E03C" "x488838" "x48DC3C" "x48E404" "x4B8848" "x4C5D5F" "x4CF20D" "x50A5AD" "x531544" "x53215C" "x54B461" "x570586" "x57E5FC" "x5A6200" "x5A986D" "x5AAB63" "x5ABE79" "x5BA9F3" "x5CB1D1" "x5CC6DD" "x5F4303" "x5FBEAB" "x6090E0" "x609720" "x68A578" "x68BA3E" "x6910E2" "x69D7E7" "x6C593D" "x6C8E49" "x705120" "x71291D" "x7163A1" "x73246F" "x733357" "x738496" "x754541" "x760116" "x76F2F5" "x77A913" "x7B6B4D" "x7DA074" "x803121" "x8229D9" "x8241B7" "x8256C9" "x82B24D" "x83A8BC" "x84592D" "x8582F8" "x87F943" "x881873" "x8D66EA" "x90776F" "x908AEA" "x90E0EA" "x91BB79" "x920B4A" "x92CA55" "x93179D" "x946FD4" "x949F2A" "x94ADBF" "x9BD6E3" "x9CED6B" "x9F049F" "x9FE32C" "xA0251B" "xA04148" "xA0D060" "xA18F1A" "xA1AD00" "xA2B74B" "xA37483" "xA4E920" "xA5E10E" "xA60DFE" "xA7B102" "xA81C4A" "xA9C5FE" "xAAC851" "xAC7DDC" "xACDA6F" "xB011A0" "xB3B3AE" "xB3FC59" "xB46AF9" "xB4CC55" "xB5E66A" "xB66B21" "xB77CA8" "xB78BC7" "xB9C9EB" "xBA976C" "xC1AFC6" "xCA15F6" "xCB2408" "xCB37B1" "xCC9EF0" "xCCA55B" "xD088C8" "xD0C6ED" "xD9A997" "xDA2107" "xDCA1DD" "xDD224F" "xDD5764" "xDF5AD9" "xDF5AFC" "xE0D0E0" "xE15684" "xE2AE6A" "xE341F7" "xE65A5E" "xE8DCB1" "xE92697" "xE9E209" "xEBBF58" "xEF6A66" "xEF8A47" "xEFB342" "xF14451" "xF163D2" "xF6C5D3" "xF85497" "xF8FF73" "xF94BA1" }
+    prime_land = { x4C5D5F x705120 x920B4A xCB2408 xEF8A47 x16AA3B x1BC279 x2BAA0A x4B8848 x90E0EA x3E4014 x7DA074 x2BCAA5 xDD5764 x28C1E8 x83A8BC xCCA55B }
+    traits = { "state_trait_arabian_desert" }
+    city = "x389704"
+    port = "x4C5D5F"
+    farm = "x4C5D5F"
+    mine = "x53215C"
+    wood = "x920B4A"
+    arable_land = 5
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_fishing_wharf = 2
+        building_natural_gas_mines = 30
+    }
+    naval_exit_id = 3046
+}
+
+STATE_NEJD = {
+    id = 398
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x001A99" "x0065FA" "x014B90" "x0276AD" "x030A29" "x03AD52" "x03B8A4" "x04600E" "x04756B" "x063D99" "x0835E8" "x08A8B0" "x08E6CF" "x090696" "x0A1C72" "x0ACC6B" "x0EE414" "x0F7462" "x130065" "x13E2EE" "x1411DE" "x142509" "x18536F" "x1E06DA" "x1FA718" "x2255C1" "x2387F9" "x2483AB" "x250B0E" "x28AB45" "x2B1EB3" "x2DA603" "x30E29D" "x317BEE" "x3445FA" "x3554CB" "x371FC4" "x382FAD" "x3B0975" "x3BB2E2" "x3EF543" "x3F4AE7" "x416A9E" "x422C6A" "x4321AD" "x43837A" "x43DB23" "x443432" "x445868" "x468626" "x48F325" "x4ADF4E" "x4B6758" "x4DE08D" "x4FD8C9" "x5023B3" "x50903A" "x52847C" "x536B7A" "x5461E0" "x54F127" "x586525" "x5C2C37" "x5D87C7" "x5F7B8A" "x5FA64F" "x60AB0A" "x669166" "x6946FC" "x6A104D" "x6BC246" "x6C493A" "x6CDC54" "x6EA51D" "x6F3B7D" "x701160" "x70AFC0" "x712029" "x717C19" "x71E27F" "x72129E" "x72CB0D" "x736469" "x736EC1" "x74B16E" "x753E9E" "x7555A8" "x765651" "x767161" "x78581D" "x7866FA" "x788181" "x7A9AF7" "x7AA367" "x7AAB57" "x7FEB87" "x816D47" "x81AD79" "x821346" "x8263B3" "x82AF5D" "x82D00F" "x85C635" "x87117C" "x8ACAD4" "x8CCFC9" "x8D6BC4" "x90AE99" "x91E56C" "x922E92" "x92BE4B" "x93D43A" "x94933E" "x96A809" "x9AC0EF" "x9C0490" "xA001BF" "xA3248D" "xA442E6" "xA52567" "xA96ED6" "xAB3869" "xABB380" "xAC17D9" "xAEAA42" "xB01160" "xB0D0A0" "xB3966A" "xB3E853" "xBA5612" "xBA637E" "xBFB998" "xC49ED2" "xC5E0C7" "xC62CC1" "xC88610" "xC98450" "xCA21E2" "xCC7D14" "xCEC01C" "xD150BE" "xD2725A" "xD41D69" "xD54924" "xD5868B" "xD5DCA6" "xD74E77" "xD8F2D3" "xDC89F7" "xDCC93F" "xDD2A56" "xDFF432" "xE03651" "xE2051D" "xE533FB" "xE5E695" "xE834B6" "xE83C08" "xE8809E" "xE8DCBA" "xE92E2D" "xEA412C" "xEA70D2" "xEB098E" "xEB66C8" "xEBCF1F" "xECABD7" "xECF47B" "xEDF7AC" "xF26B5E" "xF6BC1D" "xF77056" "xF7CA2B" "xFA46C5" "xFB02EE" "xFB9491" "xFE9B94" "xFEDA9C" }
+    impassable = { "xB01160" "x1FA718" "xBFB998" "xBA637E" "xFA46C5" "xA442E6" "x3EF543" "x18536F" "xF6BC1D" "x030A29" "xAEAA42" "x7FEB87" "xEB098E" "xDFF432" "xD74E77" "x13E2EE" "xDCC93F" "x78581D" "x70AFC0" "x090696" "x7AA367" "x6CDC54" "x90AE99" "xA52567" "x3445FA" "x7A9AF7" "x669166" "x08A8B0" "x92BE4B" "x3554CB" "x43837A" "x2B1EB3" "xE834B6" "xF26B5E" "x717C19" "x94933E" "xA3248D" "xDD2A56" "x03B8A4" "xC98450" "x4B6758" "xD41D69" "x001A99" "x6BC246" "x3BB2E2" "x8D6BC4" "x536B7A" "x250B0E" "x8CCFC9" "xE92E2D" "xD5868B" "xECABD7" "x4321AD" "x08E6CF" "xFEDA9C" "x7AAB57" "xBA5612" "x0276AD" "x52847C" "xFB02EE" "x03AD52" "x96A809" "xC62CC1" "x87117C" "xE8DCBA" "x85C635" "xD54924" "xD150BE" "x72129E" "x8263B3" "x82AF5D" "xE5E695" "x2483AB" "x736469" "xCC7D14" "xC88610" "x753E9E" "x5F7B8A" "xE2051D" "x48F325" "xC49ED2" "x28AB45" "x72CB0D" "x54F127" "x4ADF4E" "xA001BF" "x04756B" "xE533FB" "x5023B3" "xABB380" "x767161" "xD8F2D3" "x422C6A" "x71E27F" "x416A9E" "x765651" }
+    traits = { "state_trait_arabian_desert" }
+    city = "xEB66C8"
+    port = "x04600E"
+    farm = "x3F4AE7"
+    mine = "x0F7462"
+    wood = "x04600E"
+    arable_land = 10
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_fishing_wharf = 4
+        building_natural_gas_mines = 50
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3046
+}
+
+STATE_YEMEN = {
+    id = 401
+    subsistence_building = "building_subsistence_pasture"
+    traits = { "state_trait_natural_harbors" "state_trait_yemeni_highlands" }
+    provinces = { "x00E3EF" "x02B35C" "x02F9FF" "x034B03" "x075453" "x0B9A27" "x0C7E0C" "x1A7BB0" "x1C7B77" "x2197EF" "x2576C1" "x2975A3" "x299C0F" "x2A9E89" "x2BD409" "x308FDF" "x30A3E2" "x314190" "x319060" "x346541" "x37058F" "x3D1674" "x3D7345" "x3D86FC" "x49FCAB" "x54840B" "x567A83" "x5C91FE" "x5DF9FC" "x5F3582" "x60DFF9" "x625380" "x6290E6" "x657048" "x672267" "x68B524" "x6BD0A9" "x6D2F95" "x75D341" "x7C3EA9" "x7EC879" "x8436FE" "x843C65" "x84FA60" "x872CEB" "x895FE6" "x8B1488" "x8BF4B8" "x8D121D" "x8D6307" "x8E96A7" "x90602A" "x95D64E" "x9D6547" "x9D8A78" "x9E941B" "x9EDF3C" "xA0540A" "xA05CB5" "xA1AAB0" "xA2FDFA" "xAD1CE2" "xB010DF" "xB08F60" "xB090E0" "xB79DED" "xB8A8D2" "xBAA208" "xBB387A" "xBDEA27" "xC09525" "xC790E8" "xCF401E" "xCF61E1" "xCF6C49" "xD3F276" "xD6CC22" "xDD033C" "xDD732E" "xDFA579" "xE5892F" "xE5DF3B" "xEF2E43" "xF385EB" "xF86F58" "xFA0283" "xFE5027" }
+    prime_land = { x567A83 xE5892F x02F9FF x7EC879 x625380 x9D8A78 xEF2E43 xBB387A xCF6C49 x7C3EA9 xFE5027 x68B524 xE5DF3B x1A7BB0 x2576C1 xCF401E x49FCAB x6290E6 xF86F58 x84FA60 x8B1488 x075453 x00E3EF xB79DED x9E941B x034B03 x8436FE }
+    impassable = { x37058F }
+    city = "x319060"
+    port = "x9EDF3C"
+    farm = "xD6CC22"
+    mine = "x49FCAB"
+    wood = "x034B03"
+    arable_land = 70
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" }
+    capped_resources = {
+        building_lead_mine = 12
+        building_fishing_wharf = 9
+        building_natural_gas_mines = 15
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
+    naval_exit_id = 3047
+}
+
+STATE_ZULIA = {
+    id = 353
+    subsistence_building = "building_subsistence_rice_farm"
+    provinces = { "x0B05AC" "x0CDC94" "x0DB8C7" "x112339" "x251032" "x2F2B52" "x3B3F04" "x507041" "x5847DC" "x695B1C" "x703080" "x73C5F1" "x75D6A1" "x89104B" "x91A5A3" "x922DCE" "x9EB190" "xAF5192" "xD92C8F" "xDBDB3C" "xEA1264" "xEF3001" "xF0B001" }
+    traits = { "state_trait_lake_maracaibo" }
+    city = "xEA1264"
+    port = "x9EB190"
+    farm = "x507041"
+    mine = "x2F2B52"
+    wood = "x695B1C"
+    arable_land = 80
+    arable_resources = { "building_rice_farm" "building_livestock_ranch" "building_coffee_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_coal_mine = 24
+        building_sulfur_mine = 32
+        building_logging_camp = 9
+        building_fishing_wharf = 7
+        building_natural_gas_mines = 100
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
+    naval_exit_id = 3025
+}
+
+STATE_MIRANDA = {
+    id = 354
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x01BFD0" "x022930" "x08C971" "x099669" "x0D53B4" "x10DF4E" "x11AC63" "x18DFEA" "x1D5141" "x24CD7D" "x265803" "x2EEF96" "x316874" "x371070" "x3E7DF4" "x41D147" "x48FFFF" "x4A0CB0" "x4A49B3" "x4B48A8" "x4BFF4F" "x52E445" "x5A88D4" "x66F9D3" "x6AD5E2" "x6DA0B1" "x777B24" "x8040D0" "x838543" "x8BB742" "x9204DB" "x9A2756" "x9D84F7" "xA3020D" "xAD68CA" "xAD84B8" "xAED0EC" "xB0F080" "xB80E5A" "xC04011" "xC040D0" "xC8A4B8" "xD2B4D5" "xD4656D" "xDE1F39" "xED7983" "xF085F7" "xF64230" "xFE9918" }
+    city = "xB0F080"
+    port = "x4B48A8"
+    farm = "x18DFEA"
+    mine = "xF085F7"
+    wood = "x9204DB"
+    arable_land = 60
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_cotton_plantation" "building_tobacco_plantation" "building_sugar_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_logging_camp = 7
+        building_fishing_wharf = 5
+        building_natural_gas_mines = 50
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 4
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
+    naval_exit_id = 3025
+}
+
+STATE_BOLIVAR = {
+    id = 355
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x05FADB" "x085984" "x099D64" "x0A4927" "x0B8B6F" "x0B905D" "x0BB82F" "x0E0FE3" "x0F8E6D" "x105DC4" "x126A77" "x13D2AC" "x14D855" "x15CF72" "x1D16FB" "x1D9BB6" "x1DD848" "x1F3215" "x21FE50" "x26EB9B" "x2E012C" "x30C912" "x329D7B" "x32A71C" "x3F2448" "x489532" "x4C19B0" "x50AB65" "x518468" "x526909" "x56FF0A" "x574151" "x5841B8" "x591C92" "x606089" "x60868E" "x60A3C6" "x60CA07" "x61288E" "x62CD57" "x697EA6" "x69C02E" "x6C0E82" "x6E9361" "x6EF825" "x707001" "x707517" "x7544FE" "x79BC37" "x7C4D18" "x7ECC8A" "x80C0D0" "x839E14" "x88081A" "x892DC3" "x89A412" "x8D1FEB" "x8D3562" "x9110AF" "x91E11E" "x924433" "x946F97" "x9719C1" "x98746A" "x99B927" "xA10AB0" "xA715E1" "xADE561" "xAE0139" "xAE673B" "xB74261" "xB82106" "xB93DC4" "xBC1802" "xBC6C89" "xC088A0" "xC0BD36" "xC0C011" "xC19002" "xCAD9DE" "xCCE24F" "xCE5729" "xCFCBBD" "xD21AF5" "xD6F760" "xD7EF29" "xDBC941" "xE14FFD" "xE33995" "xE754CE" "xF0BDA1" "xF32B6C" "xF55F6B" "xFB6808" "xFEBC00" }
+    impassable = { "xC0C011" "x88081A" "x526909" "xD6F760" "x574151" "x26EB9B" "x60868E" "xF55F6B" "xC088A0" "x606089" "x6C0E82" "xA715E1" "x0B8B6F" "xDBC941" "x7ECC8A" "xD7EF29" "xC19002" "x91E11E" "x56FF0A" "x80C0D0" "xF32B6C" "x591C92" "x085984" "x3F2448" "x839E14" "x924433" "x0BB82F" "x126A77" "x1DD848" "xE754CE" "xF0BDA1" "xE14FFD" "x518468" "x892DC3" "x6E9361" "xBC1802" "x1F3215" "xADE561" "x105DC4" "x05FADB" "x0A4927" "xB82106" "x7544FE" "x8D3562" "x60A3C6" "x89A412" "xBC6C89" "x9719C1" }
+    city = "x60CA07"
+    port = "xA10AB0"
+    farm = "x13D2AC"
+    mine = "x32A71C"
+    wood = "x61288E"
+    arable_land = 40
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_iron_mine = 30
+        building_logging_camp = 25
+        building_fishing_wharf = 3
+        building_natural_gas_mines = 35
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+    naval_exit_id = 3025
+}
+
+STATE_SANTA_FE = {
+    id = 378
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x1C57E1" "x23965B" "x257673" "x267CD3" "x26B2A8" "x274BD4" "x28A097" "x31C010" "x32AD9F" "x36A907" "x3ED92C" "x3FAAD0" "x431457" "x453036" "x455F31" "x4CF210" "x52F6AC" "x539122" "x556AD2" "x5C52A5" "x694D91" "x6A3C9B" "x704010" "x70C090" "x7177B9" "x76565D" "x7F79B5" "x839A16" "x841A8E" "x87CEFA" "x88E2D9" "x9AE49A" "xA04711" "xA131EA" "xA24B56" "xA95446" "xABCFB1" "xB00150" "xB5EF97" "xB6C8C8" "xB81311" "xB9990E" "xBA5F14" "xC69BB9" "xC91868" "xD1D600" "xDB4C3B" "xDF2294" "xE2363C" "xEE922F" "xEF1E5B" "xF04011" "xF145AE" "xF1F90D" "xF81E10" }
+    traits = { "state_trait_parana_river" "state_trait_pampas" }
+    city = "xEF1E5B"
+    port = "x704010"
+    farm = "xF81E10"
+    mine = "x23965B"
+    wood = "x3ED92C"
+    arable_land = 80
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_dye_plantation" "building_vineyard" }
+    capped_resources = {
+        building_logging_camp = 11
+        building_fishing_wharf = 2
+        building_natural_gas_mines = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+    naval_exit_id = 3065
+}
+
+STATE_BOLIVAR = {
+    id = 355
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x05FADB" "x085984" "x099D64" "x0A4927" "x0B8B6F" "x0B905D" "x0BB82F" "x0E0FE3" "x0F8E6D" "x105DC4" "x126A77" "x13D2AC" "x14D855" "x15CF72" "x1D16FB" "x1D9BB6" "x1DD848" "x1F3215" "x21FE50" "x26EB9B" "x2E012C" "x30C912" "x329D7B" "x32A71C" "x3F2448" "x489532" "x4C19B0" "x50AB65" "x518468" "x526909" "x56FF0A" "x574151" "x5841B8" "x591C92" "x606089" "x60868E" "x60A3C6" "x60CA07" "x61288E" "x62CD57" "x697EA6" "x69C02E" "x6C0E82" "x6E9361" "x6EF825" "x707001" "x707517" "x7544FE" "x79BC37" "x7C4D18" "x7ECC8A" "x80C0D0" "x839E14" "x88081A" "x892DC3" "x89A412" "x8D1FEB" "x8D3562" "x9110AF" "x91E11E" "x924433" "x946F97" "x9719C1" "x98746A" "x99B927" "xA10AB0" "xA715E1" "xADE561" "xAE0139" "xAE673B" "xB74261" "xB82106" "xB93DC4" "xBC1802" "xBC6C89" "xC088A0" "xC0BD36" "xC0C011" "xC19002" "xCAD9DE" "xCCE24F" "xCE5729" "xCFCBBD" "xD21AF5" "xD6F760" "xD7EF29" "xDBC941" "xE14FFD" "xE33995" "xE754CE" "xF0BDA1" "xF32B6C" "xF55F6B" "xFB6808" "xFEBC00" }
+    impassable = { "xC0C011" "x88081A" "x526909" "xD6F760" "x574151" "x26EB9B" "x60868E" "xF55F6B" "xC088A0" "x606089" "x6C0E82" "xA715E1" "x0B8B6F" "xDBC941" "x7ECC8A" "xD7EF29" "xC19002" "x91E11E" "x56FF0A" "x80C0D0" "xF32B6C" "x591C92" "x085984" "x3F2448" "x839E14" "x924433" "x0BB82F" "x126A77" "x1DD848" "xE754CE" "xF0BDA1" "xE14FFD" "x518468" "x892DC3" "x6E9361" "xBC1802" "x1F3215" "xADE561" "x105DC4" "x05FADB" "x0A4927" "xB82106" "x7544FE" "x8D3562" "x60A3C6" "x89A412" "xBC6C89" "x9719C1" }
+    city = "x60CA07"
+    port = "xA10AB0"
+    farm = "x13D2AC"
+    mine = "x32A71C"
+    wood = "x61288E"
+    arable_land = 40
+    arable_resources = { "building_maize_farm" "building_livestock_ranch" "building_coffee_plantation" "building_sugar_plantation" "building_banana_plantation" }
+    capped_resources = {
+        building_iron_mine = 30
+        building_logging_camp = 25
+        building_fishing_wharf = 3
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_rubber_plantation"
+        undiscovered_amount = 16
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+    naval_exit_id = 3025
+}
+
+STATE_CHAD = {
+    id = 203
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x012580" "x022834" "x0463EF" "x05157F" "x061036" "x071A85" "x07780C" "x08D310" "x0B50CD" "x0DD2DC" "x0EA7B1" "x0ED3DF" "x143523" "x14F30B" "x16A232" "x19B4DB" "x1B9B38" "x1D50BA" "x1DC5B8" "x21102F" "x236274" "x2387AC" "x264623" "x2671F3" "x28F766" "x2935A4" "x2A39EC" "x2D70ED" "x2E991B" "x2FF27D" "x31268D" "x313F1F" "x339E84" "x356A3D" "x36AAA0" "x378621" "x37C0E7" "x385FAF" "x38671E" "x3948EB" "x3A1CAC" "x3B5C8C" "x3C103D" "x3C839E" "x3CD139" "x4432CD" "x4630D5" "x46F7F6" "x47001E" "x47CD50" "x49092F" "x49D8EA" "x4BD8E5" "x4C21F4" "x4EECCF" "x4FFD7C" "x5090E0" "x51AB89" "x51BD30" "x52FC22" "x565AEC" "x58241A" "x5BE279" "x5C6934" "x5E906B" "x5E999C" "x60CA92" "x612671" "x619C5E" "x668C81" "x67BD5B" "x693080" "x69C8EF" "x6AA8EC" "x6FB203" "x6FEC94" "x72176D" "x721F62" "x722718" "x728C7D" "x747EEE" "x7520C5" "x77BAE9" "x77F836" "x7B24F4" "x815967" "x84A273" "x84AC70" "x864514" "x8DE26F" "x8E3D25" "x90C968" "x90F6EC" "x91BB91" "x954978" "x957131" "x95B8A3" "x97098C" "x98455D" "x9B1C71" "x9C076E" "x9CFD89" "x9D0543" "x9DFAD4" "xA2B329" "xA83800" "xA8C0CC" "xABB311" "xABB7F4" "xABB94D" "xABC5E8" "xACA2EB" "xADD845" "xAE0778" "xAE8F84" "xAEED98" "xAF7729" "xB08124" "xB08C7E" "xB13AC9" "xB1C7E4" "xB202D0" "xB27AD9" "xB2B9D0" "xB4E85D" "xB50A87" "xB56846" "xB57E4F" "xB6CA51" "xB71D68" "xBA992B" "xBD7F71" "xBE0DD5" "xBF55ED" "xC04D21" "xC46C85" "xC6FE19" "xC72561" "xC78AC9" "xC9498B" "xCA5315" "xCC5E0D" "xCCE7FE" "xD011DF" "xD04469" "xD09021" "xD20780" "xD3A1E4" "xD44F72" "xD87F94" "xD96721" "xDA6353" "xE282F7" "xE4EDE2" "xE59A76" "xE748A3" "xE8D0A9" "xEA79E6" "xEA8489" "xEAE9AC" "xEC4EA1" "xED9AE4" "xEEA556" "xF0D447" "xF1E8A3" "xF523D7" "xF55FD8" "xF6EFE3" "xF716D4" "xF87030" "xFB24F5" "xFDD8D2" "xFE1B2E" "xFE3A82" "xFFF16A" }
+    prime_land = { "x815967" "xD09021" "x08D310" "x0DD2DC" "xABB7F4" "x60CA92" "x84AC70" "xD87F94" "x954978" "xB1C7E4" "x8E3D25" "xFFF16A" "xE59A76" "x37C0E7" "x143523" "xA2B329" "x7B24F4" "xAF7729" "xEEA556" "x4432CD" "x2A39EC" "x3A1CAC" "x693080" "x721F62" "x356A3D" "x49D8EA" "x58241A" "x0B50CD" }
+    impassable = { "x071A85" "x07780C" "x0B50CD" "x0DD2DC" "x0EA7B1" "x19B4DB" "x1DC5B8" "x2671F3" "x28F766" "x2935A4" "x2A39EC" "x356A3D" "x385FAF" "x3A1CAC" "x4432CD" "x4630D5" "x47001E" "x47CD50" "x49092F" "x49D8EA" "x4C21F4" "x58241A" "x60CA92" "x693080" "x69C8EF" "x721F62" "x7B24F4" "x84AC70" "x864514" "x8E3D25" "x954978" "x9B1C71" "x9D0543" "x9DFAD4" "xA8C0CC" "xABB311" "xABB7F4" "xAE8F84" "xAF7729" "xB1C7E4" "xB4E85D" "xB50A87" "xB71D68" "xBD7F71" "xBF55ED" "xC46C85" "xCC5E0D" "xD20780" "xD44F72" "xD87F94" "xD96721" "xE4EDE2" "xE8D0A9" "xEA79E6" "xEEA556" "xF55FD8" "xF716D4" "xFFF16A" }
+    traits = { "state_trait_malaria" "state_trait_sahel" }
+    city = "x0ED3DF"
+    farm = "x08D310"
+    mine = "x4EECCF"
+    wood = "x815967"
+    arable_land = 30
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_natural_gas_mines = 40
+        building_uranium_mine = 20
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 30
+    }
+}
+
+STATE_NIGER = {
+    id = 202
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x019C62" "x0383F1" "x041BB6" "x076B7F" "x07C410" "x08B0DA" "x0BA931" "x0C24AD" "x0CBA4F" "x0CDADF" "x0DA0EB" "x1151DF" "x117242" "x1272DB" "x13D7AF" "x1418B4" "x159556" "x15D608" "x184387" "x1B0473" "x1F16C4" "x1F7A73" "x215C75" "x21CC41" "x27306B" "x279F30" "x27C4A2" "x286D12" "x288367" "x28DFFF" "x2AE6CB" "x2E4353" "x2F8ED6" "x30C121" "x32F83E" "x342A54" "x34449E" "x359952" "x3687E1" "x369F83" "x36D1B7" "x3B5869" "x3D2A67" "x3D3EDD" "x3E42B6" "x3F1711" "x41A7E7" "x429975" "x465DAA" "x473108" "x478C0F" "x47A605" "x4A284C" "x4A686D" "x4AF4AD" "x4D811C" "x4D8BA8" "x4E090D" "x505D1E" "x57AA91" "x57CDF4" "x588651" "x58A122" "x59A789" "x5C1F66" "x5E1948" "x6097B2" "x64FCA7" "x6A2FEB" "x6A64F4" "x6A8251" "x6F427F" "x705365" "x75D841" "x794DFE" "x7A2E0D" "x7AD943" "x7D362A" "x7D61A0" "x7D9D0A" "x7E5F35" "x7ED36F" "x80F389" "x81C699" "x823D13" "x837523" "x853980" "x87B5E9" "x8A4375" "x8A60D3" "x8B0A0F" "x8F50DF" "x8FF335" "x91C991" "x91E5B4" "x9374B2" "x941DE7" "x949040" "x94B3CB" "x9521D1" "x9569B4" "x95BC30" "x96F9F2" "x98513F" "x98884A" "x9BD699" "x9C62C5" "x9CEDD0" "x9E51C6" "xA2118F" "xA529A5" "xA6303D" "xA6E829" "xA7671F" "xA7D741" "xAA0F7B" "xAA56D1" "xAA9AE7" "xAAE31B" "xAB29AD" "xAE421B" "xAF446A" "xB15549" "xB2B95D" "xB3695A" "xB3BACF" "xB5F4FA" "xB7A983" "xB87354" "xB98598" "xBE7432" "xBFB161" "xC234CA" "xC8D419" "xCB4B92" "xCBAFEB" "xCC5735" "xD090E0" "xD0D0A0" "xD1E91D" "xD35C26" "xDC8DA6" "xDCDE60" "xDF7582" "xDF8CB7" "xE015DC" "xE198AB" "xE3E188" "xE3FA3E" "xE6D609" "xE7E510" "xE8E50C" "xEC6E07" "xEC9554" "xED9379" "xEDD46E" "xF11999" "xF14FF0" "xF47902" "xFB2E7F" "xFB7A3B" "xFBB97F" "xFBE30F" "xFDBE7B" "xFDDBEB" "xFDEF26" "xFED6E1" }
+    traits = { "state_trait_malaria" "state_trait_sahel" }
+    impassable = { "x0BA931" "x0CDADF" "x0DA0EB" "x1272DB" "x1418B4" "x1B0473" "x1F7A73" "x2F8ED6" "x342A54" "x34449E" "x359952" "x3D3EDD" "x465DAA" "x4A284C" "x4E090D" "x505D1E" "x59A789" "x7A2E0D" "x7D362A" "x853980" "x91C991" "x949040" "xA6E829" "xA7D741" "xAA0F7B" "xAA56D1" "xAAE31B" "xAE421B" "xBE7432" "xC234CA" "xCBAFEB" "xDC8DA6" "xDF7582" "xE6D609" "xF47902" "xFDDBEB" "xFED6E1" }
+    city = "x4AF4AD"
+    farm = "x87B5E9"
+    mine = "x21CC41"
+    wood = "xD090E0"
+    arable_land = 40
+    arable_resources = { "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 36
+        building_lead_mine = 18
+        building_sulfur_mine = 24
+        building_natural_gas_mines = 70
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+}
+
+STATE_ALGIERS = {
+    id = 190
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x0811DE" "x13AB12" "x16B315" "x20EF40" "x20EF80" "x267471" "x363B86" "x3BB3BB" "x513113" "x5ACA8F" "x713C2F" "x7E5293" "x9D893C" "xA75E78" "xAA79B2" "xB951DE" "xC6BA37" "xCB898B" "xD14DAC" "xD9F21C" "xEB7B78" "xEF919A" "xF151FD" "xFEE41A" }
+    prime_land = { "x713C2F" }
+    traits = { "state_trait_mitidja_plain" "state_trait_atlas_mountains" }
+    city = "x713C2F"
+    port = "xA75E78"
+    farm = "xAA79B2"
+    mine = "x0811DE"
+    wood = "xA75E78"
+    arable_land = 82
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_vineyard" }
+    capped_resources = {
+        building_iron_mine = 10
+        building_lead_mine = 7
+        building_logging_camp = 6
+        building_fishing_wharf = 8
+        building_natural_gas_mines = 50
+    }
+    naval_exit_id = 3032
+}
+
+STATE_LIBYA = {
+    id = 586
+    subsistence_building = "building_subsistence_pasture"
+    provinces = { "x0008B1" "x017863" "x0198EA" "x025170" "x04DAA1" "x057978" "x093E94" "x099FFF" "x0A58C9" "x0BD882" "x0BD921" "x0CA694" "x0F16C7" "x1189D2" "x11A0DD" "x13063D" "x1425EF" "x144435" "x148330" "x14A3E1" "x14F1BF" "x152867" "x164ED1" "x165542" "x180269" "x1898D8" "x194AE7" "x1BE626" "x1EDF65" "x209020" "x229F5B" "x231277" "x27737E" "x28A6A1" "x29E247" "x29E30B" "x2A53E1" "x2B40DE" "x2B96BF" "x2C08E8" "x3066D1" "x31EA8A" "x33B3DE" "x34A20C" "x3572F7" "x395873" "x39A829" "x3BF817" "x3D9D25" "x3E00B9" "x3E5E19" "x40D0E0" "x4588F1" "x475810" "x47B014" "x47B6FA" "x48316F" "x485A40" "x4BC650" "x4E6542" "x4FB39B" "x51AB2C" "x53ECCE" "x550DB9" "x55361C" "x56AEEC" "x574B81" "x592D88" "x5E16B6" "x60A81D" "x61A415" "x61F166" "x650312" "x662644" "x6794AD" "x683423" "x68430F" "x6890D4" "x6A6A85" "x6B2BEF" "x6C635A" "x6ED70F" "x6F8DE9" "x72A54B" "x735D47" "x738052" "x73B161" "x76EA2F" "x799B7E" "x79DCF4" "x7B0D2E" "x800FBB" "x81B59F" "x827DC0" "x83E15C" "x874CD9" "x87B84F" "x8B21BC" "x8D408F" "x8F71C6" "x90D060" "x91EB7D" "x950042" "x95E863" "x97E206" "x991766" "x9953AB" "x99D6C9" "x9D205C" "x9F22F2" "x9F6FBD" "xA01020" "xA09020" "xA17BD6" "xA247FB" "xA519D6" "xA5C57A" "xA645B8" "xA79085" "xAA6BA0" "xAB9F90" "xACA5B1" "xAD3D64" "xAD6337" "xAD746A" "xAF2968" "xB0EEAE" "xB10316" "xB24990" "xB46A16" "xB93A62" "xBCB1A5" "xBDFE7F" "xC11122" "xC1CA86" "xC5601C" "xC6DA6A" "xC74D58" "xC75D31" "xCA9364" "xCC14A4" "xCF807F" "xD1395D" "xD3CCA8" "xD7040F" "xDB1CEA" "xDBD075" "xDC498E" "xDCBC26" "xDEF5CF" "xDEFE00" "xDF191B" "xE123F5" "xE19FB8" "xE2D391" "xE39CED" "xE51BCB" "xE6081F" "xE799AA" "xECDEFD" "xEEE9E6" "xF00DCD" "xF1D2C1" "xF1DFCE" "xF2B6E0" "xF46E3D" "xF9980E" "xF9D0BC" "xFA182C" "xFA3335" "xFA4247" }
+    prime_land = { "x025170" "x04DAA1" "x1189D2" "x13063D" "x1898D8" "x209020" "x2B40DE" "x34A20C" "x40D0E0" "x4FB39B" "x55361C" "x574B81" "x800FBB" "x8D408F" "x97E206" "x99D6C9" "xA01020" "xA247FB" "xA645B8" "xAD6337" "xB0EEAE" "xBCB1A5" "xBDFE7F" "xC74D58" "xD7040F" "xDF191B" "xE123F5" "xE2D391" "xEEE9E6" "xFA4247" }
+    impassable = { "x017863" "x11A0DD" "x148330" "x14F1BF" "x164ED1" "x165542" "x180269" "x1BE626" "x27737E" "x395873" "x3E5E19" "x4588F1" "x475810" "x4E6542" "x56AEEC" "x650312" "x662644" "x6C635A" "x72A54B" "x874CD9" "x8B21BC" "x8F71C6" "x90D060" "x91EB7D" "x950042" "x991766" "x9953AB" "x9F22F2" "x9F6FBD" "xA09020" "xAB9F90" "xC75D31" "xD1395D" "xDBD075" "xE51BCB" "xF46E3D" }
+    traits = { "state_trait_sahara_desert" }
+    city = "xE2D391"
+    port = "xB0EEAE"
+    farm = "x574B81"
+    mine = "xC6DA6A"
+    wood = "xAD6337"
+    arable_land = 28
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_vineyard" }
+    capped_resources = {
+        building_fishing_wharf = 4
+        building_logging_camp = 6
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 40
+    }
+    naval_exit_id = 3033
+}
+
+STATE_UPPER_EGYPT = {
+    id = 176
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x01735F" "x04D622" "x0E8E92" "x13DF6A" "x25D78E" "x2A731C" "x3B8FDC" "x3CD16F" "x3EE61D" "x4249C3" "x44702D" "x465ACA" "x4D2090" "x4FB62D" "x675F3B" "x6A6080" "x709020" "x7B5BED" "x7B75E6" "x7E0628" "x906720" "xA75EBA" "xACD490" "xB002FE" "xB22B9E" "xC304C5" "xC83592" "xD0D060" "xD26E7A" "xE0A0AC" "xE1FB56" "xEDE183" "xF32C0A" }
+    traits = { "state_trait_nile_river" }
+    city = "x44702D"
+    port = "x0E8E92"
+    farm = "xB002FE"
+    mine = "xD0D060"
+    wood = "xEDE183"
+    arable_land = 40
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_dye_plantation" "building_opium_plantation" "building_tobacco_plantation" "building_sugar_plantation" }
+    capped_resources = {
+        building_logging_camp = 2
+        building_fishing_wharf = 13
+        building_natural_gas_mines = 50
+    }
+    naval_exit_id = 3047
+}
+
+STATE_SAMARA = {
+    id = 438
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x024868" "x0DFFD3" "x115723" "x11EA2C" "x16B7FE" "x1C1FB7" "x1CF34F" "x1E5008" "x20D17F" "x21DFA0" "x2505DB" "x250FCA" "x28AD29" "x2FE543" "x32A08B" "x340E79" "x37CD87" "x3F987B" "x3F9C38" "x42401C" "x434D42" "x51CA06" "x53AFD2" "x59D2D4" "x5B392A" "x610EC7" "x6364BE" "x658056" "x71BA78" "x795854" "x7C8665" "x7EA5A3" "x7F204D" "x8840E2" "x8F80BA" "x90C19D" "x915A42" "x93546F" "x942629" "x96058F" "x9F49D5" "xA06020" "xA0DFA0" "xA0E021" "xA121CB" "xA46A6B" "xA4990C" "xA7620E" "xA7B747" "xAC95C4" "xB52DF6" "xB53431" "xB70239" "xB7AA35" "xB921A7" "xBF7060" "xC45745" "xCEF631" "xCF5257" "xCF6246" "xD49810" "xD4F3FD" "xD914CA" "xD9B952" "xDADB41" "xE0856C" "xE41C9D" "xE44235" "xE6ED05" "xE9B9FB" "xE9FFBB" "xEE1033" "xEF1983" "xFA8D56" "xFBE9D0" "xFE5E9D" }
+    traits = { "state_trait_volga_river" "state_trait_western_steppe" }
+    city = "xBF7060"
+    farm = "xE9B9FB"
+    mine = "x51CA06"
+    wood = "x1C1FB7"
+    arable_land = 95
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 30
+        building_sulfur_mine = 15
+        building_logging_camp = 9
+        building_iron_mine = 5
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 90
+    }
+}
+
+STATE_FRIESLAND = {
+    id = 47
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x4141A0" "x41C021" "x5A48A2" "xC041A0" "xC0C021" }
+    city = "xC0C021"
+    port = "x41C021"
+    farm = "xC041A0"
+    mine = "x4141A0"
+    wood = "x41C021"
+    arable_land = 30
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 2
+        building_whaling_station = 5
+        building_fishing_wharf = 15
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3105
+}
+
+STATE_ELBE = {
+    id = 58
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x392FDA" "x418061" "x587297" "x68BE66" "x7C8FD3" "xA5E2E8" "xC08061" "xC080E0" "xF54C13" }
+    prime_land = { "xC080E0" }
+    traits = { "state_trait_elbe_river" "state_trait_hamburger_hafen" }
+    city = "x587297"
+    port = "x68BE66"
+    farm = "xC08061"
+    mine = "x587297"
+    wood = "xA5E2E8"
+    arable_land = 30
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_logging_camp = 9
+        building_fishing_wharf = 5
+        building_natural_gas_mines = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+    naval_exit_id = 3105
+}
+
+STATE_LANCASHIRE = {
+    id = 16
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x137263" "x410CE6" "x60E000" "x65617C" "xA242B2" "xE06000" "xE0E000" "xE74158" }
+    traits = { "state_trait_lancashire_coalfield" "state_trait_natural_harbors" }
+    city = "xE0E000"
+    port = "x60E000"
+    farm = "xA242B2"
+    mine = "xE0E000"
+    wood = "x410CE6"
+    arable_land = 45
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 100
+        building_iron_mine = 60
+        building_lead_mine = 45
+        building_logging_camp = 9
+        building_fishing_wharf = 15
+        building_oil_rig = 30
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+    naval_exit_id = 3030
+}
+
+STATE_WESTERN_NORWAY = {
+    id = 8
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x054DDE" "x07973A" "x087559" "x0E3D86" "x12FF9E" "x130906" "x14B28C" "x1AE434" "x25D82F" "x261C75" "x279380" "x2803F8" "x281240" "x3B7813" "x3FCBD3" "x43D0DD" "x4427D4" "x4E1EF2" "x4F31B0" "x600120" "x608020" "x639BE2" "x68D218" "x68D9BA" "x698566" "x6C9016" "x713F62" "x71D161" "x79D41F" "x7F0C6C" "x7F0E9A" "x818B5C" "x902BE5" "x95773A" "xA68FB9" "xBD2765" "xBDB05B" "xC32D3B" "xCD61E8" "xCF56A8" "xD26499" "xD32538" "xD5D1BC" "xDBDCD5" "xE08020" "xE37D01" "xE5E38E" "xE75551" "xF0F6EC" "xF68E1F" "xFB677C" }
+    traits = { "state_trait_north_sea_fishing" "state_trait_hardangerfjorden" }
+    city = "x130906"
+    port = "x68D9BA"
+    farm = "x0E3D86"
+    mine = "x608020"
+    wood = "x608020"
+    arable_land = 20
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_sulfur_mine = 20
+        building_logging_camp = 22
+        building_fishing_wharf = 15
+        building_natural_gas_mines = 30
+    }
+    naval_exit_id = 3027
+}
+
+STATE_LOMBARDY = {
+    id = 76
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x3F1E38" "x4713EE" "x50C060" "x70B8A9" "x867A90" "x9AC196" "xA40CE9" "xD04060" }
+    traits = { "state_trait_po_river" }
+    city = "xD04060"
+    farm = "x867A90"
+    mine = "x3F1E38"
+    wood = "x4713EE"
+    arable_land = 110
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_cotton_plantation" "building_silk_plantation" "building_vineyard" }
+    capped_resources = {
+        building_iron_mine = 27
+        building_lead_mine = 19
+        building_logging_camp = 7
+        building_natural_gas_mines = 35
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 20
+    }
+}
+
+STATE_WEST_GALICIA = {
+    id = 161
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x1161E0" "x11E061" "x56599F" "x5F3456" "x66DCEE" "x906060" "x9061E0" "x90E060" "xA550A9" "xA63CE6" "xC7B7B8" "xC8690C" "xFCC35F" }
+    prime_land = { "x5F3456" "xFCC35F" }
+    city = "x906060"
+    farm = "x5F3456"
+    mine = "x5F3456"
+    wood = "x5F3456"
+    arable_land = 145
+    arable_resources = { "building_rye_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 140
+        building_iron_mine = 33
+        building_logging_camp = 17
+        building_natural_gas_mines = 65
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 60
+    }
+}
+
+STATE_EAST_GALICIA = {
+    id = 162
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x053163" "x11A021" "x489C42" "x4D0305" "x53932F" "x7EDD9E" "x8F9F20" "x9D8087" "xA2805F" "xA3CF78" "xB021A0" "xC1B262" "xC58E1C" "xCAE5B0" "xCDD223" "xE369C4" "xEFE270" }
+    city = "x11A021"
+    farm = "xC58E1C"
+    mine = "x7EDD9E"
+    wood = "x8F9F20"
+    arable_land = 145
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" }
+    capped_resources = {
+        building_coal_mine = 92
+        building_logging_camp = 9
+        building_natural_gas_mines = 100
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 100
+    }
+}
+
+STATE_MOLDAVIA = {
+    id = 172
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x0983EE" "x0D8A56" "x30E0A0" "x35CE84" "x3CE97E" "x556DE7" "x56839F" "x734EFF" "x80D8F3" "x946A66" "xB0A0E0" "xEF2060" "xF40045" "xFF2F40" }
+    city = "x946A66"
+    farm = "x30E0A0"
+    mine = "x35CE84"
+    wood = "x0D8A56"
+    arable_land = 100
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_cotton_plantation" "building_vineyard" }
+    capped_resources = {
+        building_iron_mine = 26
+        building_logging_camp = 8
+        building_natural_gas_mines = 50
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 50
+    }
+}
+
+STATE_WALLACHIA = {
+    id = 173
+    subsistence_building = "building_subsistence_farm"
+    provinces = { "x016C07" "x019D5F" "x020F11" "x2164E0" "x2613E8" "x31E021" "x51E021" "x582A74" "x690E91" "x743F1C" "x81C7F3" "x9E90C5" "xAB774D" "xB0E020" "xC6AC43" "xD11E19" "xD28965" "xE02121" "xE0A321" "xECC1DC" "xEF53AF" "xF6E6E3" "xF76B20" "xF9AA0F" }
+    traits = { "state_trait_danube_river" }
+    city = "xD11E19"
+    farm = "x9E90C5"
+    mine = "x743F1C"
+    wood = "xF9AA0F"
+    arable_land = 85
+    arable_resources = { "building_wheat_farm" "building_livestock_ranch" "building_silk_plantation" "building_cotton_plantation" "building_vineyard" }
+    capped_resources = {
+        building_coal_mine = 68
+        building_iron_mine = 21
+        building_sulfur_mine = 15
+        building_logging_camp = 8
+        building_natural_gas_mines = 40
+    }
+    resource = {
+        type = "building_oil_rig"
+        undiscovered_amount = 80
+    }
+}
