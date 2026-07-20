@@ -1,0 +1,96 @@
+﻿##digital_computer
+texticon = {
+    icon = digital_computer
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/computer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+##uranium
+texticon = {
+    icon = uranium
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/uranium.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+##natural_gas
+texticon = {
+    icon = natural_gas
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/natural_gas.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+##nuclear_weapon
+texticon = {
+    icon = nuclear_weapon
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/nuclear_weapon.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+    icon = gasoline
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/gas_making.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+##television
+texticon = {
+    icon = television
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/television.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+##plastic
+texticon = {
+    icon = plastic
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/plastic.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+
+texticon = {
+    icon = microchips
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/microchip.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+    icon = personal_computer
+    iconsize = {
+		texture = "gfx/interface/icons/goods_icons/personal_computer.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
