@@ -1,0 +1,17 @@
+﻿prestige_good_general_electric_car = {
+	possible = {
+		has_dlc_feature = mp1_content
+	}
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/general_electric_car.dds"
+}
+
+prestige_good_modelo = {
+    possible = {
+		has_dlc_feature = mp1_content
+	}
+	base_good = liquor
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/modelo.dds"
+}

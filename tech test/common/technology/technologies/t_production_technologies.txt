@@ -1,0 +1,560 @@
+﻿REPLACE:plastics = { ##unlocks plastic manufacturing building later for diffrent tech mb
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/plastics.dds"
+	category = production
+
+	ai_weight = {
+		value = 1
+	}
+
+    can_research = no
+}
+
+
+
+
+electric_computer = { ## building_computer_assembly_plant 
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/electric_computer.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electrical_capacitors
+        pneumatic_tools
+    }
+}
+
+airports = { ##airport building
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/airport.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        oil_turbine
+        arc_welding
+    }
+
+}
+
+nuclear_fission = { ## uranium mine
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/nuclear_fission.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electrical_capacitors
+    }
+}
+
+nuclear_power = { ##nuclear power plant building
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/nuclear_power.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        nuclear_fission
+        electric_computer
+    }
+}
+
+oxygen_steel = { ##oxygen steelmaking PM
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/oxygen_steel.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electric_arc_process
+    }
+}
+
+natural_gas = { #natural gass good and natural gas pm power plant
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/natural_gas.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        compression_ignition
+    }
+}
+
+oil_powered_tractors = { ##production method for GASOLINE replacing coal tractors
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/gasoline_tractor.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    
+    unlocking_technologies = {
+        compression_ignition
+        mechanized_farming
+    }
+}
+
+gasoline_making = { ##gasoline refinery building
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/gas_making.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        oil_turbine
+    }
+}
+
+commercial_trucking = { ## commerical trucking pm
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/com_trucking.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        gasoline_making
+        airports
+    }
+}
+
+jet_airliners = {  ##jet airliner aeroplane car pm
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/jet_airliner.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        electric_computer
+        airports
+    }
+}
+
+television = {  ##television building
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/television.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electric_computer
+    }
+}
+
+##fracking for oil???
+
+### BELOW THIS IS ERA 7
+
+integrated_circuits = { ##unlocks pm_transistor_computers
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/integrated_circuit.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electric_computer
+    }
+}
+
+float_glass_process = { ##unlocks pm_float_glass
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/float_glass.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        oxygen_steel
+    }
+}
+
+plastic_production = { ##plastic building lesss gooooo
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/plastic.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        natural_gas
+    }
+}
+
+transistor_radio = { ##transistor radio pm
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/t_radio.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electric_computer
+    }
+}
+
+nylon = { ##nylon synthetic pm
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/nylon.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        plastic_production
+    }
+}
+
+polyester = { ## polyester synthetic pm
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/polyester.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        plastic_production
+    }
+}
+
+colored_television = { ## colored television pm
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/colored_television.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        television
+    }
+}
+
+e_cigs = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/e_cigs.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        natural_gas
+    }
+}
+
+high_speed_rail = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/high_speed_rail.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        oxygen_steel
+    }
+}
+
+fracking = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/fracking.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        natural_gas
+        float_glass_process
+    }
+}
+
+microchip = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/microchip.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+    unlocking_technologies = {
+        integrated_circuits
+    }
+}
+
+
+## aadd me later twin for plastic building pm_houseware_plastics
+
+## COLORED TELEVISION = {} ##televsion = new tv pm
+
+## nylon = plastic production = +40 silk synthetic plant pm
+
+
+
+##polyester = plastic prodcuton = +60 fabric synthetic plant pm 
+
+
+
+
+
+
+
+### ERA 8 BELOW
+
+microprocessor_computer = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/microprocessor_computer.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        microchip
+    }
+}
+
+##computer networks make 
+
+computer_networks = { ## ???
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/computer_networks.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        microchip
+    }
+}
+
+new_personal_computers = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/pc.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        computer_networks
+    }
+}
+
+electronic_sewing_machines = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/electronic_sewing_machine.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        microchip
+        polyester
+        nylon
+    }
+}
+
+alkaline_gasoline = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/alky.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        fracking
+    }
+}
+
+fluid_catalytic_cracking = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/catalytic.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        fracking
+    }
+}
+
+precise_cutting_machines = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/precise_cutting_machine.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        microchip
+    }
+}
+
+modern_gmos = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/gmo.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        microchip
+    }
+}
+
+ultra_processed_food = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/ultra_processed_food.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        modern_gmos
+    }
+}
+
+synthetic_rubber = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/tire.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        nylon
+        polyester
+    }
+}
+
+industrial_robots = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/industrial_robot.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        precise_cutting_machines
+    }
+}
+
+house_phones = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/house_phone.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        computer_networks
+    }
+}
+
+electric_drills = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/electric_drills.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        fluid_catalytic_cracking
+    }
+}
+
+power_tools = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/power_tools.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        electric_drills
+    }
+}
+
+combine_harvester = {
+    era = era_9
+    texture = "gfx/interface/icons/invention_icons/combine_harvester.dds"
+    category = production
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        synthetic_rubber
+    }
+}

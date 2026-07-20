@@ -1,0 +1,1490 @@
+﻿pm_labratories = {
+    texture = "gfx/interface/icons/production_method_icons/lab.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_paper_add = 25
+            goods_input_digital_computer_add = 5
+        }
+        level_scaled = {
+            building_employment_clerks_add = 200
+			building_employment_laborers_add = 100
+			building_employment_academics_add = 750
+        }
+    }
+
+    country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 5
+		}
+	}
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pop_qualifications_mult = 0.3
+		}
+	}
+}
+##add advanced computer pm with modenr computers
+pm_electric_computers = {
+  	texture = "gfx/interface/icons/production_method_icons/computer.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 10
+            goods_input_steel_add = 10
+            goods_output_digital_computer_add = 20
+        }
+        level_scaled = {
+            building_employment_machinists_add = 350
+			building_employment_laborers_add = 250
+            building_employment_engineers_add = 250
+        }
+    }
+}
+
+pm_mixed_airport = {
+    texture = "gfx/interface/icons/production_method_icons/mixed_airport.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 3
+            goods_input_aeroplanes_add = 5
+            goods_output_transportation_add = 50
+        }
+        level_scaled = {
+			building_employment_clerks_add = 400
+            building_employment_machinists_add = 250
+            building_employment_engineers_add = 100
+            building_employment_capitalists_add = 10
+        }
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_weekly_trades_add = 1
+			state_trade_capacity_add = 5
+		}
+	}
+}
+
+pm_commercial_airport = {
+    texture = "gfx/interface/icons/production_method_icons/commercial_airport.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 10
+            goods_input_aeroplanes_add = 5
+            goods_output_transportation_add = 10
+        }
+        level_scaled = {
+			building_employment_clerks_add = 50
+            building_employment_machinists_add = 300
+            building_employment_engineers_add = 150
+            building_employment_capitalists_add = 15
+        }
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_weekly_trades_add = 2
+			state_trade_capacity_add = 15
+		}
+	}
+}
+
+pm_travel_airport = {
+    texture = "gfx/interface/icons/production_method_icons/travel_airport.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_engines_add = 3
+            goods_input_aeroplanes_add = 10
+            goods_output_transportation_add = 125
+        }
+        level_scaled = {
+			building_employment_clerks_add = 300
+            building_employment_machinists_add = 100
+            building_employment_engineers_add = 200
+        }
+    }
+}
+
+pm_uranium_quarrys = {
+    texture = "gfx/interface/icons/production_method_icons/uranium_mine.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 15
+            goods_input_oil_add = 5
+
+            goods_output_uranium_add = 50
+        }
+        level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1600
+			building_employment_engineers_add = 800
+		}
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+}
+
+pm_no_uranium_automation = {
+    texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_nuclear_power_base = {
+    texture = "gfx/interface/icons/production_method_icons/nuclear_fission.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_uranium_add = 20
+            goods_input_steel_add = 10
+            goods_input_engines_add = 5
+            goods_input_digital_computer_add = 3
+
+            goods_output_electricity_add = 150
+        }
+        level_scaled = {
+            building_employment_bureaucrats_add = 15
+            building_employment_engineers_add = 300
+            building_employment_machinists_add = 400
+            building_employment_laborers_add = 150
+            building_employment_capitalists_add = 10
+        }
+    }
+}
+
+pm_nuclear_power_no_automation = {
+    texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_oxygen_steel = {
+    texture = "gfx/interface/icons/production_method_icons/oxygen_steel.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 35
+		}
+	}
+
+	unlocking_technologies = {
+		oxygen_steel
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 100
+			goods_input_coal_add = 40
+			goods_input_electricity_add = 50
+
+			goods_output_steel_add = 200
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 1750
+			building_employment_engineers_add = 1150
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_natural_gas_1 = {
+   texture = "gfx/interface/icons/production_method_icons/gas_mining.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 40
+		}
+	}
+
+	unlocking_technologies = {
+		natural_gas
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10
+            goods_input_steel_add = 10
+
+			# output goods
+			goods_output_natural_gas_add = 100
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 50
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 900
+		}
+	}
+}
+
+pm_no_natural_gas_automation = {
+    texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_natural_gas-fired_plant = {
+    texture = "gfx/interface/icons/production_method_icons/natural_gas.dds"
+
+	unlocking_technologies = {
+		natural_gas
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 40
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 10 
+			goods_input_natural_gas_add = 25 
+			goods_output_electricity_add = 80 
+			goods_input_digital_computer_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 250
+			building_employment_machinists_add = 600
+			building_employment_engineers_add = 200
+		}
+	}
+}
+
+pm_nuclear_weapon_production = {
+    texture = "gfx/interface/icons/production_method_icons/nuke.dds"
+
+    unlocking_technologies = {
+        nuclear_weapons
+    }
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_uranium_add = 20
+            goods_input_steel_add = 10
+            goods_input_engines_add = 5
+            goods_input_digital_computer_add = 3
+            
+            goods_output_nuclear_weapon_add = 3
+        }
+        level_scaled = {
+			building_employment_laborers_add = 250
+			building_employment_machinists_add = 600
+			building_employment_engineers_add = 200
+            building_employment_academics_add = 50
+		}
+        
+    }
+
+	disallowing_laws = {
+		law_nuclear_disarm
+	}
+}
+
+pm_gasoline_refine = {
+    texture = "gfx/interface/icons/production_method_icons/gas_refine.dds"
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 10
+            goods_input_oil_add = 15
+			goods_input_natural_gas_add = 10
+
+            goods_output_gasoline_add = 90
+        }
+        level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 300
+			building_employment_machinists_add = 1600
+			building_employment_engineers_add = 100
+		}
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 50
+		}
+	}
+}
+
+pm_gasoline_no_automation = {
+    texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_gasoline_tractor = {
+    texture = "gfx/interface/icons/production_method_icons/gasoline_tractor.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		oil_powered_tractors
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gasoline_add = 10
+			goods_input_engines_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2750
+		}
+	}
+}
+
+pm_log_trucks = {
+	texture = "gfx/interface/icons/production_method_icons/com_trucking.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		commercial_trucking
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gasoline_add = 10
+			goods_input_automobiles_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2250
+		}
+	}
+}
+
+pm_mining_trucks = {
+	texture = "gfx/interface/icons/production_method_icons/com_trucking.dds"
+
+	unlocking_technologies = {
+		commercial_trucking
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+				goods_input_automobiles_add = 2
+			}
+
+		level_scaled = {
+			building_employment_laborers_add = -1250
+		}
+	}
+}
+
+pm_jet_airliner_production = {
+	texture = "gfx/interface/icons/production_method_icons/jet_airliner.dds"
+
+	unlocking_technologies = {
+		jet_airliners
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_hardwood_add = 5
+			goods_input_fabric_add = 5
+
+			
+			goods_output_automobiles_add = -10
+			goods_output_aeroplanes_add = 15
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 300
+		}
+	}
+}
+
+pm_television_base = {
+	texture = "gfx/interface/icons/production_method_icons/television.dds"
+	unlocking_technologies = {
+		television
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 50
+			goods_input_digital_computer_add = 5
+			goods_input_plastic_add = 10
+			goods_output_television_add = 50
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_no_television_automation = {
+	texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+
+
+pm_film_studios = { 
+	texture = "gfx/interface/icons/production_method_icons/movie_studios.dds"
+
+	unlocking_technologies = {
+		movie_studios
+	}
+
+	building_modifiers = {
+
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_paper_add = 15
+			goods_input_electricity_add = 10
+			goods_input_digital_computer_add = 3
+			goods_input_television_add = 5
+
+			goods_output_fine_art_add = 25
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_transistor_computers = {
+	texture = "gfx/interface/icons/production_method_icons/integrated_circuit.dds"
+	
+	unlocking_technologies = {
+		integrated_circuits
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 15
+            goods_input_steel_add = 10
+            goods_output_digital_computer_add = 35
+        }
+        level_scaled = {
+            building_employment_machinists_add = 350
+			building_employment_laborers_add = 200
+            building_employment_engineers_add = 300
+        }
+    }
+}
+
+pm_float_glass = {
+	texture = "gfx/interface/icons/production_method_icons/float_glass.dds"
+	unlocking_technologies = {
+		float_glass_process
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 10
+			goods_input_coal_add = 10
+			goods_input_sulfur_add = 5
+			goods_input_lead_add = 40
+			goods_input_digital_computer_add = 3
+
+			goods_output_glass_add = 130
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_plastic_no_automation = {
+	texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_plastic_making = {
+	texture = "gfx/interface/icons/production_method_icons/plastic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_natural_gas_add = 10
+			goods_input_oil_add = 10
+			goods_input_coal_add = 30
+			goods_input_digital_computer_add = 3
+
+			goods_output_plastic_add = 100
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+
+
+pm_transistor_radio = {
+	texture = "gfx/interface/icons/production_method_icons/t_radio.dds"
+	unlocking_technologies = {
+		transistor_radio
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 55
+			goods_input_digital_computer_add = 3
+			goods_output_telephones_add = -20
+			goods_output_radios_add = 65
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 600
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_copy_machine = {
+	texture = "gfx/interface/icons/production_method_icons/copy_machines.dds"
+	unlocking_technologies = {
+		copy_machines
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_bureaucracy_add = 150
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = 45
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 20
+			goods_input_telephones_add = 5
+			goods_input_digital_computer_add = 3
+		}
+
+		level_scaled = {
+			building_employment_clerks_add = 600
+		}
+	}
+}
+
+pm_nylon = {
+	texture = "gfx/interface/icons/production_method_icons/nylon.dds"
+
+	unlocking_technologies = {
+		nylon
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 3
+			goods_input_natural_gas_add = 10
+			goods_input_plastic_add = 20
+
+			goods_output_dye_add = -10
+			goods_output_silk_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = 1100
+		}
+	}
+}
+
+pm_polyester = {
+	texture = "gfx/interface/icons/production_method_icons/nylon.dds"
+
+	unlocking_technologies = {
+		polyester
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 3
+			goods_input_plastic_add = 30
+
+			goods_output_dye_add = -10
+			goods_output_fabric_add = 55
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = 1100
+		}
+	}
+}
+
+pm_colored_televsion = {
+	texture = "gfx/interface/icons/production_method_icons/colored_television.dds"
+	unlocking_technologies = {
+		colored_television
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 60
+			goods_input_digital_computer_add = 5
+			goods_input_plastic_add = 25
+
+			goods_output_television_add = 70
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_e_cigarettes = {
+	texture = "gfx/interface/icons/production_method_icons/e_cigs.dds"
+
+	unlocking_technologies = {
+		e_cigs
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 2
+			goods_input_electricity_add = 5
+			goods_input_plastic_add = 10
+
+			goods_output_tobacco_add = 30
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 600
+			building_employment_laborers_add = -1500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_high_speed_rail = {
+	texture = "gfx/interface/icons/production_method_icons/high_speed_rail.dds"
+
+	unlocking_technologies = {
+		high_speed_rail
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 5
+			goods_input_electricity_add = 10
+			goods_input_plastic_add = 5
+			goods_output_transportation_add = 30
+			goods_output_services_add = 10
+		}
+		level_scaled = {
+			building_employment_clerks_add = 250
+		}
+	}
+
+	required_input_goods = electricity
+
+}
+
+pm_fracking	= {
+	texture = "gfx/interface/icons/production_method_icons/fracking.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	unlocking_technologies = {
+		fracking
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_explosives_add = 5
+			goods_input_engines_add = 5
+			goods_input_steel_add = 5
+
+			goods_output_oil_add = 130
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_small_scale_integration = {
+	texture = "gfx/interface/icons/production_method_icons/small_scale_integration.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 5
+			goods_input_steel_add = 5
+			goods_input_plastic_add = 10
+			goods_input_digital_computer_add = 5
+			
+			goods_output_microchips_add = 40
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2500
+			building_employment_engineers_add = 1000
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_microchip_no_automation = {
+	texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_microprocessor_computers = {
+	texture = "gfx/interface/icons/production_method_icons/pc_test.dds"
+	
+	unlocking_technologies = {
+		microprocessor_computer
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 15
+            goods_input_steel_add = 10
+			goods_input_microchips_add = 20
+            goods_output_digital_computer_add = 50
+        }
+        level_scaled = {
+            building_employment_machinists_add = 350
+			building_employment_laborers_add = 200
+            building_employment_engineers_add = 500
+        }
+    }
+}
+
+pm_shopping_centers = {
+	texture = "gfx/interface/icons/production_method_icons/shopping_mall.dds"
+	unlocking_technologies = {
+		shopping_malls
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 5
+			goods_input_steel_add = 3
+			goods_input_electricity_add = 3
+			goods_output_services_add = 40
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_clerks_add = 3250
+			building_employment_shopkeepers_add = 1000
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_large_scale_integration = {
+	texture = "gfx/interface/icons/production_method_icons/large_scale_integration.dds"
+	unlocking_technologies = {
+		computer_networks
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 10
+			goods_input_steel_add = 5
+			goods_input_plastic_add = 15
+			goods_input_digital_computer_add = 7
+			
+			goods_output_microchips_add = 65
+		}
+
+
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 2500
+			building_employment_engineers_add = 1500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+
+pm_personal_computers = {
+	texture = "gfx/interface/icons/production_method_icons/pc.dds"
+	
+	unlocking_technologies = {
+		new_personal_computers
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_electricity_add = 30
+            goods_input_steel_add = 10
+			goods_input_microchips_add = 20
+            goods_output_personal_computer_add = 70
+        }
+        level_scaled = {
+            building_employment_machinists_add = 350
+			building_employment_laborers_add = 200
+            building_employment_engineers_add = 750
+        }
+    }
+
+	required_input_goods = electricity
+}
+
+pm_electronic_sewing_machines = {
+	texture = "gfx/interface/icons/production_method_icons/electronic_sewing_machine.dds"
+
+	unlocking_technologies = {
+		electronic_sewing_machines
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fabric_add = 60
+			goods_input_dye_add = 20
+			goods_input_microchips_add = 10
+			goods_input_digital_computer_add = 5
+			goods_input_electricity_add = 15
+
+			goods_output_clothes_add = 180
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_alkylation = {
+	texture = "gfx/interface/icons/production_method_icons/alky.dds"
+
+	unlocking_technologies = {
+		alkaline_gasoline
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_tools_add = 10
+            goods_input_oil_add = 20
+			goods_input_natural_gas_add = 15
+			goods_input_digital_computer_add = 3
+
+            goods_output_gasoline_add = 120
+        }
+        level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 300
+			building_employment_machinists_add = 1600
+			building_employment_engineers_add = 100
+		}
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 50
+		}
+	}
+}
+
+pm_fluid_catalyic_cracking = {
+	texture = "gfx/interface/icons/production_method_icons/catalytic.dds"
+
+	unlocking_technologies = {
+		fluid_catalytic_cracking
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_natural_gas_add = 10
+			goods_input_oil_add = 10
+			goods_input_coal_add = 30
+			goods_input_digital_computer_add = 5
+			goods_input_gasoline_add = 30
+
+			goods_output_plastic_add = 140
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_electronic_cutting_machines = {
+	texture = "gfx/interface/icons/production_method_icons/electronic_cutting_machines.dds"
+
+	unlocking_technologies = {
+		precise_cutting_machines
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 50
+			goods_input_fabric_add = 10
+			goods_input_tools_add = 10
+			goods_input_microchips_add = 15
+
+			goods_output_furniture_add = 130
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_no_automation_pc = {
+	texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_ultra_processed_food = {
+	texture = "gfx/interface/icons/production_method_icons/ultra_processed_food.dds"
+
+	unlocking_technologies = {
+		ultra_processed_food
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = -30
+			goods_input_fish_add = 30
+			goods_input_meat_add = 25
+			goods_input_iron_add = 10
+			goods_input_oil_add = 5 
+			goods_input_digital_computer_add = 5
+
+			goods_output_groceries_add = 100
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 200	
+		}
+	}
+}
+
+pm_gmos = {
+	texture = "gfx/interface/icons/production_method_icons/gmo.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	unlocking_technologies = {
+		modern_gmos
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_coal_add = 5
+			goods_input_digital_computer_add = 5
+
+			goods_output_meat_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1000
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/tire.dds"
+
+	unlocking_technologies = {
+		synthetic_rubber
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+			goods_input_oil_add = 20
+			goods_input_tools_add = -5
+			
+			goods_output_rubber_add = 120
+			goods_output_gasoline_add = -60	
+        }
+        level_scaled = {
+			building_employment_laborers_add = 300
+		}
+    }
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 50
+		}
+	}
+}
+
+pm_industrial_robots = { ###
+	texture = "gfx/interface/icons/production_method_icons/industrial_robot.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		industrial_robots
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+            goods_input_microchips_add = 3
+			goods_input_tools_add = 2
+			goods_input_oil_add = 5
+			goods_input_electricity_add = 6
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_no_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+}
+
+pm_house_phones = {
+	texture = "gfx/interface/icons/production_method_icons/house_phone.dds"
+
+	unlocking_technologies = {
+		house_phones
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 20
+			goods_input_rubber_add = 20
+			goods_input_lead_add = 20
+			goods_input_tools_add = 10
+			goods_input_microchips_add = 20
+
+			goods_output_telephones_add = 100
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+
+}
+
+pm_natural_gas_fracking = {
+	texture = "gfx/interface/icons/production_method_icons/fracking.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 40
+		}
+	}
+
+	unlocking_technologies = {
+		fracking
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 10
+			goods_input_explosives_add = 5
+            goods_input_steel_add = 10
+
+			goods_output_natural_gas_add = 140
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 100
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_research_organizations = {
+	texture = "gfx/interface/icons/production_method_icons/research_organizations.dds"
+
+	unlocking_technologies = {
+		research_organizations
+	}
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_input_paper_add = 30
+            goods_input_digital_computer_add = 5
+        }
+        level_scaled = {
+            building_employment_clerks_add = 200
+			building_employment_laborers_add = 100
+			building_employment_academics_add = 750
+        }
+    }
+
+    country_modifiers = {
+		workforce_scaled = {
+			country_weekly_innovation_add = 5
+			country_weekly_innovation_max_add = 3
+			country_military_tech_spread_mult = 0.01
+			country_society_tech_spread_mult = 0.01
+			country_production_tech_spread_mult = 0.01
+
+		}
+	}
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_pop_qualifications_mult = 0.40
+		}
+	}
+}
+
+pm_electric_drills_coal = {
+	texture = "gfx/interface/icons/production_method_icons/electric_drills.dds"
+
+	unlocking_technologies = {
+		electric_drills
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_electricity_add = 5
+
+			goods_output_coal_add = 120
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_electric_drills_iron = {
+	texture = "gfx/interface/icons/production_method_icons/electric_drills.dds"
+
+	unlocking_technologies = {
+		electric_drills
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_electricity_add = 5
+
+			goods_output_iron_add = 100
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_electric_drills_lead = {
+	texture = "gfx/interface/icons/production_method_icons/electric_drills.dds"
+
+	unlocking_technologies = {
+		electric_drills
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_electricity_add = 5
+
+			goods_output_lead_add = 100
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_electric_drills_sulfur = {
+	texture = "gfx/interface/icons/production_method_icons/electric_drills.dds"
+
+	unlocking_technologies = {
+		electric_drills
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_electricity_add = 5
+
+			goods_output_sulfur_add = 110
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_electric_drills_gold = {
+	texture = "gfx/interface/icons/production_method_icons/electric_drills.dds"
+
+	unlocking_technologies = {
+		electric_drills
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 15
+			goods_input_electricity_add = 5
+
+			goods_output_gold_add = 50
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 1500
+		}
+	}
+}
+
+pm_industrial_robot_paper = {
+	texture = "gfx/interface/icons/production_method_icons/industrial_robot.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		industrial_robots
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_oil_add = 5
+			goods_input_microchips_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}
+
+pm_industrial_robot_steel = {
+	texture = "gfx/interface/icons/production_method_icons/industrial_robot.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		industrial_robots
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5
+			goods_input_coal_add = 5
+			goods_input_microchips_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}
+
+pm_power_tools = {
+	texture = "gfx/interface/icons/production_method_icons/power_tools.dds"
+
+	unlocking_technologies = {
+		power_tools
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_rubber_add = 10
+			goods_input_steel_add = 30
+			goods_input_microchips_add = 5
+			goods_input_electricity_add = 10
+
+			goods_output_tools_add = 150
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_combine_harvester = {
+	texture = "gfx/interface/icons/production_method_icons/combine_harvester.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		combine_harvester
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_gasoline_add = 5
+			goods_input_engines_add = 3
+			goods_input_steel_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+	}
+}

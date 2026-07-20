@@ -1,0 +1,41 @@
+﻿mobilization_option_tactical_nuclear_weapons = {
+    texture = "gfx/interface/icons/production_method_icons/tactical_nuke.dds"
+
+    possible = {
+		market ?= {
+			mg:nuclear_weapon ?= {
+				has_potential_supply = yes
+			}
+		}
+	}
+
+    unlocking_technologies = {
+		tactical_nukes
+	}
+
+    upkeep_modifier = {
+		goods_input_nuclear_weapon_add = 1
+	}
+
+    unit_modifier = {
+		unit_morale_loss_mult = 0.01
+		unit_offense_mult = 0.3
+		unit_defense_mult = 0.3
+		unit_kill_rate_add = 0.5
+		unit_devastation_mult = 250
+	}
+
+    ai_weight = {
+		value = 1
+    }
+
+	disallowing_laws = {
+		law_no_nukes
+		law_nuclear_disarm
+	}
+
+
+    group = special_weapons
+
+
+}

@@ -1,0 +1,147 @@
+﻿INJECT:ideology_patriotic = {
+    lawgroup_nuclear_policy = {
+        law_nuclear_detterence = strongly_approve
+        law_no_nuclear_policy = disapprove
+        law_nuclear_disarm = strongly_disapprove
+    }
+}
+
+INJECT:ideology_jingoist = {
+    lawgroup_nuclear_policy = {
+        law_nuclear_detterence = strongly_approve
+        law_no_nuclear_policy = disapprove
+        law_nuclear_disarm = strongly_disapprove
+    }
+}
+
+INJECT:ideology_authoritarian = {
+    lawgroup_nuclear_policy = {
+        law_nuclear_detterence = strongly_approve
+        law_no_nuclear_policy = disapprove
+        law_nuclear_disarm = strongly_disapprove
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = strongly_disapprove
+        law_factory_towns = disapprove
+        law_poor_houses = disapprove
+        law_no_public_housing = neutral
+    }
+}
+
+INJECT:ideology_pacifist = {
+    lawgroup_nuclear_policy = {
+        law_nuclear_detterence = strongly_disapprove
+        law_no_nuclear_policy = disapprove
+        law_nuclear_disarm = strongly_approve
+    }
+}
+
+INJECT:ideology_egalitarian = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = disapprove
+        law_antitrusts = approve
+        law_financial_protections = strongly_approve
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = strongly_approve
+        law_factory_towns = neutral
+        law_poor_houses = approve
+        law_no_public_housing = disapprove
+    }
+}
+
+INJECT:humanitarian = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = disapprove
+        law_antitrusts = approve
+        law_financial_protections = strongly_approve
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = strongly_approve
+        law_factory_towns = neutral
+        law_poor_houses = approve
+        law_no_public_housing = disapprove
+    }
+}
+
+INJECT:ideology_laissez_faire = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = approve
+        law_antitrusts = disapprove
+        law_financial_protections = strongly_disapprove
+    }
+}
+
+INJECT:ideology_individualist = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = disapprove
+        law_antitrusts = approve
+        law_financial_protections = disapprove
+        }
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = neutral
+        law_factory_towns = neutral
+        law_poor_houses = neutral
+        law_no_public_housing = strongly_approve
+    }
+    
+
+INJECT:ideology_market_liberal = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = strongly_approve
+        law_antitrusts = disapprove
+        law_financial_protections = strongly_disapprove
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = strongly_disapprove
+        law_factory_towns = strongly_approve
+    }
+}
+
+INJECT:ideology_reformer = {
+    lawgroup_consumer_protections = {
+        law_no_consumer_protections = disapprove
+        law_antitrusts = approve
+        law_financial_protections = neutral  
+    }
+
+    lawgroup_public_housing = {
+        law_public_housing = strongly_approve
+        law_poor_houses = approve
+    }
+}
+
+INJECT:ideology_republican = {
+        lawgroup_consumer_protections = {
+            law_no_consumer_protections = neutral
+            law_antitrusts = approve
+            law_financial_protections = neutral
+    }
+
+        lawgroup_public_housing = {
+            law_public_housing = strongly_approve
+            law_poor_houses = approve
+    }
+}
+
+INJECT:ideology_plutocratic = {
+        lawgroup_consumer_protections = {
+            law_no_consumer_protections = strongly_approve
+            law_antitrusts = strongly_disapprove
+            law_financial_protections = strongly_disapprove
+    }
+}
+
+INJECT:ideology_hierarchic = {
+        lawgroup_consumer_protections = {
+            law_no_consumer_protections = approve
+            law_antitrusts = disapprove
+            law_financial_protections = strongly_disapprove
+    }
+}

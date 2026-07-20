@@ -1,0 +1,381 @@
+﻿pmg_research = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_labratories
+        pm_research_organizations
+    }
+}
+
+pmg_computer_type = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_electric_computers
+        pm_transistor_computers
+        pm_microprocessor_computers
+        pm_personal_computers
+        ##pm_digital_computers
+    }
+}
+
+pmg_computer_automation = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_no_automation_pc
+        ##pm_robot_automation
+    }
+}
+
+pmg_airport_type = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_mixed_airport
+        pm_commercial_airport
+        pm_travel_airport
+    }
+}
+
+pmg_uranium_mining = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_uranium_quarrys
+    }
+}
+
+pmg_uranium_automation = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_no_uranium_automation
+    }
+}
+
+pmg_nuclear_power = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_nuclear_power_base
+        pm_nuclear_weapon_production
+    }
+}
+
+pmg_nuclear_automation = {
+    texture = "gfx/interface/icons/invention_icons/livebimmyreaction.dds"
+    production_methods = {
+        pm_nuclear_power_no_automation
+    }
+}
+
+INJECT:pmg_steelmaking_process = {
+    production_methods = {
+        pm_oxygen_steel
+    }
+}
+
+pmg_natural_gas_extraction = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_natural_gas_1
+        pm_natural_gas_fracking
+    }
+}
+
+pmg_natural_gas_automation = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_no_natural_gas_automation
+    }
+}
+
+INJECT:pmg_base_building_power_plant = {
+	production_methods = {
+        pm_natural_gas-fired_plant
+	}
+}
+
+pmg_gasoline_type = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_gasoline_refine
+        pm_alkylation
+	}
+}
+
+pmg_gasoline_automation = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_gasoline_no_automation
+	}
+}
+
+INJECT:pmg_harvesting_process_building_rye_farm = {
+    production_methods= {
+        pm_gasoline_tractor
+        pm_combine_harvester
+    }
+}
+
+INJECT:pmg_harvesting_process_building_wheat_farm = {
+    production_methods= {
+        pm_gasoline_tractor
+        pm_combine_harvester
+    }
+}
+
+INJECT:pmg_harvesting_process_building_rice_farm = {
+    production_methods= {
+        pm_gasoline_tractor
+        pm_combine_harvester
+    }
+}
+
+INJECT:pmg_harvesting_process_building_maize_farm = {
+    production_methods= {
+        pm_gasoline_tractor
+        pm_combine_harvester
+    }
+}
+
+INJECT:pmg_harvesting_process_building_millet_farm = {
+    production_methods = {
+        pm_gasoline_tractor
+        pm_combine_harvester
+    }
+}
+
+INJECT:pmg_transportation_building_logging_camp = {
+    production_methods = {
+        pm_log_trucks
+    }
+}
+
+INJECT:pmg_steam_automation_building_coal_mine = {
+    production_methods = {
+        pm_mining_trucks
+    }
+}
+
+INJECT:pmg_steam_automation_building_sulfur_mine = {
+    production_methods = {
+        pm_mining_trucks
+    }
+}
+
+INJECT:pmg_steam_automation_building_iron_mine = {
+    production_methods = {
+        pm_mining_trucks
+    }
+}
+
+INJECT:pmg_steam_automation_building_lead_mine = {
+    production_methods = {
+        pm_mining_trucks
+    }
+}
+
+INJECT:pmg_steam_automation_building_gold_mine = {
+    production_methods = {
+        pm_mining_trucks
+    }
+}
+
+INJECT:pmg_aeroplanes = {
+	production_methods = {
+		pm_jet_airliner_production
+	}
+}
+
+pmg_television_base = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_television_base
+        pm_colored_televsion
+	}
+}
+
+pmg_television_automation = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_television_automation
+	}
+}
+
+INJECT:pmg_base_building_art_academy = {
+    production_methods = {
+        pm_film_studios
+    }
+}
+
+
+REPLACE:pmg_base_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_forest_glass
+		pm_leaded_glass
+		pm_crystal_glass
+		pm_float_glass
+	}
+}
+
+pmg_t_plastic_base = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_plastic_making
+        pm_fluid_catalyic_cracking
+    }
+}
+
+pmg_t_plastic_automation = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    production_methods = {
+        pm_plastic_no_automation
+    }
+}
+
+INJECT:pmg_radios_category = {
+	production_methods = {
+        pm_transistor_radio
+	}
+}
+
+INJECT:pmg_base_building_government_administration = {
+    production_methods = {
+        pm_copy_machine
+    }
+}
+
+INJECT:pmg_synthetic_silk = {
+    production_methods = {
+        pm_polyester
+        pm_nylon
+    }
+}
+
+INJECT:pmg_manufacture_tobacco = {
+	production_methods = {
+		pm_e_cigarettes
+	}
+}
+
+INJECT:pmg_passenger_trains = {
+    production_methods = {
+        pm_high_speed_rail
+    }
+}
+
+INJECT:pmg_base_building_oil_rig = {
+    production_methods = {
+        pm_fracking
+    }
+}
+
+pmg_microchip_base = {
+    production_methods = {
+        pm_small_scale_integration
+        pm_large_scale_integration
+        pm_ultra_large_scale_integration
+
+    }
+}
+
+pmg_microchip_automation = {
+    production_methods = {
+        pm_microchip_no_automation
+    }
+}
+
+INJECT:pmg_amenities = {
+    production_methods = {
+        pm_shopping_centers
+    }
+}
+
+INJECT:pmg_base_building_textile_mill = {
+    production_methods = {
+        pm_electronic_sewing_machines
+    }
+}
+
+INJECT:pmg_base_building_furniture_manufactory = {
+    production_methods = {
+        pm_electronic_cutting_machines
+    }
+}
+
+INJECT:pmg_canning = {
+	production_methods = {
+        pm_ultra_processed_food
+    }
+}
+
+INJECT:pmg_base_building_livestock_ranch = {
+    production_methods = {
+        pm_gmos
+    }
+}
+
+pmg_rubber = {
+    texture = "gfx/interface/icons/production_method_icons/tire.dds"
+    production_methods = {
+        pm_no_rubber
+        pm_rubber
+    }
+}
+
+INJECT:pmg_automation_building_automotive_industry = {
+    texture = "gfx/interface/icons/production_method_icons/bigredx.dds"
+    production_methods = {
+        pm_industrial_robots
+    }
+}
+
+INJECT:pmg_telephones_category = {
+    production_methods = {
+        pm_house_phones
+    }
+}
+
+INJECT:pmg_mining_equipment_building_coal_mine = {
+    production_methods = {
+        pm_electric_drills_coal
+    }
+}
+
+INJECT:pmg_mining_equipment_building_iron_mine = {
+    production_methods = {
+        pm_electric_drills_iron
+    }
+}
+
+INJECT:pmg_mining_equipment_building_lead_mine = {
+    production_methods = {
+        pm_electric_drills_lead
+    }
+}
+
+INJECT:pmg_mining_equipment_building_sulfur_mine = {
+    production_methods = {
+        pm_electric_drills_sulfur
+    }
+}
+
+INJECT:pmg_mining_equipment_building_gold_mine = {
+    production_methods = {
+        pm_electric_drills_gold
+    }
+}
+
+INJECT:pmg_automation_building_paper_mill = {
+    production_methods = {
+        pm_industrial_robot_paper
+    }
+}
+
+INJECT:pmg_automation_building_steel_mill = {
+    production_methods = {
+        pm_industrial_robot_steel
+    }
+}
+
+INJECT:pmg_base_building_tooling_workshop = {
+    production_methods = {
+        pm_power_tools
+    }
+}

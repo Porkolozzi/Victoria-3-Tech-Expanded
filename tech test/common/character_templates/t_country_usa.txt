@@ -1,0 +1,125 @@
+﻿usa_james_duke = {
+    first_name = james
+    last_name = duke
+    historical = yes
+    culture = cu:dixie
+    interest_group = ig_landowners
+    birth_date = 1856.12.23
+    home_region = STATE_NORTH_CAROLINA
+
+    executive_usage = {
+        company_trigger = {
+            is_company_type = company_type:american_tobacco_company
+        }
+        earliest_usage_date = 1890.1.1
+        latest_usage_date = 1911.1.1
+        chance = 100
+    }
+}
+
+usa_william_durant = {
+    first_name = william
+    last_name = durant
+    historical = yes
+    culture = cu:yankee
+    interest_group = ig_industrialists
+    birth_date = 1861.12.8
+    home_region = STATE_MICHIGAN
+
+    executive_usage = {
+        company_trigger = {
+            is_company_type = company_type:company_general_motors
+        }
+        earliest_usage_date = 1908.1.1
+        latest_usage_date = 1920.1.1
+        chance = 100
+    }
+}
+
+usa_bill_gates = {
+    first_name = bill
+    last_name = gates
+    historical = yes
+    culture = cu:yankee
+    interest_group = ig_intelligentsia
+    age = 25
+    home_region = STATE_WASHINGTON
+
+    executive_usage = {
+        company_trigger = {
+            is_company_type = company_type:company_microsoft
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 2000.1.1
+        chance = 100
+    }
+}
+
+can_jacob_englehart = {
+    first_name = jacob
+    last_name = englehart
+    historical = yes
+    culture = cu:anglo_canadian
+    interest_group = ig_industrialists
+    age = 33
+    home_region = STATE_ONTARIO
+
+    executive_usage = {
+        company_trigger = {
+            is_company_type = company_type:company_imperial_oil
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 2000.1.1
+        chance = 100
+    }
+}
+
+por_jeronimo_martins = {
+    first_name = jeronimo
+    last_name = martins
+    historical = yes
+    culture = cu:portuguese
+    interest_group = ig_intelligentsia
+    age = 20
+    home_region = STATE_ESTREMADURA
+
+    executive_usage = {
+        company_trigger = {
+            is_company_type = company_type:company_jeronimo_martins
+        }
+        earliest_usage_date = 1836.1.1
+        latest_usage_date = 2000.1.1
+        chance = 100
+    }
+}
+
+usa_brody_abel = {
+    first_name = brody
+    last_name = abel
+    historical = no
+    culture = cu:yankee
+    ig_leader = no
+    interest_group = ig_rural_folk
+    ideology = ideology_ethno_nationalist
+    age = 41
+    home_region = STATE_NEBRASKA
+    traits = {
+        opium_addiction
+        alcoholic
+        cocaine_addiction
+    }
+
+    interest_group_leader_usage = {
+        country_trigger = {
+            exists = c:USA
+            this = c:USA
+        }
+        interest_group_trigger = {
+            ig_counts_as_marginal = no
+            is_interest_group_type = ig_rural_folk
+        }
+        earliest_usage_date = 1836.2.1
+        latest_usage_date = 2000.1.1
+        chance = 100
+    }
+}

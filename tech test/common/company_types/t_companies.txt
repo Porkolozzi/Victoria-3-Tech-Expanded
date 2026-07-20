@@ -1,0 +1,257 @@
+﻿american_tobacco_company = {
+    icon = "gfx/interface/icons/company_icons/american_tobacco.dds"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_oil_drills.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_tobacco_plantation
+	}
+
+    possible = {
+        any_scope_state = {
+            state_region = s:STATE_NORTH_CAROLINA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_tobacco_plantation
+				level >= 5
+			}
+		}
+    }
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_NORTH_CAROLINA
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_NORTH_CAROLINA
+			}
+		}
+	}
+
+    possible_prestige_goods = {
+		prestige_good_cigars
+	}
+
+    prosperity_modifier = {
+		building_tobacco_plantation_throughput_add = 0.2
+	}
+
+    ai_weight = {
+        value = 3
+    }
+
+    preferred_headquarters = { STATE_NORTH_CAROLINA }
+}
+
+company_general_motors = {
+    icon = "gfx/interface/icons/company_icons/general_motors.dds"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+    flavored_company = yes
+
+    building_types = {
+		building_automotive_industry
+	}
+
+    possible_prestige_goods = {
+		prestige_good_general_electric_car
+	}
+
+    preferred_headquarters = { STATE_MICHIGAN }
+
+    possible = {
+        any_scope_state = {
+            state_region = s:STATE_MICHIGAN
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_automotive_industry
+				level >= 5
+			}
+		}
+    }
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+    prosperity_modifier = {
+		building_automotive_industry_throughput_add = 0.1
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_ibm = {
+   icon = "gfx/interface/icons/company_icons/ibm.dds"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+    flavored_company = yes
+
+    building_types = {
+		building_computer_assembly_plant
+        building_microchip_foundary
+	}
+
+    possible = {
+		any_scope_state = {
+			region = sr:region_atlantic_coast
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_computer_assembly_plant
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+
+    prosperity_modifier = {
+		building_microchip_foundary_throughput_add = 0.05
+        building_computer_assembly_plant_throughput_add = 0.05
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_exxon_mobil = {
+    icon = "gfx/interface/icons/company_icons/exxon_mobil.dds"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+    flavored_company = yes
+
+    building_types = {
+		building_natural_gas_mines
+        building_oil_rig
+        building_oil_refinery
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_atlantic_coast  
+			}
+		}
+	}
+
+    possible = {
+		any_scope_state = {
+			region = sr:region_atlantic_coast
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_oil_rig
+				level >= 5
+			}
+		}
+        any_scope_state = {
+			region = sr:region_atlantic_coast
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_oil_refinery
+				level >= 5
+			}
+		}
+	}
+
+    prosperity_modifier = {
+		building_natural_gas_mines_throughput_add = 0.05
+        building_oil_rig_throughput_add = 0.05
+        building_oil_refinery_throughput_add = 0.05
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_microsoft = {
+    icon = "gfx/interface/icons/company_icons/microsoft.dds"
+    background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+    flavored_company = yes
+
+    building_types = {
+		building_computer_assembly_plant
+	}
+
+    possible = {
+		any_scope_state = {
+			region = sr:region_pacific_coast
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_computer_assembly_plant
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_pacific_coast  
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_pacific_coast  
+			}
+		}
+	}
+
+    preferred_headquarters = { STATE_WASHINGTON }
+
+
+    prosperity_modifier = {
+		building_computer_assembly_plant_throughput_add = 0.1
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}

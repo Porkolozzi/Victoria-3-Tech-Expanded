@@ -1,0 +1,402 @@
+﻿
+
+
+
+## era 6
+penicillin =  {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/peni.dds"
+    category = society
+    
+    modifier = {
+        state_harvest_condition_disease_outbreak_impact_mult = -0.1
+        state_mortality_mult = -0.1
+    }
+
+    unlocking_technologies = {
+        antibiotics
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}
+
+economic_reforms = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/money.dds"
+    category = society
+
+    modifier = {
+        country_minting_mult = 0.1
+		country_government_dividends_efficiency_add = 0.03
+        state_institution_impact_add = 0.10
+    }
+
+    unlocking_technologies = {
+        modern_financial_instruments
+        macroeconomics
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}
+
+social_services = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/social_security.dds"
+    category = society
+
+    modifier = {
+        state_political_strength_from_welfare_mult = 0.05
+        state_welfare_payments_mult = 0.15
+        state_food_security_add = 0.10
+        country_institution_cost_institution_social_security_mult  = -0.25
+    }
+
+    unlocking_technologies = {
+        mass_surveillance
+        mass_propaganda
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}
+
+highways = { ##Highway infrastructure building???
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/highway.dds"
+    category = society
+
+    modifier = {
+        state_infrastructure_from_automobiles_consumption_add = 0.20
+        state_infrastructure_from_population_add = 10
+    }
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        paved_roads
+    }
+}
+
+modern_research_methods = { ## unlocks research labs
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/modern_research.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        analytical_philosophy
+        film
+    }
+}
+
+suburbs = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/suburbs.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        highways
+        economic_reforms
+    }
+    
+    modifier = {
+        state_expected_sol_from_literacy = 1
+        state_migration_pull_mult = 0.1
+        state_mortality_wealth_mult = -0.01
+        state_urbanization_per_level_mult = -0.1
+        state_market_access_price_impact = 0.05
+    }
+}
+
+television_entertainment = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/tv_e.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        film
+    }
+
+    modifier = {
+        state_dependent_political_participation_add = 0.1
+        state_radicals_from_political_movements_mult = 0.03
+    }
+}
+
+trade_organizations = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/trade_organs.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        economic_reforms
+        multilateral_alliances
+    }
+
+    modifier = {
+        country_minting_mult = 0.03
+		country_loan_interest_rate_add = -0.01
+		country_government_dividends_efficiency_add = 0.03
+    }
+}
+
+educational_programs = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/edu_programs.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        television_entertainment
+        modern_research_methods
+    }
+    
+    modifier = {
+        state_literacy_growth_add = 0.0005
+
+    }
+}
+
+consumerism = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/consumerism.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        television_entertainment
+        mass_propaganda
+    }
+
+    modifier = {
+        state_standard_of_living_add = 0.4
+        state_pop_support_movement_corporatist_add = 3
+        state_capitalists_investment_pool_efficiency_mult = 0.05
+        state_laborers_consumption_multiplier_add = 0.05
+    }
+}
+
+keynesian_economics = {
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/key.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        social_services
+        modern_research_methods
+    }
+    modifier = {
+        building_cash_reserves_mult = 0.2
+        country_loan_interest_rate_add = -0.01
+    }
+}
+
+
+### BELOW THIS IS ERA 7
+
+##shopping malls = consumerism + suburbs, era tier 7
+
+shopping_malls = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/shopping_mall.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        consumerism
+        suburbs
+    }
+
+    modifier = {
+        state_urbanization_per_level_mult = -0.1
+        building_group_bg_service_standard_of_living_add = 0.5
+    }
+}
+
+movie_studios = { ##film studios art pm
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/movie_studios.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        television_entertainment
+    }
+}
+
+think_tanks = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/think_tanks.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        trade_organizations
+    }
+    modifier = {
+        state_capitalists_investment_pool_efficiency_mult = 0.05
+        state_dependent_political_participation_add = 0.1
+    }
+}
+
+vaccines = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/vaccine.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        penicillin
+    }
+
+    modifier = {
+        state_mortality_mult = -0.05
+    }
+}
+
+credit_cards = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/credit_card.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        consumerism
+    }
+
+    modifier = {
+        country_authority_mult = 0.25
+        state_expected_sol_from_literacy = 0.5
+        state_laborers_consumption_multiplier_add = 0.01
+        state_capitalists_investment_pool_efficiency_mult = 0.05
+
+    }
+}
+
+copy_machines = { ##copy machines pm for gov
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/copy_machines.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        consumerism
+    }
+}
+
+##MAD no nukes diplomatic treaty???
+
+##space programs
+
+mad = {
+    era = era_7
+    texture = "gfx/interface/icons/invention_icons/MAD.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        think_tanks
+    }
+}
+
+consumer_protections = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/consumer_protection.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        credit_cards
+        economic_reforms
+    }
+}
+
+mass_produced_homes = {
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/house.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        shopping_malls
+        economic_reforms
+    }
+
+    modifier = {
+        country_free_charters_add = 1
+    }
+}
+## consumer protection = consumerism + economic reforms
+
+research_organizations = { ##pm for reasrach labs
+    era = era_8
+    texture = "gfx/interface/icons/invention_icons/research_organizations.dds"
+    category = society
+
+    ai_weight = {
+        value = 1
+    }
+
+    unlocking_technologies = {
+        educational_programs
+    }
+}

@@ -1,0 +1,28 @@
+﻿nuclear_weapons = { ##nuclear weapons je and nuclear weapon pm??
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/nuke.dds"
+    category = military
+
+    unlocking_technologies = {
+        chemical_warfare
+        military_aviation
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}
+
+tactical_nukes = { ##nuke mobilization thing
+    era = era_6
+    texture = "gfx/interface/icons/invention_icons/tactical_nuke.dds"
+    category = military
+
+    unlocking_technologies = {
+        nuclear_weapons
+    }
+
+    ai_weight = {
+        value = 1
+    }
+}

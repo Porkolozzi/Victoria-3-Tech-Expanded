@@ -1,0 +1,38 @@
+﻿
+
+law_no_nuclear_policy = {
+    group = lawgroup_nuclear_policy
+    icon = "gfx/interface/icons/law_icons/no_nuclear_policy.dds"
+
+    progressiveness = 0
+}
+
+law_nuclear_detterence = {
+    group = lawgroup_nuclear_policy
+    icon = "gfx/interface/icons/law_icons/nuclear_detterence.dds"
+
+    progressiveness = 0
+
+    modifier = {
+        building_nuclear_power_plant_throughput_add = 0.1
+    }
+
+    unlocking_technologies = {
+		nuclear_weapons
+	}
+}
+
+law_nuclear_disarm = {
+    group = lawgroup_nuclear_policy
+    icon = "gfx/interface/icons/law_icons/no_nukes.dds"
+
+    progressiveness = 0
+
+    modifier = {
+        building_nuclear_power_plant_throughput_add = -0.50
+    }
+
+    unlocking_technologies = {
+		mad
+	}
+}

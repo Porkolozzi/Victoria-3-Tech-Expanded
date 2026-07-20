@@ -1,0 +1,237 @@
+﻿state_laborers_consumption_multiplier_add ={
+	decimals=1
+	color=bad
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_microchip_foundary_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_uranium_mine_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_oil_rig_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_computer_assembly_plant_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_nuclear_power_plant_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_oil_refinery_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+building_natural_gas_mines_throughput_add = {
+	decimals=0
+	color=good
+	percent=yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_digital_computer_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_digital_computer_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+
+
+##Modern Computer is digital computer mb
+
+goods_input_uranium_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_uranium_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_natural_gas_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_natural_gas_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_nuclear_weapon_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_nuclear_weapon_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_gasoline_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_gasoline_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_television_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_television_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_plastic_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_plastic_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_microchips_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_microchips_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+
+
+building_nuclear_power_plant_mult = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_personal_computer_add = {
+	decimals=1
+	color=bad
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_personal_computer_add = {
+	decimals=1
+	color=good
+	game_data={
+		ai_value=0
+	}
+}
+
+country_institution_public_housing_max_investment_add={
+	decimals=0
+	color=good
+	game_data={
+		ai_value=0
+	}
+}

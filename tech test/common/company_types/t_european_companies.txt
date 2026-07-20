@@ -1,0 +1,456 @@
+﻿company_marconi = {
+    icon = "gfx/interface/icons/company_icons/marconi.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_electrics_industry
+	}
+
+    extension_building_types = {
+		building_television_factory
+	}
+
+
+    prosperity_modifier = {
+		building_electrics_industry_throughput_add = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_ELBE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_electrics_industry
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_EAST_ANGLIA
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_EAST_ANGLIA
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_norddeutscher_lloyd = {
+    icon = "gfx/interface/icons/company_icons/nord.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_port
+	}
+
+    extension_building_types = {
+		building_shipyard
+	}
+
+    possible_prestige_goods = {
+        prestige_good_generic_merchant_marine
+    }
+
+
+    prosperity_modifier = {
+		building_shipyard_throughput_add = 0.2
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_ELBE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_port
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_ELBE
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_ELBE
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_saint_gobain = {
+    icon = "gfx/interface/icons/company_icons/Saint-Gobain.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_glassworks
+	}
+
+    prosperity_modifier = {
+		building_glassworks_throughput_add = 0.2
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_ILE_DE_FRANCE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_ILE_DE_FRANCE
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_jeronimo_martins = {
+	icon = "gfx/interface/icons/company_icons/jeronimo_martins.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_groceries
+	}
+
+    prosperity_modifier = {
+		building_food_industry_throughput_add = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_ESTREMADURA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_ESTREMADURA
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_ESTREMADURA
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_antinori = {
+	icon = "gfx/interface/icons/company_icons/anti.png"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_vineyard
+	}
+
+	possible_prestige_goods = {
+		prestige_good_champagne
+	}
+
+    prosperity_modifier = {
+		building_vineyard_throughput_add = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_TUSCANY
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_vineyard
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_TUSCANY
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_TUSCANY
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_imperial_porcelain_factory = {
+	icon = "gfx/interface/icons/company_icons/imperial.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_glassworks
+	}
+
+	possible_prestige_goods = {
+		prestige_good_meissen_porcelain
+	}
+
+    prosperity_modifier = {
+		building_glassworks_throughput_add = 0.1
+		country_prestige_mult = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_INGRIA
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 5
+			}
+		}
+		has_technology_researched = chemical_bleaching
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_INGRIA
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_INGRIA
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_tsingtao_brewery = {
+	icon = "gfx/interface/icons/company_icons/tsaingtao.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_glassworks
+	}
+
+	possible_prestige_goods = {
+		prestige_good_meissen_porcelain
+	}
+
+    prosperity_modifier = {
+		building_glassworks_throughput_add = 0.1
+		country_prestige_mult = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_BEIJING
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_glassworks
+				level >= 5
+			}
+		}
+		has_technology_researched = chemical_bleaching
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_BEIJING
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_BEIJING
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_umai_chemical = {
+	icon = "gfx/interface/icons/company_icons/umai.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_chemical_plant
+	}
+
+    prosperity_modifier = {
+		building_chemical_plant_throughput_add = 0.1
+	}
+
+	extension_building_types = {
+		building_sulfur_mine
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_KANTO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_chemical_plant
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_KANTO
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_KANTO
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_ulker = {
+	icon = "gfx/interface/icons/company_icons/ulker.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_food_industry
+	}
+
+	possible_prestige_goods = {
+		prestige_good_generic_groceries
+	}
+
+    prosperity_modifier = {
+		building_food_industry_throughput_add = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			state_region = s:STATE_EASTERN_THRACE
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 5
+			}
+		}
+		has_technology_researched = distillation
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				state_region = s:STATE_EASTERN_THRACE
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				state_region = s:STATE_EASTERN_THRACE
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}

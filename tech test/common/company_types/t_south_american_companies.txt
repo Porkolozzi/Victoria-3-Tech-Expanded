@@ -1,0 +1,108 @@
+﻿company_vale = { ## brazil
+    icon = "gfx/interface/icons/company_icons/vale.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_mining.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_iron_mine
+        building_coal_mine
+	}
+
+    prosperity_modifier = {
+		building_iron_mine_throughput_add = 0.1
+	}
+
+    possible = {
+		any_scope_state = {
+			region = sr:region_brazil
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 5
+			}
+		}
+		any_scope_state = {
+			region = sr:region_brazil
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_coal_mine
+				level >= 5
+			}
+		}
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_brazil 
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_brazil
+			}
+		}
+	}
+    
+    possible_prestige_goods = {
+        prestige_good_generic_steel
+    }
+
+    ai_weight = {
+        value = 3
+    }
+}
+
+company_modelo = { ##mexico
+    icon = "gfx/interface/icons/company_icons/modelo.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+
+	flavored_company = yes
+
+	building_types = {
+		building_food_industry
+	}
+
+    prosperity_modifier = {
+		building_food_industry_throughput_add = 0.05
+	}
+
+    possible = {
+		any_scope_state = {
+			region = sr:region_central_america
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_food_industry
+				level >= 5
+			}
+		}
+	}
+
+    possible_prestige_goods = {
+		prestige_good_modelo
+	}
+
+    attainable = {
+		hidden_trigger = { 
+			any_scope_state = {
+				region = sr:region_central_america
+			}
+		}
+	}
+
+    potential = {
+		hidden_trigger = {
+			any_scope_state = {
+				region = sr:region_central_america
+			}
+		}
+	}
+
+    ai_weight = {
+        value = 3
+    }
+}

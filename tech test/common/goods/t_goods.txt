@@ -1,0 +1,118 @@
+﻿digital_computer = {
+	texture = "gfx/interface/icons/goods_icons/computer.dds"
+	cost = 70
+	category = industrial
+
+	prestige_factor = 10
+
+	traded_quantity = 3
+	convoy_cost_multiplier = 0.25
+
+	consumption_tax_cost = 200
+}
+
+uranium = {
+    texture = "gfx/interface/icons/goods_icons/uranium.dds"
+	cost = 35
+	category = industrial
+
+    prestige_factor = 5
+
+    traded_quantity = 3
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+natural_gas = {
+    texture = "gfx/interface/icons/goods_icons/natural_gas.dds"
+	cost = 25
+	category = industrial
+
+    prestige_factor = 3
+
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+nuclear_weapon = {
+	texture = "gfx/interface/icons/goods_icons/nuclear_weapon.dds"
+	cost = 100
+	category = military
+
+	prestige_factor = 10
+
+	traded_quantity = 1
+	convoy_cost_multiplier = 1
+
+	consumption_tax_cost = 100
+}
+
+gasoline = {
+	texture = "gfx/interface/icons/goods_icons/gas_making.dds"
+	cost = 25
+	category = industrial
+
+    prestige_factor = 3
+
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+television = {
+	texture = "gfx/interface/icons/goods_icons/television.dds"
+	cost = 50
+	category = luxury
+
+	obsession_chance = 1.0
+	prestige_factor = 10
+	traded_quantity = 3.5
+}
+
+plastic = {
+	texture = "gfx/interface/icons/goods_icons/plastic.dds"
+	cost = 20
+	category = industrial
+
+    prestige_factor = 3
+
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+microchips = {
+	texture = "gfx/interface/icons/goods_icons/microchip.dds"
+	cost = 30
+	category = industrial
+
+    prestige_factor = 3
+
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+personal_computer = {
+	texture = "gfx/interface/icons/goods_icons/personal_computer.dds"
+	cost = 40
+	category = industrial
+
+    prestige_factor = 3
+
+    traded_quantity = 5
+    convoy_cost_multiplier = 0.25
+
+    consumption_tax_cost = 100
+}
+
+
+
+
+## personal computers ??? 
